@@ -1,0 +1,53 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
+import 'package:flutter/widgets.dart';
+
+import 'i18n/currencies.g.dart';
+
+/// A list of currencies
+enum Currency {
+{{- range .}}
+  {{.ID}}(
+    code: "{{.Code}}",
+    nativeName: "{{escapeString .NativeName}}",
+    nativeNamePlural: "{{escapeString .NativeNamePlural}}",
+    symbol: "{{escapeString .Symbol}}",
+  ),
+{{- end}}
+  ;
+
+  const Currency({
+    required this.code,
+    required this.nativeName,
+    required this.nativeNamePlural,
+    required this.symbol,
+  });
+
+  final String code;
+  final String nativeName;
+  final String nativeNamePlural;
+  final String symbol;
+
+  /// Returns the display name based on the locale
+  String displayName(BuildContext context) =>
+      displayNameFromLocale(Localizations.localeOf(context));
+
+  /// Returns the display name based on the given locale
+  String displayNameFromLocale(Locale locale) =>
+      CurrenciesTranslationsDelegate.getNameFromCodeAndLocale(code, locale) ??
+      nativeName;
+
+  /// Returns a currency from its code
+  static Currency? fromCode(String code) {
+    final upperCode = code.toUpperCase();
+    for (var currency in Currency.values) {
+      if (currency.code == upperCode) {
+        return currency;
+      }
+    }
+    return null;
+  }
+
+  @override
+  String toString() => code;
+}

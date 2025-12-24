@@ -1,0 +1,15 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
+export const {{.Name}}Translations: Record<string, Record<string, string>> = {
+{{- range $locale, $trans := .Translations}}
+  "{{$locale}}": {
+{{- range $code, $name := $trans}}
+    "{{$code}}": "{{escapeString $name}}",
+{{- end}}
+  },
+{{- end}}
+};
+
+export function get{{pascalCase .Name}}Name(code: string, locale: string): string | undefined {
+  return {{.Name}}Translations[locale]?.[code];
+}

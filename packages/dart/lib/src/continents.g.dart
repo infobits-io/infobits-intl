@@ -1,0 +1,99 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
+import 'package:flutter/widgets.dart';
+
+import 'countries.g.dart';
+import 'languages.g.dart';
+import 'i18n/continents.g.dart';
+
+/// The continents of the world
+enum Continent {
+  africa(
+    code: "AF",
+    name: "Africa",
+  ),
+  antarctica(
+    code: "AQ",
+    name: "Antarctica",
+  ),
+  asia(
+    code: "AS",
+    name: "Asia",
+  ),
+  europe(
+    code: "EU",
+    name: "Europe",
+  ),
+  northAmerica(
+    code: "NA",
+    name: "North America",
+  ),
+  oceania(
+    code: "OS",
+    name: "Oceania",
+  ),
+  southAmerica(
+    code: "SA",
+    name: "South America",
+  ),
+  ;
+
+  const Continent({
+    required this.code,
+    required this.name,
+  });
+
+  final String code;
+  final String name;
+
+  /// Get countries in this continent
+  List<Country> get countries {
+    return Country.values.where((c) => c.continent == this).toList();
+  }
+
+  /// Alias for countries (backwards compatibility)
+  List<Country> get contries => countries;
+
+  /// Get languages spoken in this continent
+  List<Language> get languages {
+    final langs = <Language>{};
+    for (var country in countries) {
+      langs.addAll(country.languages);
+    }
+    return langs.toList();
+  }
+
+  /// Returns the display name based on the locale
+  String displayName(BuildContext context) =>
+      displayNameFromLocale(Localizations.localeOf(context));
+
+  /// Returns the display name based on the given locale
+  String displayNameFromLocale(Locale locale) =>
+      ContinentsTranslationsDelegate.getNameFromCodeAndLocale(code, locale) ??
+      name;
+
+  /// Returns a continent from its code
+  static Continent? fromCode(String code) {
+    final upperCode = code.toUpperCase();
+    for (var continent in Continent.values) {
+      if (continent.code == upperCode) {
+        return continent;
+      }
+    }
+    return null;
+  }
+
+  /// Returns a continent from its name
+  static Continent? fromName(String nameInput) {
+    final name = nameInput.trim().toLowerCase();
+    for (var continent in Continent.values) {
+      if (continent.name.toLowerCase() == name) {
+        return continent;
+      }
+    }
+    return null;
+  }
+
+  @override
+  String toString() => name;
+}

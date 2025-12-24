@@ -1,0 +1,4052 @@
+{
+  "countries": [
+    {
+      "id": "afghanistan",
+      "alpha2Code": "AF",
+      "alpha3Code": "AFG",
+      "numericCode": 4,
+      "nativeName": "افغانستان",
+      "capital": "کابل",
+      "mainLanguage": "pashto",
+      "languages": [
+        "pashto",
+        "persian"
+      ],
+      "tld": ".af",
+      "callingCode": 93,
+      "continent": "asia",
+      "currency": "afn"
+    },
+    {
+      "id": "aalandIslands",
+      "alpha2Code": "AX",
+      "alpha3Code": "ALA",
+      "numericCode": 248,
+      "nativeName": "Åland",
+      "capital": "Mariehamn",
+      "mainLanguage": "swedish",
+      "languages": [
+        "swedish"
+      ],
+      "tld": ".ax",
+      "callingCode": 358,
+      "continent": "europe",
+      "currency": "eur"
+    },
+    {
+      "id": "albania",
+      "alpha2Code": "AL",
+      "alpha3Code": "ALB",
+      "numericCode": 8,
+      "nativeName": "Shqipëria",
+      "capital": "Tiranë",
+      "mainLanguage": "albanian",
+      "languages": [
+        "albanian"
+      ],
+      "tld": ".al",
+      "callingCode": 355,
+      "continent": "europe",
+      "currency": "all"
+    },
+    {
+      "id": "algeria",
+      "alpha2Code": "DZ",
+      "alpha3Code": "DZA",
+      "numericCode": 12,
+      "nativeName": "الجزائر",
+      "capital": "الجزائر",
+      "mainLanguage": "arabic",
+      "languages": [
+        "arabic"
+      ],
+      "tld": ".dz",
+      "callingCode": 213,
+      "continent": "africa",
+      "currency": "dzd"
+    },
+    {
+      "id": "americanSamoa",
+      "alpha2Code": "AS",
+      "alpha3Code": "ASM",
+      "numericCode": 16,
+      "nativeName": "American Samoa",
+      "capital": "Pago Pago",
+      "mainLanguage": "english",
+      "languages": [
+        "english",
+        "samoan"
+      ],
+      "tld": ".as",
+      "callingCode": 1,
+      "continent": "oceania",
+      "currency": "usd"
+    },
+    {
+      "id": "andorra",
+      "alpha2Code": "AD",
+      "alpha3Code": "AND",
+      "numericCode": 20,
+      "nativeName": "Andorra",
+      "capital": "Andorra la Vella",
+      "mainLanguage": "catalan",
+      "languages": [
+        "catalan"
+      ],
+      "tld": ".ad",
+      "callingCode": 376,
+      "continent": "europe",
+      "currency": "eur"
+    },
+    {
+      "id": "angola",
+      "alpha2Code": "AO",
+      "alpha3Code": "AGO",
+      "numericCode": 24,
+      "nativeName": "Angola",
+      "capital": "Luanda",
+      "mainLanguage": "portuguese",
+      "languages": [
+        "portuguese"
+      ],
+      "tld": ".ao",
+      "callingCode": 244,
+      "continent": "africa",
+      "currency": "aoa"
+    },
+    {
+      "id": "anguilla",
+      "alpha2Code": "AI",
+      "alpha3Code": "AIA",
+      "numericCode": 660,
+      "nativeName": "Anguilla",
+      "capital": "The Valley",
+      "mainLanguage": "english",
+      "languages": [
+        "english"
+      ],
+      "tld": ".ai",
+      "callingCode": 1,
+      "continent": "northAmerica",
+      "currency": "xcd"
+    },
+    {
+      "id": "antarctica",
+      "alpha2Code": "AQ",
+      "alpha3Code": "ATA",
+      "numericCode": 10,
+      "nativeName": "Antarctica",
+      "capital": "",
+      "mainLanguage": "english",
+      "languages": [
+        "english"
+      ],
+      "tld": ".aq",
+      "callingCode": 672,
+      "continent": "antarctica",
+      "currency": "all"
+    },
+    {
+      "id": "antiguaAndBarbuda",
+      "alpha2Code": "AG",
+      "alpha3Code": "ATG",
+      "numericCode": 28,
+      "nativeName": "Antigua and Barbuda",
+      "capital": "Saint John's",
+      "mainLanguage": "english",
+      "languages": [
+        "english"
+      ],
+      "tld": ".ag",
+      "callingCode": 1,
+      "continent": "northAmerica",
+      "currency": "xcd"
+    },
+    {
+      "id": "argentina",
+      "alpha2Code": "AR",
+      "alpha3Code": "ARG",
+      "numericCode": 32,
+      "nativeName": "Argentina",
+      "capital": "Buenos Aires",
+      "mainLanguage": "spanish",
+      "languages": [
+        "spanish"
+      ],
+      "tld": ".ar",
+      "callingCode": 54,
+      "continent": "southAmerica",
+      "currency": "ars"
+    },
+    {
+      "id": "armenia",
+      "alpha2Code": "AM",
+      "alpha3Code": "ARM",
+      "numericCode": 51,
+      "nativeName": "Հայաստան",
+      "capital": "Երևան",
+      "mainLanguage": "armenian",
+      "languages": [
+        "armenian"
+      ],
+      "tld": ".am",
+      "callingCode": 374,
+      "continent": "asia",
+      "currency": "amd"
+    },
+    {
+      "id": "aruba",
+      "alpha2Code": "AW",
+      "alpha3Code": "ABW",
+      "numericCode": 533,
+      "nativeName": "Aruba",
+      "capital": "Oranjestad",
+      "mainLanguage": "dutch",
+      "languages": [
+        "dutch"
+      ],
+      "tld": ".aw",
+      "callingCode": 297,
+      "continent": "northAmerica",
+      "currency": "awg"
+    },
+    {
+      "id": "australia",
+      "alpha2Code": "AU",
+      "alpha3Code": "AUS",
+      "numericCode": 36,
+      "nativeName": "Australia",
+      "capital": "Canberra",
+      "mainLanguage": "english",
+      "languages": [
+        "english"
+      ],
+      "tld": ".au",
+      "callingCode": 61,
+      "continent": "oceania",
+      "currency": "aud"
+    },
+    {
+      "id": "austria",
+      "alpha2Code": "AT",
+      "alpha3Code": "AUT",
+      "numericCode": 40,
+      "nativeName": "Österreich",
+      "capital": "Wien",
+      "mainLanguage": "german",
+      "languages": [
+        "german"
+      ],
+      "tld": ".at",
+      "callingCode": 43,
+      "continent": "europe",
+      "currency": "eur"
+    },
+    {
+      "id": "azerbaijan",
+      "alpha2Code": "AZ",
+      "alpha3Code": "AZE",
+      "numericCode": 31,
+      "nativeName": "Azərbaycan",
+      "capital": "Bakı",
+      "mainLanguage": "azerbaijani",
+      "languages": [
+        "azerbaijani"
+      ],
+      "tld": ".az",
+      "callingCode": 994,
+      "continent": "asia",
+      "currency": "azn"
+    },
+    {
+      "id": "bahamas",
+      "alpha2Code": "BS",
+      "alpha3Code": "BHS",
+      "numericCode": 44,
+      "nativeName": "Bahamas",
+      "capital": "Nassau",
+      "mainLanguage": "english",
+      "languages": [
+        "english"
+      ],
+      "tld": ".bs",
+      "callingCode": 1,
+      "continent": "northAmerica",
+      "currency": "bsd"
+    },
+    {
+      "id": "bahrain",
+      "alpha2Code": "BH",
+      "alpha3Code": "BHR",
+      "numericCode": 48,
+      "nativeName": "البحرين",
+      "capital": "المنامة",
+      "mainLanguage": "arabic",
+      "languages": [
+        "arabic"
+      ],
+      "tld": ".bh",
+      "callingCode": 973,
+      "continent": "asia",
+      "currency": "bhd"
+    },
+    {
+      "id": "bangladesh",
+      "alpha2Code": "BD",
+      "alpha3Code": "BGD",
+      "numericCode": 50,
+      "nativeName": "বাংলাদেশ",
+      "capital": "ঢাকা",
+      "mainLanguage": "bengali",
+      "languages": [
+        "bengali"
+      ],
+      "tld": ".bd",
+      "callingCode": 880,
+      "continent": "asia",
+      "currency": "bdt"
+    },
+    {
+      "id": "barbados",
+      "alpha2Code": "BB",
+      "alpha3Code": "BRB",
+      "numericCode": 52,
+      "nativeName": "Barbados",
+      "capital": "Bridgetown",
+      "mainLanguage": "english",
+      "languages": [
+        "english"
+      ],
+      "tld": ".bb",
+      "callingCode": 1,
+      "continent": "northAmerica",
+      "currency": "bbd"
+    },
+    {
+      "id": "belarus",
+      "alpha2Code": "BY",
+      "alpha3Code": "BLR",
+      "numericCode": 112,
+      "nativeName": "Беларусь",
+      "capital": "Мінск",
+      "mainLanguage": "belarusian",
+      "languages": [
+        "belarusian",
+        "russian"
+      ],
+      "tld": ".by",
+      "callingCode": 375,
+      "continent": "europe",
+      "currency": "byn"
+    },
+    {
+      "id": "belgium",
+      "alpha2Code": "BE",
+      "alpha3Code": "BEL",
+      "numericCode": 56,
+      "nativeName": "België",
+      "capital": "Brussel",
+      "mainLanguage": "dutch",
+      "languages": [
+        "dutch",
+        "french",
+        "german"
+      ],
+      "tld": ".be",
+      "callingCode": 32,
+      "continent": "europe",
+      "currency": "eur"
+    },
+    {
+      "id": "belize",
+      "alpha2Code": "BZ",
+      "alpha3Code": "BLZ",
+      "numericCode": 84,
+      "nativeName": "Belize",
+      "capital": "Belmopan",
+      "mainLanguage": "english",
+      "languages": [
+        "english"
+      ],
+      "tld": ".bz",
+      "callingCode": 501,
+      "continent": "northAmerica",
+      "currency": "bzd"
+    },
+    {
+      "id": "benin",
+      "alpha2Code": "BJ",
+      "alpha3Code": "BEN",
+      "numericCode": 204,
+      "nativeName": "Bénin",
+      "capital": "Porto-Novo",
+      "mainLanguage": "french",
+      "languages": [
+        "french"
+      ],
+      "tld": ".bj",
+      "callingCode": 229,
+      "continent": "africa",
+      "currency": "xof"
+    },
+    {
+      "id": "bermuda",
+      "alpha2Code": "BM",
+      "alpha3Code": "BMU",
+      "numericCode": 60,
+      "nativeName": "Bermuda",
+      "capital": "Hamilton",
+      "mainLanguage": "english",
+      "languages": [
+        "english"
+      ],
+      "tld": ".bm",
+      "callingCode": 1,
+      "continent": "northAmerica",
+      "currency": "bmd"
+    },
+    {
+      "id": "bhutan",
+      "alpha2Code": "BT",
+      "alpha3Code": "BTN",
+      "numericCode": 64,
+      "nativeName": "འབྲུག",
+      "capital": "ཐིམ་ཕུ",
+      "mainLanguage": "dzongkha",
+      "languages": [
+        "dzongkha"
+      ],
+      "tld": ".bt",
+      "callingCode": 975,
+      "continent": "asia",
+      "currency": "inr"
+    },
+    {
+      "id": "bolivia",
+      "alpha2Code": "BO",
+      "alpha3Code": "BOL",
+      "numericCode": 68,
+      "nativeName": "Bolivia",
+      "capital": "Sucre",
+      "mainLanguage": "spanish",
+      "languages": [
+        "spanish"
+      ],
+      "tld": ".bo",
+      "callingCode": 591,
+      "continent": "southAmerica",
+      "currency": "bob"
+    },
+    {
+      "id": "bonaireSintEustatiusAndSaba",
+      "alpha2Code": "BQ",
+      "alpha3Code": "BES",
+      "numericCode": 535,
+      "nativeName": "Bonaire, Sint Eustatius and Saba",
+      "capital": "Kralendijk",
+      "mainLanguage": "dutch",
+      "languages": [
+        "dutch"
+      ],
+      "tld": ".bq",
+      "callingCode": 599,
+      "continent": "northAmerica",
+      "currency": "usd"
+    },
+    {
+      "id": "bosniaAndHerzegovina",
+      "alpha2Code": "BA",
+      "alpha3Code": "BIH",
+      "numericCode": 70,
+      "nativeName": "Bosna i Hercegovina",
+      "capital": "Sarajevo",
+      "mainLanguage": "bosnian",
+      "languages": [
+        "bosnian",
+        "croatian",
+        "serbian"
+      ],
+      "tld": ".ba",
+      "callingCode": 387,
+      "continent": "europe",
+      "currency": "bam"
+    },
+    {
+      "id": "botswana",
+      "alpha2Code": "BW",
+      "alpha3Code": "BWA",
+      "numericCode": 72,
+      "nativeName": "Botswana",
+      "capital": "Gaborone",
+      "mainLanguage": "english",
+      "languages": [
+        "english",
+        "tswana"
+      ],
+      "tld": ".bw",
+      "callingCode": 267,
+      "continent": "africa",
+      "currency": "bwp"
+    },
+    {
+      "id": "bouvetIsland",
+      "alpha2Code": "BV",
+      "alpha3Code": "BVT",
+      "numericCode": 74,
+      "nativeName": "Bouvet Island",
+      "capital": "",
+      "mainLanguage": "norwegian",
+      "languages": [
+        "norwegian"
+      ],
+      "tld": ".bv",
+      "callingCode": 47,
+      "continent": "antarctica",
+      "currency": "nok"
+    },
+    {
+      "id": "brazil",
+      "alpha2Code": "BR",
+      "alpha3Code": "BRA",
+      "numericCode": 76,
+      "nativeName": "Brasil",
+      "capital": "Brasília",
+      "mainLanguage": "portuguese",
+      "languages": [
+        "portuguese"
+      ],
+      "tld": ".br",
+      "callingCode": 55,
+      "continent": "southAmerica",
+      "currency": "brl"
+    },
+    {
+      "id": "britishIndianOceanTerritory",
+      "alpha2Code": "IO",
+      "alpha3Code": "IOT",
+      "numericCode": 86,
+      "nativeName": "British Indian Ocean Territory",
+      "capital": "Diego Garcia",
+      "mainLanguage": "english",
+      "languages": [
+        "english"
+      ],
+      "tld": ".io",
+      "callingCode": 246,
+      "continent": "asia",
+      "currency": "usd"
+    },
+    {
+      "id": "britishVirginIslands",
+      "alpha2Code": "VG",
+      "alpha3Code": "VGB",
+      "numericCode": 92,
+      "nativeName": "British Virgin Islands",
+      "capital": "Road Town",
+      "mainLanguage": "english",
+      "languages": [
+        "english"
+      ],
+      "tld": ".vg",
+      "callingCode": 1,
+      "continent": "northAmerica",
+      "currency": "usd"
+    },
+    {
+      "id": "brunei",
+      "alpha2Code": "BN",
+      "alpha3Code": "BRN",
+      "numericCode": 96,
+      "nativeName": "Brunei",
+      "capital": "Bandar Seri Begawan",
+      "mainLanguage": "malay",
+      "languages": [
+        "malay"
+      ],
+      "tld": ".bn",
+      "callingCode": 673,
+      "continent": "asia",
+      "currency": "bnd"
+    },
+    {
+      "id": "bulgaria",
+      "alpha2Code": "BG",
+      "alpha3Code": "BGR",
+      "numericCode": 100,
+      "nativeName": "България",
+      "capital": "София",
+      "mainLanguage": "bulgarian",
+      "languages": [
+        "bulgarian"
+      ],
+      "tld": ".bg",
+      "callingCode": 359,
+      "continent": "europe",
+      "currency": "bgn"
+    },
+    {
+      "id": "burkinaFaso",
+      "alpha2Code": "BF",
+      "alpha3Code": "BFA",
+      "numericCode": 854,
+      "nativeName": "Burkina Faso",
+      "capital": "Ouagadougou",
+      "mainLanguage": "french",
+      "languages": [
+        "french"
+      ],
+      "tld": ".bf",
+      "callingCode": 226,
+      "continent": "africa",
+      "currency": "xof"
+    },
+    {
+      "id": "burundi",
+      "alpha2Code": "BI",
+      "alpha3Code": "BDI",
+      "numericCode": 108,
+      "nativeName": "Burundi",
+      "capital": "Gitega",
+      "mainLanguage": "rundi",
+      "languages": [
+        "rundi",
+        "french"
+      ],
+      "tld": ".bi",
+      "callingCode": 257,
+      "continent": "africa",
+      "currency": "bif"
+    },
+    {
+      "id": "caboVerde",
+      "alpha2Code": "CV",
+      "alpha3Code": "CPV",
+      "numericCode": 132,
+      "nativeName": "Cabo Verde",
+      "capital": "Praia",
+      "mainLanguage": "portuguese",
+      "languages": [
+        "portuguese"
+      ],
+      "tld": ".cv",
+      "callingCode": 238,
+      "continent": "africa",
+      "currency": "cve"
+    },
+    {
+      "id": "cambodia",
+      "alpha2Code": "KH",
+      "alpha3Code": "KHM",
+      "numericCode": 116,
+      "nativeName": "កម្ពុជា",
+      "capital": "ភ្នំពេញ",
+      "mainLanguage": "khmer",
+      "languages": [
+        "khmer"
+      ],
+      "tld": ".kh",
+      "callingCode": 855,
+      "continent": "asia",
+      "currency": "khr"
+    },
+    {
+      "id": "cameroon",
+      "alpha2Code": "CM",
+      "alpha3Code": "CMR",
+      "numericCode": 120,
+      "nativeName": "Cameroun",
+      "capital": "Yaoundé",
+      "mainLanguage": "french",
+      "languages": [
+        "french",
+        "english"
+      ],
+      "tld": ".cm",
+      "callingCode": 237,
+      "continent": "africa",
+      "currency": "xaf"
+    },
+    {
+      "id": "canada",
+      "alpha2Code": "CA",
+      "alpha3Code": "CAN",
+      "numericCode": 124,
+      "nativeName": "Canada",
+      "capital": "Ottawa",
+      "mainLanguage": "english",
+      "languages": [
+        "english",
+        "french"
+      ],
+      "tld": ".ca",
+      "callingCode": 1,
+      "continent": "northAmerica",
+      "currency": "cad"
+    },
+    {
+      "id": "caymanIslands",
+      "alpha2Code": "KY",
+      "alpha3Code": "CYM",
+      "numericCode": 136,
+      "nativeName": "Cayman Islands",
+      "capital": "George Town",
+      "mainLanguage": "english",
+      "languages": [
+        "english"
+      ],
+      "tld": ".ky",
+      "callingCode": 1,
+      "continent": "northAmerica",
+      "currency": "kyd"
+    },
+    {
+      "id": "centralAfricanRepublic",
+      "alpha2Code": "CF",
+      "alpha3Code": "CAF",
+      "numericCode": 140,
+      "nativeName": "République centrafricaine",
+      "capital": "Bangui",
+      "mainLanguage": "french",
+      "languages": [
+        "french",
+        "sango"
+      ],
+      "tld": ".cf",
+      "callingCode": 236,
+      "continent": "africa",
+      "currency": "xaf"
+    },
+    {
+      "id": "chad",
+      "alpha2Code": "TD",
+      "alpha3Code": "TCD",
+      "numericCode": 148,
+      "nativeName": "Tchad",
+      "capital": "N'Djamena",
+      "mainLanguage": "french",
+      "languages": [
+        "french",
+        "arabic"
+      ],
+      "tld": ".td",
+      "callingCode": 235,
+      "continent": "africa",
+      "currency": "xaf"
+    },
+    {
+      "id": "chile",
+      "alpha2Code": "CL",
+      "alpha3Code": "CHL",
+      "numericCode": 152,
+      "nativeName": "Chile",
+      "capital": "Santiago",
+      "mainLanguage": "spanish",
+      "languages": [
+        "spanish"
+      ],
+      "tld": ".cl",
+      "callingCode": 56,
+      "continent": "southAmerica",
+      "currency": "clp"
+    },
+    {
+      "id": "china",
+      "alpha2Code": "CN",
+      "alpha3Code": "CHN",
+      "numericCode": 156,
+      "nativeName": "中国",
+      "capital": "北京",
+      "mainLanguage": "chinese",
+      "languages": [
+        "chinese"
+      ],
+      "tld": ".cn",
+      "callingCode": 86,
+      "continent": "asia",
+      "currency": "cny"
+    },
+    {
+      "id": "christmasIsland",
+      "alpha2Code": "CX",
+      "alpha3Code": "CXR",
+      "numericCode": 162,
+      "nativeName": "Christmas Island",
+      "capital": "Flying Fish Cove",
+      "mainLanguage": "english",
+      "languages": [
+        "english"
+      ],
+      "tld": ".cx",
+      "callingCode": 61,
+      "continent": "asia",
+      "currency": "aud"
+    },
+    {
+      "id": "cocosKeelingIslands",
+      "alpha2Code": "CC",
+      "alpha3Code": "CCK",
+      "numericCode": 166,
+      "nativeName": "Cocos (Keeling) Islands",
+      "capital": "West Island",
+      "mainLanguage": "english",
+      "languages": [
+        "english"
+      ],
+      "tld": ".cc",
+      "callingCode": 61,
+      "continent": "asia",
+      "currency": "aud"
+    },
+    {
+      "id": "colombia",
+      "alpha2Code": "CO",
+      "alpha3Code": "COL",
+      "numericCode": 170,
+      "nativeName": "Colombia",
+      "capital": "Bogotá",
+      "mainLanguage": "spanish",
+      "languages": [
+        "spanish"
+      ],
+      "tld": ".co",
+      "callingCode": 57,
+      "continent": "southAmerica",
+      "currency": "cop"
+    },
+    {
+      "id": "comoros",
+      "alpha2Code": "KM",
+      "alpha3Code": "COM",
+      "numericCode": 174,
+      "nativeName": "Comores",
+      "capital": "Moroni",
+      "mainLanguage": "french",
+      "languages": [
+        "french",
+        "arabic"
+      ],
+      "tld": ".km",
+      "callingCode": 269,
+      "continent": "africa",
+      "currency": "kmf"
+    },
+    {
+      "id": "congo",
+      "alpha2Code": "CG",
+      "alpha3Code": "COG",
+      "numericCode": 178,
+      "nativeName": "Congo",
+      "capital": "Brazzaville",
+      "mainLanguage": "french",
+      "languages": [
+        "french"
+      ],
+      "tld": ".cg",
+      "callingCode": 242,
+      "continent": "africa",
+      "currency": "xaf"
+    },
+    {
+      "id": "congoDemocraticRepublic",
+      "alpha2Code": "CD",
+      "alpha3Code": "COD",
+      "numericCode": 180,
+      "nativeName": "Congo, Democratic Republic",
+      "capital": "Kinshasa",
+      "mainLanguage": "french",
+      "languages": [
+        "french"
+      ],
+      "tld": ".cd",
+      "callingCode": 243,
+      "continent": "africa",
+      "currency": "cdf"
+    },
+    {
+      "id": "cookIslands",
+      "alpha2Code": "CK",
+      "alpha3Code": "COK",
+      "numericCode": 184,
+      "nativeName": "Cook Islands",
+      "capital": "Avarua",
+      "mainLanguage": "english",
+      "languages": [
+        "english"
+      ],
+      "tld": ".ck",
+      "callingCode": 682,
+      "continent": "oceania",
+      "currency": "nzd"
+    },
+    {
+      "id": "costaRica",
+      "alpha2Code": "CR",
+      "alpha3Code": "CRI",
+      "numericCode": 188,
+      "nativeName": "Costa Rica",
+      "capital": "San José",
+      "mainLanguage": "spanish",
+      "languages": [
+        "spanish"
+      ],
+      "tld": ".cr",
+      "callingCode": 506,
+      "continent": "northAmerica",
+      "currency": "crc"
+    },
+    {
+      "id": "coteDIvoire",
+      "alpha2Code": "CI",
+      "alpha3Code": "CIV",
+      "numericCode": 384,
+      "nativeName": "Côte d'Ivoire",
+      "capital": "Yamoussoukro",
+      "mainLanguage": "french",
+      "languages": [
+        "french"
+      ],
+      "tld": ".ci",
+      "callingCode": 225,
+      "continent": "africa",
+      "currency": "xof"
+    },
+    {
+      "id": "croatia",
+      "alpha2Code": "HR",
+      "alpha3Code": "HRV",
+      "numericCode": 191,
+      "nativeName": "Hrvatska",
+      "capital": "Zagreb",
+      "mainLanguage": "croatian",
+      "languages": [
+        "croatian"
+      ],
+      "tld": ".hr",
+      "callingCode": 385,
+      "continent": "europe",
+      "currency": "eur"
+    },
+    {
+      "id": "cuba",
+      "alpha2Code": "CU",
+      "alpha3Code": "CUB",
+      "numericCode": 192,
+      "nativeName": "Cuba",
+      "capital": "La Habana",
+      "mainLanguage": "spanish",
+      "languages": [
+        "spanish"
+      ],
+      "tld": ".cu",
+      "callingCode": 53,
+      "continent": "northAmerica",
+      "currency": "cup"
+    },
+    {
+      "id": "curacao",
+      "alpha2Code": "CW",
+      "alpha3Code": "CUW",
+      "numericCode": 531,
+      "nativeName": "Curaçao",
+      "capital": "Willemstad",
+      "mainLanguage": "dutch",
+      "languages": [
+        "dutch"
+      ],
+      "tld": ".cw",
+      "callingCode": 599,
+      "continent": "northAmerica",
+      "currency": "ang"
+    },
+    {
+      "id": "cyprus",
+      "alpha2Code": "CY",
+      "alpha3Code": "CYP",
+      "numericCode": 196,
+      "nativeName": "Κύπρος",
+      "capital": "Λευκωσία",
+      "mainLanguage": "greek",
+      "languages": [
+        "greek",
+        "turkish"
+      ],
+      "tld": ".cy",
+      "callingCode": 357,
+      "continent": "europe",
+      "currency": "eur"
+    },
+    {
+      "id": "czechia",
+      "alpha2Code": "CZ",
+      "alpha3Code": "CZE",
+      "numericCode": 203,
+      "nativeName": "Česko",
+      "capital": "Praha",
+      "mainLanguage": "czech",
+      "languages": [
+        "czech"
+      ],
+      "tld": ".cz",
+      "callingCode": 420,
+      "continent": "europe",
+      "currency": "czk"
+    },
+    {
+      "id": "denmark",
+      "alpha2Code": "DK",
+      "alpha3Code": "DNK",
+      "numericCode": 208,
+      "nativeName": "Danmark",
+      "capital": "København",
+      "mainLanguage": "danish",
+      "languages": [
+        "danish"
+      ],
+      "tld": ".dk",
+      "callingCode": 45,
+      "continent": "europe",
+      "currency": "dkk"
+    },
+    {
+      "id": "djibouti",
+      "alpha2Code": "DJ",
+      "alpha3Code": "DJI",
+      "numericCode": 262,
+      "nativeName": "Djibouti",
+      "capital": "Djibouti",
+      "mainLanguage": "french",
+      "languages": [
+        "french",
+        "arabic"
+      ],
+      "tld": ".dj",
+      "callingCode": 253,
+      "continent": "africa",
+      "currency": "djf"
+    },
+    {
+      "id": "dominica",
+      "alpha2Code": "DM",
+      "alpha3Code": "DMA",
+      "numericCode": 212,
+      "nativeName": "Dominica",
+      "capital": "Roseau",
+      "mainLanguage": "english",
+      "languages": [
+        "english"
+      ],
+      "tld": ".dm",
+      "callingCode": 1,
+      "continent": "northAmerica",
+      "currency": "xcd"
+    },
+    {
+      "id": "dominicanRepublic",
+      "alpha2Code": "DO",
+      "alpha3Code": "DOM",
+      "numericCode": 214,
+      "nativeName": "República Dominicana",
+      "capital": "Santo Domingo",
+      "mainLanguage": "spanish",
+      "languages": [
+        "spanish"
+      ],
+      "tld": ".do",
+      "callingCode": 1,
+      "continent": "northAmerica",
+      "currency": "dop"
+    },
+    {
+      "id": "ecuador",
+      "alpha2Code": "EC",
+      "alpha3Code": "ECU",
+      "numericCode": 218,
+      "nativeName": "Ecuador",
+      "capital": "Quito",
+      "mainLanguage": "spanish",
+      "languages": [
+        "spanish"
+      ],
+      "tld": ".ec",
+      "callingCode": 593,
+      "continent": "southAmerica",
+      "currency": "usd"
+    },
+    {
+      "id": "egypt",
+      "alpha2Code": "EG",
+      "alpha3Code": "EGY",
+      "numericCode": 818,
+      "nativeName": "مصر",
+      "capital": "القاهرة",
+      "mainLanguage": "arabic",
+      "languages": [
+        "arabic"
+      ],
+      "tld": ".eg",
+      "callingCode": 20,
+      "continent": "africa",
+      "currency": "egp"
+    },
+    {
+      "id": "elSalvador",
+      "alpha2Code": "SV",
+      "alpha3Code": "SLV",
+      "numericCode": 222,
+      "nativeName": "El Salvador",
+      "capital": "San Salvador",
+      "mainLanguage": "spanish",
+      "languages": [
+        "spanish"
+      ],
+      "tld": ".sv",
+      "callingCode": 503,
+      "continent": "northAmerica",
+      "currency": "usd"
+    },
+    {
+      "id": "equatorialGuinea",
+      "alpha2Code": "GQ",
+      "alpha3Code": "GNQ",
+      "numericCode": 226,
+      "nativeName": "Guinea Ecuatorial",
+      "capital": "Malabo",
+      "mainLanguage": "spanish",
+      "languages": [
+        "spanish",
+        "french",
+        "portuguese"
+      ],
+      "tld": ".gq",
+      "callingCode": 240,
+      "continent": "africa",
+      "currency": "xaf"
+    },
+    {
+      "id": "eritrea",
+      "alpha2Code": "ER",
+      "alpha3Code": "ERI",
+      "numericCode": 232,
+      "nativeName": "ኤርትራ",
+      "capital": "ኣስመራ",
+      "mainLanguage": "tigrinya",
+      "languages": [
+        "tigrinya",
+        "arabic",
+        "english"
+      ],
+      "tld": ".er",
+      "callingCode": 291,
+      "continent": "africa",
+      "currency": "ern"
+    },
+    {
+      "id": "estonia",
+      "alpha2Code": "EE",
+      "alpha3Code": "EST",
+      "numericCode": 233,
+      "nativeName": "Eesti",
+      "capital": "Tallinn",
+      "mainLanguage": "estonian",
+      "languages": [
+        "estonian"
+      ],
+      "tld": ".ee",
+      "callingCode": 372,
+      "continent": "europe",
+      "currency": "eur"
+    },
+    {
+      "id": "eswatini",
+      "alpha2Code": "SZ",
+      "alpha3Code": "SWZ",
+      "numericCode": 748,
+      "nativeName": "Eswatini",
+      "capital": "Mbabane",
+      "mainLanguage": "swati",
+      "languages": [
+        "swati",
+        "english"
+      ],
+      "tld": ".sz",
+      "callingCode": 268,
+      "continent": "africa",
+      "currency": "szl"
+    },
+    {
+      "id": "ethiopia",
+      "alpha2Code": "ET",
+      "alpha3Code": "ETH",
+      "numericCode": 231,
+      "nativeName": "ኢትዮጵያ",
+      "capital": "አዲስ አበባ",
+      "mainLanguage": "amharic",
+      "languages": [
+        "amharic"
+      ],
+      "tld": ".et",
+      "callingCode": 251,
+      "continent": "africa",
+      "currency": "etb"
+    },
+    {
+      "id": "falklandIslands",
+      "alpha2Code": "FK",
+      "alpha3Code": "FLK",
+      "numericCode": 238,
+      "nativeName": "Falkland Islands",
+      "capital": "Stanley",
+      "mainLanguage": "english",
+      "languages": [
+        "english"
+      ],
+      "tld": ".fk",
+      "callingCode": 500,
+      "continent": "southAmerica",
+      "currency": "fkp"
+    },
+    {
+      "id": "faroeIslands",
+      "alpha2Code": "FO",
+      "alpha3Code": "FRO",
+      "numericCode": 234,
+      "nativeName": "Føroyar",
+      "capital": "Tórshavn",
+      "mainLanguage": "faroese",
+      "languages": [
+        "faroese",
+        "danish"
+      ],
+      "tld": ".fo",
+      "callingCode": 298,
+      "continent": "europe",
+      "currency": "dkk"
+    },
+    {
+      "id": "fiji",
+      "alpha2Code": "FJ",
+      "alpha3Code": "FJI",
+      "numericCode": 242,
+      "nativeName": "Fiji",
+      "capital": "Suva",
+      "mainLanguage": "english",
+      "languages": [
+        "english",
+        "fijian",
+        "hindi"
+      ],
+      "tld": ".fj",
+      "callingCode": 679,
+      "continent": "oceania",
+      "currency": "fjd"
+    },
+    {
+      "id": "finland",
+      "alpha2Code": "FI",
+      "alpha3Code": "FIN",
+      "numericCode": 246,
+      "nativeName": "Suomi",
+      "capital": "Helsinki",
+      "mainLanguage": "finnish",
+      "languages": [
+        "finnish",
+        "swedish"
+      ],
+      "tld": ".fi",
+      "callingCode": 358,
+      "continent": "europe",
+      "currency": "eur"
+    },
+    {
+      "id": "france",
+      "alpha2Code": "FR",
+      "alpha3Code": "FRA",
+      "numericCode": 250,
+      "nativeName": "France",
+      "capital": "Paris",
+      "mainLanguage": "french",
+      "languages": [
+        "french"
+      ],
+      "tld": ".fr",
+      "callingCode": 33,
+      "continent": "europe",
+      "currency": "eur"
+    },
+    {
+      "id": "frenchGuiana",
+      "alpha2Code": "GF",
+      "alpha3Code": "GUF",
+      "numericCode": 254,
+      "nativeName": "Guyane française",
+      "capital": "Cayenne",
+      "mainLanguage": "french",
+      "languages": [
+        "french"
+      ],
+      "tld": ".gf",
+      "callingCode": 594,
+      "continent": "southAmerica",
+      "currency": "eur"
+    },
+    {
+      "id": "frenchPolynesia",
+      "alpha2Code": "PF",
+      "alpha3Code": "PYF",
+      "numericCode": 258,
+      "nativeName": "Polynésie française",
+      "capital": "Papeete",
+      "mainLanguage": "french",
+      "languages": [
+        "french"
+      ],
+      "tld": ".pf",
+      "callingCode": 689,
+      "continent": "oceania",
+      "currency": "xpf"
+    },
+    {
+      "id": "frenchSouthernTerritories",
+      "alpha2Code": "TF",
+      "alpha3Code": "ATF",
+      "numericCode": 260,
+      "nativeName": "French Southern Territories",
+      "capital": "Port-aux-Français",
+      "mainLanguage": "french",
+      "languages": [
+        "french"
+      ],
+      "tld": ".tf",
+      "callingCode": 262,
+      "continent": "antarctica",
+      "currency": "eur"
+    },
+    {
+      "id": "gabon",
+      "alpha2Code": "GA",
+      "alpha3Code": "GAB",
+      "numericCode": 266,
+      "nativeName": "Gabon",
+      "capital": "Libreville",
+      "mainLanguage": "french",
+      "languages": [
+        "french"
+      ],
+      "tld": ".ga",
+      "callingCode": 241,
+      "continent": "africa",
+      "currency": "xaf"
+    },
+    {
+      "id": "gambia",
+      "alpha2Code": "GM",
+      "alpha3Code": "GMB",
+      "numericCode": 270,
+      "nativeName": "Gambia",
+      "capital": "Banjul",
+      "mainLanguage": "english",
+      "languages": [
+        "english"
+      ],
+      "tld": ".gm",
+      "callingCode": 220,
+      "continent": "africa",
+      "currency": "gmd"
+    },
+    {
+      "id": "georgia",
+      "alpha2Code": "GE",
+      "alpha3Code": "GEO",
+      "numericCode": 268,
+      "nativeName": "საქართველო",
+      "capital": "თბილისი",
+      "mainLanguage": "georgian",
+      "languages": [
+        "georgian"
+      ],
+      "tld": ".ge",
+      "callingCode": 995,
+      "continent": "asia",
+      "currency": "gel"
+    },
+    {
+      "id": "germany",
+      "alpha2Code": "DE",
+      "alpha3Code": "DEU",
+      "numericCode": 276,
+      "nativeName": "Deutschland",
+      "capital": "Berlin",
+      "mainLanguage": "german",
+      "languages": [
+        "german"
+      ],
+      "tld": ".de",
+      "callingCode": 49,
+      "continent": "europe",
+      "currency": "eur"
+    },
+    {
+      "id": "ghana",
+      "alpha2Code": "GH",
+      "alpha3Code": "GHA",
+      "numericCode": 288,
+      "nativeName": "Ghana",
+      "capital": "Accra",
+      "mainLanguage": "english",
+      "languages": [
+        "english"
+      ],
+      "tld": ".gh",
+      "callingCode": 233,
+      "continent": "africa",
+      "currency": "ghs"
+    },
+    {
+      "id": "gibraltar",
+      "alpha2Code": "GI",
+      "alpha3Code": "GIB",
+      "numericCode": 292,
+      "nativeName": "Gibraltar",
+      "capital": "Gibraltar",
+      "mainLanguage": "english",
+      "languages": [
+        "english"
+      ],
+      "tld": ".gi",
+      "callingCode": 350,
+      "continent": "europe",
+      "currency": "gip"
+    },
+    {
+      "id": "greece",
+      "alpha2Code": "GR",
+      "alpha3Code": "GRC",
+      "numericCode": 300,
+      "nativeName": "Ελλάδα",
+      "capital": "Αθήνα",
+      "mainLanguage": "greek",
+      "languages": [
+        "greek"
+      ],
+      "tld": ".gr",
+      "callingCode": 30,
+      "continent": "europe",
+      "currency": "eur"
+    },
+    {
+      "id": "grenada",
+      "alpha2Code": "GD",
+      "alpha3Code": "GRD",
+      "numericCode": 308,
+      "nativeName": "Grenada",
+      "capital": "St. George's",
+      "mainLanguage": "english",
+      "languages": [
+        "english"
+      ],
+      "tld": ".gd",
+      "callingCode": 1,
+      "continent": "northAmerica",
+      "currency": "xcd"
+    },
+    {
+      "id": "guadeloupe",
+      "alpha2Code": "GP",
+      "alpha3Code": "GLP",
+      "numericCode": 312,
+      "nativeName": "Guadeloupe",
+      "capital": "Basse-Terre",
+      "mainLanguage": "french",
+      "languages": [
+        "french"
+      ],
+      "tld": ".gp",
+      "callingCode": 590,
+      "continent": "northAmerica",
+      "currency": "eur"
+    },
+    {
+      "id": "guam",
+      "alpha2Code": "GU",
+      "alpha3Code": "GUM",
+      "numericCode": 316,
+      "nativeName": "Guam",
+      "capital": "Hagåtña",
+      "mainLanguage": "english",
+      "languages": [
+        "english",
+        "chamorro"
+      ],
+      "tld": ".gu",
+      "callingCode": 1,
+      "continent": "oceania",
+      "currency": "usd"
+    },
+    {
+      "id": "guatemala",
+      "alpha2Code": "GT",
+      "alpha3Code": "GTM",
+      "numericCode": 320,
+      "nativeName": "Guatemala",
+      "capital": "Ciudad de Guatemala",
+      "mainLanguage": "spanish",
+      "languages": [
+        "spanish"
+      ],
+      "tld": ".gt",
+      "callingCode": 502,
+      "continent": "northAmerica",
+      "currency": "gtq"
+    },
+    {
+      "id": "guernsey",
+      "alpha2Code": "GG",
+      "alpha3Code": "GGY",
+      "numericCode": 831,
+      "nativeName": "Guernsey",
+      "capital": "St Peter Port",
+      "mainLanguage": "english",
+      "languages": [
+        "english"
+      ],
+      "tld": ".gg",
+      "callingCode": 44,
+      "continent": "europe",
+      "currency": "gbp"
+    },
+    {
+      "id": "guinea",
+      "alpha2Code": "GN",
+      "alpha3Code": "GIN",
+      "numericCode": 324,
+      "nativeName": "Guinée",
+      "capital": "Conakry",
+      "mainLanguage": "french",
+      "languages": [
+        "french"
+      ],
+      "tld": ".gn",
+      "callingCode": 224,
+      "continent": "africa",
+      "currency": "gnf"
+    },
+    {
+      "id": "guineaBissau",
+      "alpha2Code": "GW",
+      "alpha3Code": "GNB",
+      "numericCode": 624,
+      "nativeName": "Guiné-Bissau",
+      "capital": "Bissau",
+      "mainLanguage": "portuguese",
+      "languages": [
+        "portuguese"
+      ],
+      "tld": ".gw",
+      "callingCode": 245,
+      "continent": "africa",
+      "currency": "xof"
+    },
+    {
+      "id": "guyana",
+      "alpha2Code": "GY",
+      "alpha3Code": "GUY",
+      "numericCode": 328,
+      "nativeName": "Guyana",
+      "capital": "Georgetown",
+      "mainLanguage": "english",
+      "languages": [
+        "english"
+      ],
+      "tld": ".gy",
+      "callingCode": 592,
+      "continent": "southAmerica",
+      "currency": "gyd"
+    },
+    {
+      "id": "haiti",
+      "alpha2Code": "HT",
+      "alpha3Code": "HTI",
+      "numericCode": 332,
+      "nativeName": "Haïti",
+      "capital": "Port-au-Prince",
+      "mainLanguage": "french",
+      "languages": [
+        "french",
+        "haitian"
+      ],
+      "tld": ".ht",
+      "callingCode": 509,
+      "continent": "northAmerica",
+      "currency": "htg"
+    },
+    {
+      "id": "heardIslandAndMcDonaldIslands",
+      "alpha2Code": "HM",
+      "alpha3Code": "HMD",
+      "numericCode": 334,
+      "nativeName": "Heard Island and McDonald Islands",
+      "capital": "",
+      "mainLanguage": "english",
+      "languages": [
+        "english"
+      ],
+      "tld": ".hm",
+      "callingCode": 672,
+      "continent": "antarctica",
+      "currency": "usd"
+    },
+    {
+      "id": "honduras",
+      "alpha2Code": "HN",
+      "alpha3Code": "HND",
+      "numericCode": 340,
+      "nativeName": "Honduras",
+      "capital": "Tegucigalpa",
+      "mainLanguage": "spanish",
+      "languages": [
+        "spanish"
+      ],
+      "tld": ".hn",
+      "callingCode": 504,
+      "continent": "northAmerica",
+      "currency": "hnl"
+    },
+    {
+      "id": "hongKong",
+      "alpha2Code": "HK",
+      "alpha3Code": "HKG",
+      "numericCode": 344,
+      "nativeName": "香港",
+      "capital": "香港",
+      "mainLanguage": "chinese",
+      "languages": [
+        "chinese",
+        "english"
+      ],
+      "tld": ".hk",
+      "callingCode": 852,
+      "continent": "asia",
+      "currency": "hkd"
+    },
+    {
+      "id": "hungary",
+      "alpha2Code": "HU",
+      "alpha3Code": "HUN",
+      "numericCode": 348,
+      "nativeName": "Magyarország",
+      "capital": "Budapest",
+      "mainLanguage": "hungarian",
+      "languages": [
+        "hungarian"
+      ],
+      "tld": ".hu",
+      "callingCode": 36,
+      "continent": "europe",
+      "currency": "huf"
+    },
+    {
+      "id": "iceland",
+      "alpha2Code": "IS",
+      "alpha3Code": "ISL",
+      "numericCode": 352,
+      "nativeName": "Ísland",
+      "capital": "Reykjavík",
+      "mainLanguage": "icelandic",
+      "languages": [
+        "icelandic"
+      ],
+      "tld": ".is",
+      "callingCode": 354,
+      "continent": "europe",
+      "currency": "isk"
+    },
+    {
+      "id": "india",
+      "alpha2Code": "IN",
+      "alpha3Code": "IND",
+      "numericCode": 356,
+      "nativeName": "भारत",
+      "capital": "नई दिल्ली",
+      "mainLanguage": "hindi",
+      "languages": [
+        "hindi",
+        "english"
+      ],
+      "tld": ".in",
+      "callingCode": 91,
+      "continent": "asia",
+      "currency": "inr"
+    },
+    {
+      "id": "indonesia",
+      "alpha2Code": "ID",
+      "alpha3Code": "IDN",
+      "numericCode": 360,
+      "nativeName": "Indonesia",
+      "capital": "Jakarta",
+      "mainLanguage": "indonesian",
+      "languages": [
+        "indonesian"
+      ],
+      "tld": ".id",
+      "callingCode": 62,
+      "continent": "asia",
+      "currency": "idr"
+    },
+    {
+      "id": "iran",
+      "alpha2Code": "IR",
+      "alpha3Code": "IRN",
+      "numericCode": 364,
+      "nativeName": "ایران",
+      "capital": "تهران",
+      "mainLanguage": "persian",
+      "languages": [
+        "persian"
+      ],
+      "tld": ".ir",
+      "callingCode": 98,
+      "continent": "asia",
+      "currency": "irr"
+    },
+    {
+      "id": "iraq",
+      "alpha2Code": "IQ",
+      "alpha3Code": "IRQ",
+      "numericCode": 368,
+      "nativeName": "العراق",
+      "capital": "بغداد",
+      "mainLanguage": "arabic",
+      "languages": [
+        "arabic",
+        "kurdish"
+      ],
+      "tld": ".iq",
+      "callingCode": 964,
+      "continent": "asia",
+      "currency": "iqd"
+    },
+    {
+      "id": "ireland",
+      "alpha2Code": "IE",
+      "alpha3Code": "IRL",
+      "numericCode": 372,
+      "nativeName": "Éire",
+      "capital": "Baile Átha Cliath",
+      "mainLanguage": "english",
+      "languages": [
+        "english",
+        "irish"
+      ],
+      "tld": ".ie",
+      "callingCode": 353,
+      "continent": "europe",
+      "currency": "eur"
+    },
+    {
+      "id": "isleOfMan",
+      "alpha2Code": "IM",
+      "alpha3Code": "IMN",
+      "numericCode": 833,
+      "nativeName": "Isle of Man",
+      "capital": "Douglas",
+      "mainLanguage": "english",
+      "languages": [
+        "english",
+        "manx"
+      ],
+      "tld": ".im",
+      "callingCode": 44,
+      "continent": "europe",
+      "currency": "gbp"
+    },
+    {
+      "id": "israel",
+      "alpha2Code": "IL",
+      "alpha3Code": "ISR",
+      "numericCode": 376,
+      "nativeName": "ישראל",
+      "capital": "ירושלים",
+      "mainLanguage": "hebrew",
+      "languages": [
+        "hebrew",
+        "arabic"
+      ],
+      "tld": ".il",
+      "callingCode": 972,
+      "continent": "asia",
+      "currency": "ils"
+    },
+    {
+      "id": "italy",
+      "alpha2Code": "IT",
+      "alpha3Code": "ITA",
+      "numericCode": 380,
+      "nativeName": "Italia",
+      "capital": "Roma",
+      "mainLanguage": "italian",
+      "languages": [
+        "italian"
+      ],
+      "tld": ".it",
+      "callingCode": 39,
+      "continent": "europe",
+      "currency": "eur"
+    },
+    {
+      "id": "jamaica",
+      "alpha2Code": "JM",
+      "alpha3Code": "JAM",
+      "numericCode": 388,
+      "nativeName": "Jamaica",
+      "capital": "Kingston",
+      "mainLanguage": "english",
+      "languages": [
+        "english"
+      ],
+      "tld": ".jm",
+      "callingCode": 1,
+      "continent": "northAmerica",
+      "currency": "jmd"
+    },
+    {
+      "id": "japan",
+      "alpha2Code": "JP",
+      "alpha3Code": "JPN",
+      "numericCode": 392,
+      "nativeName": "日本",
+      "capital": "東京",
+      "mainLanguage": "japanese",
+      "languages": [
+        "japanese"
+      ],
+      "tld": ".jp",
+      "callingCode": 81,
+      "continent": "asia",
+      "currency": "jpy"
+    },
+    {
+      "id": "jersey",
+      "alpha2Code": "JE",
+      "alpha3Code": "JEY",
+      "numericCode": 832,
+      "nativeName": "Jersey",
+      "capital": "Saint Helier",
+      "mainLanguage": "english",
+      "languages": [
+        "english"
+      ],
+      "tld": ".je",
+      "callingCode": 44,
+      "continent": "europe",
+      "currency": "gbp"
+    },
+    {
+      "id": "jordan",
+      "alpha2Code": "JO",
+      "alpha3Code": "JOR",
+      "numericCode": 400,
+      "nativeName": "الأردن",
+      "capital": "عمّان",
+      "mainLanguage": "arabic",
+      "languages": [
+        "arabic"
+      ],
+      "tld": ".jo",
+      "callingCode": 962,
+      "continent": "asia",
+      "currency": "jod"
+    },
+    {
+      "id": "kazakhstan",
+      "alpha2Code": "KZ",
+      "alpha3Code": "KAZ",
+      "numericCode": 398,
+      "nativeName": "Қазақстан",
+      "capital": "Астана",
+      "mainLanguage": "kazakh",
+      "languages": [
+        "kazakh",
+        "russian"
+      ],
+      "tld": ".kz",
+      "callingCode": 7,
+      "continent": "asia",
+      "currency": "kzt"
+    },
+    {
+      "id": "kenya",
+      "alpha2Code": "KE",
+      "alpha3Code": "KEN",
+      "numericCode": 404,
+      "nativeName": "Kenya",
+      "capital": "Nairobi",
+      "mainLanguage": "swahili",
+      "languages": [
+        "swahili",
+        "english"
+      ],
+      "tld": ".ke",
+      "callingCode": 254,
+      "continent": "africa",
+      "currency": "kes"
+    },
+    {
+      "id": "kiribati",
+      "alpha2Code": "KI",
+      "alpha3Code": "KIR",
+      "numericCode": 296,
+      "nativeName": "Kiribati",
+      "capital": "Tarawa",
+      "mainLanguage": "english",
+      "languages": [
+        "english"
+      ],
+      "tld": ".ki",
+      "callingCode": 686,
+      "continent": "oceania",
+      "currency": "aud"
+    },
+    {
+      "id": "kuwait",
+      "alpha2Code": "KW",
+      "alpha3Code": "KWT",
+      "numericCode": 414,
+      "nativeName": "الكويت",
+      "capital": "مدينة الكويت",
+      "mainLanguage": "arabic",
+      "languages": [
+        "arabic"
+      ],
+      "tld": ".kw",
+      "callingCode": 965,
+      "continent": "asia",
+      "currency": "kwd"
+    },
+    {
+      "id": "kyrgyzstan",
+      "alpha2Code": "KG",
+      "alpha3Code": "KGZ",
+      "numericCode": 417,
+      "nativeName": "Кыргызстан",
+      "capital": "Бишкек",
+      "mainLanguage": "kirghiz",
+      "languages": [
+        "kirghiz",
+        "russian"
+      ],
+      "tld": ".kg",
+      "callingCode": 996,
+      "continent": "asia",
+      "currency": "kgs"
+    },
+    {
+      "id": "laos",
+      "alpha2Code": "LA",
+      "alpha3Code": "LAO",
+      "numericCode": 418,
+      "nativeName": "ສປປລາວ",
+      "capital": "ວຽງຈັນ",
+      "mainLanguage": "lao",
+      "languages": [
+        "lao"
+      ],
+      "tld": ".la",
+      "callingCode": 856,
+      "continent": "asia",
+      "currency": "lak"
+    },
+    {
+      "id": "latvia",
+      "alpha2Code": "LV",
+      "alpha3Code": "LVA",
+      "numericCode": 428,
+      "nativeName": "Latvija",
+      "capital": "Rīga",
+      "mainLanguage": "latvian",
+      "languages": [
+        "latvian"
+      ],
+      "tld": ".lv",
+      "callingCode": 371,
+      "continent": "europe",
+      "currency": "eur"
+    },
+    {
+      "id": "lebanon",
+      "alpha2Code": "LB",
+      "alpha3Code": "LBN",
+      "numericCode": 422,
+      "nativeName": "لبنان",
+      "capital": "بيروت",
+      "mainLanguage": "arabic",
+      "languages": [
+        "arabic"
+      ],
+      "tld": ".lb",
+      "callingCode": 961,
+      "continent": "asia",
+      "currency": "lbp"
+    },
+    {
+      "id": "lesotho",
+      "alpha2Code": "LS",
+      "alpha3Code": "LSO",
+      "numericCode": 426,
+      "nativeName": "Lesotho",
+      "capital": "Maseru",
+      "mainLanguage": "english",
+      "languages": [
+        "english",
+        "southernSotho"
+      ],
+      "tld": ".ls",
+      "callingCode": 266,
+      "continent": "africa",
+      "currency": "lsl"
+    },
+    {
+      "id": "liberia",
+      "alpha2Code": "LR",
+      "alpha3Code": "LBR",
+      "numericCode": 430,
+      "nativeName": "Liberia",
+      "capital": "Monrovia",
+      "mainLanguage": "english",
+      "languages": [
+        "english"
+      ],
+      "tld": ".lr",
+      "callingCode": 231,
+      "continent": "africa",
+      "currency": "lrd"
+    },
+    {
+      "id": "libya",
+      "alpha2Code": "LY",
+      "alpha3Code": "LBY",
+      "numericCode": 434,
+      "nativeName": "ليبيا",
+      "capital": "طرابلس",
+      "mainLanguage": "arabic",
+      "languages": [
+        "arabic"
+      ],
+      "tld": ".ly",
+      "callingCode": 218,
+      "continent": "africa",
+      "currency": "lyd"
+    },
+    {
+      "id": "liechtenstein",
+      "alpha2Code": "LI",
+      "alpha3Code": "LIE",
+      "numericCode": 438,
+      "nativeName": "Liechtenstein",
+      "capital": "Vaduz",
+      "mainLanguage": "german",
+      "languages": [
+        "german"
+      ],
+      "tld": ".li",
+      "callingCode": 423,
+      "continent": "europe",
+      "currency": "chf"
+    },
+    {
+      "id": "lithuania",
+      "alpha2Code": "LT",
+      "alpha3Code": "LTU",
+      "numericCode": 440,
+      "nativeName": "Lietuva",
+      "capital": "Vilnius",
+      "mainLanguage": "lithuanian",
+      "languages": [
+        "lithuanian"
+      ],
+      "tld": ".lt",
+      "callingCode": 370,
+      "continent": "europe",
+      "currency": "eur"
+    },
+    {
+      "id": "luxembourg",
+      "alpha2Code": "LU",
+      "alpha3Code": "LUX",
+      "numericCode": 442,
+      "nativeName": "Luxembourg",
+      "capital": "Luxembourg",
+      "mainLanguage": "luxembourgish",
+      "languages": [
+        "luxembourgish",
+        "french",
+        "german"
+      ],
+      "tld": ".lu",
+      "callingCode": 352,
+      "continent": "europe",
+      "currency": "eur"
+    },
+    {
+      "id": "macao",
+      "alpha2Code": "MO",
+      "alpha3Code": "MAC",
+      "numericCode": 446,
+      "nativeName": "澳門",
+      "capital": "澳門",
+      "mainLanguage": "chinese",
+      "languages": [
+        "chinese",
+        "portuguese"
+      ],
+      "tld": ".mo",
+      "callingCode": 853,
+      "continent": "asia",
+      "currency": "mop"
+    },
+    {
+      "id": "madagascar",
+      "alpha2Code": "MG",
+      "alpha3Code": "MDG",
+      "numericCode": 450,
+      "nativeName": "Madagasikara",
+      "capital": "Antananarivo",
+      "mainLanguage": "malagasy",
+      "languages": [
+        "malagasy",
+        "french"
+      ],
+      "tld": ".mg",
+      "callingCode": 261,
+      "continent": "africa",
+      "currency": "mga"
+    },
+    {
+      "id": "malawi",
+      "alpha2Code": "MW",
+      "alpha3Code": "MWI",
+      "numericCode": 454,
+      "nativeName": "Malawi",
+      "capital": "Lilongwe",
+      "mainLanguage": "english",
+      "languages": [
+        "english",
+        "chichewa"
+      ],
+      "tld": ".mw",
+      "callingCode": 265,
+      "continent": "africa",
+      "currency": "mwk"
+    },
+    {
+      "id": "malaysia",
+      "alpha2Code": "MY",
+      "alpha3Code": "MYS",
+      "numericCode": 458,
+      "nativeName": "Malaysia",
+      "capital": "Kuala Lumpur",
+      "mainLanguage": "malay",
+      "languages": [
+        "malay"
+      ],
+      "tld": ".my",
+      "callingCode": 60,
+      "continent": "asia",
+      "currency": "myr"
+    },
+    {
+      "id": "maldives",
+      "alpha2Code": "MV",
+      "alpha3Code": "MDV",
+      "numericCode": 462,
+      "nativeName": "ދިވެހިރާއްޖެ",
+      "capital": "މާލެ",
+      "mainLanguage": "divehi",
+      "languages": [
+        "divehi"
+      ],
+      "tld": ".mv",
+      "callingCode": 960,
+      "continent": "asia",
+      "currency": "mvr"
+    },
+    {
+      "id": "mali",
+      "alpha2Code": "ML",
+      "alpha3Code": "MLI",
+      "numericCode": 466,
+      "nativeName": "Mali",
+      "capital": "Bamako",
+      "mainLanguage": "french",
+      "languages": [
+        "french"
+      ],
+      "tld": ".ml",
+      "callingCode": 223,
+      "continent": "africa",
+      "currency": "xof"
+    },
+    {
+      "id": "malta",
+      "alpha2Code": "MT",
+      "alpha3Code": "MLT",
+      "numericCode": 470,
+      "nativeName": "Malta",
+      "capital": "Il-Belt Valletta",
+      "mainLanguage": "maltese",
+      "languages": [
+        "maltese",
+        "english"
+      ],
+      "tld": ".mt",
+      "callingCode": 356,
+      "continent": "europe",
+      "currency": "eur"
+    },
+    {
+      "id": "marshallIslands",
+      "alpha2Code": "MH",
+      "alpha3Code": "MHL",
+      "numericCode": 584,
+      "nativeName": "Marshall Islands",
+      "capital": "Majuro",
+      "mainLanguage": "english",
+      "languages": [
+        "english",
+        "marshallese"
+      ],
+      "tld": ".mh",
+      "callingCode": 692,
+      "continent": "oceania",
+      "currency": "usd"
+    },
+    {
+      "id": "martinique",
+      "alpha2Code": "MQ",
+      "alpha3Code": "MTQ",
+      "numericCode": 474,
+      "nativeName": "Martinique",
+      "capital": "Fort-de-France",
+      "mainLanguage": "french",
+      "languages": [
+        "french"
+      ],
+      "tld": ".mq",
+      "callingCode": 596,
+      "continent": "northAmerica",
+      "currency": "eur"
+    },
+    {
+      "id": "mauritania",
+      "alpha2Code": "MR",
+      "alpha3Code": "MRT",
+      "numericCode": 478,
+      "nativeName": "موريتانيا",
+      "capital": "نواكشوط",
+      "mainLanguage": "arabic",
+      "languages": [
+        "arabic"
+      ],
+      "tld": ".mr",
+      "callingCode": 222,
+      "continent": "africa",
+      "currency": "mru"
+    },
+    {
+      "id": "mauritius",
+      "alpha2Code": "MU",
+      "alpha3Code": "MUS",
+      "numericCode": 480,
+      "nativeName": "Maurice",
+      "capital": "Port Louis",
+      "mainLanguage": "english",
+      "languages": [
+        "english"
+      ],
+      "tld": ".mu",
+      "callingCode": 230,
+      "continent": "africa",
+      "currency": "mur"
+    },
+    {
+      "id": "mayotte",
+      "alpha2Code": "YT",
+      "alpha3Code": "MYT",
+      "numericCode": 175,
+      "nativeName": "Mayotte",
+      "capital": "Mamoudzou",
+      "mainLanguage": "french",
+      "languages": [
+        "french"
+      ],
+      "tld": ".yt",
+      "callingCode": 262,
+      "continent": "africa",
+      "currency": "eur"
+    },
+    {
+      "id": "mexico",
+      "alpha2Code": "MX",
+      "alpha3Code": "MEX",
+      "numericCode": 484,
+      "nativeName": "México",
+      "capital": "Ciudad de México",
+      "mainLanguage": "spanish",
+      "languages": [
+        "spanish"
+      ],
+      "tld": ".mx",
+      "callingCode": 52,
+      "continent": "northAmerica",
+      "currency": "mxn"
+    },
+    {
+      "id": "micronesia",
+      "alpha2Code": "FM",
+      "alpha3Code": "FSM",
+      "numericCode": 583,
+      "nativeName": "Micronesia",
+      "capital": "Palikir",
+      "mainLanguage": "english",
+      "languages": [
+        "english"
+      ],
+      "tld": ".fm",
+      "callingCode": 691,
+      "continent": "oceania",
+      "currency": "usd"
+    },
+    {
+      "id": "moldova",
+      "alpha2Code": "MD",
+      "alpha3Code": "MDA",
+      "numericCode": 498,
+      "nativeName": "Moldova",
+      "capital": "Chișinău",
+      "mainLanguage": "romanian",
+      "languages": [
+        "romanian"
+      ],
+      "tld": ".md",
+      "callingCode": 373,
+      "continent": "europe",
+      "currency": "mdl"
+    },
+    {
+      "id": "monaco",
+      "alpha2Code": "MC",
+      "alpha3Code": "MCO",
+      "numericCode": 492,
+      "nativeName": "Monaco",
+      "capital": "Monaco",
+      "mainLanguage": "french",
+      "languages": [
+        "french"
+      ],
+      "tld": ".mc",
+      "callingCode": 377,
+      "continent": "europe",
+      "currency": "eur"
+    },
+    {
+      "id": "mongolia",
+      "alpha2Code": "MN",
+      "alpha3Code": "MNG",
+      "numericCode": 496,
+      "nativeName": "Монгол улс",
+      "capital": "Улаанбаатар",
+      "mainLanguage": "mongolian",
+      "languages": [
+        "mongolian"
+      ],
+      "tld": ".mn",
+      "callingCode": 976,
+      "continent": "asia",
+      "currency": "mnt"
+    },
+    {
+      "id": "montenegro",
+      "alpha2Code": "ME",
+      "alpha3Code": "MNE",
+      "numericCode": 499,
+      "nativeName": "Црна Гора",
+      "capital": "Podgorica",
+      "mainLanguage": "serbian",
+      "languages": [
+        "serbian"
+      ],
+      "tld": ".me",
+      "callingCode": 382,
+      "continent": "europe",
+      "currency": "eur"
+    },
+    {
+      "id": "montserrat",
+      "alpha2Code": "MS",
+      "alpha3Code": "MSR",
+      "numericCode": 500,
+      "nativeName": "Montserrat",
+      "capital": "Plymouth",
+      "mainLanguage": "english",
+      "languages": [
+        "english"
+      ],
+      "tld": ".ms",
+      "callingCode": 1,
+      "continent": "northAmerica",
+      "currency": "xcd"
+    },
+    {
+      "id": "morocco",
+      "alpha2Code": "MA",
+      "alpha3Code": "MAR",
+      "numericCode": 504,
+      "nativeName": "المغرب",
+      "capital": "الرباط",
+      "mainLanguage": "arabic",
+      "languages": [
+        "arabic"
+      ],
+      "tld": ".ma",
+      "callingCode": 212,
+      "continent": "africa",
+      "currency": "mad"
+    },
+    {
+      "id": "mozambique",
+      "alpha2Code": "MZ",
+      "alpha3Code": "MOZ",
+      "numericCode": 508,
+      "nativeName": "Moçambique",
+      "capital": "Maputo",
+      "mainLanguage": "portuguese",
+      "languages": [
+        "portuguese"
+      ],
+      "tld": ".mz",
+      "callingCode": 258,
+      "continent": "africa",
+      "currency": "mzn"
+    },
+    {
+      "id": "myanmar",
+      "alpha2Code": "MM",
+      "alpha3Code": "MMR",
+      "numericCode": 104,
+      "nativeName": "မြန်မာ",
+      "capital": "နေပြည်တော်",
+      "mainLanguage": "burmese",
+      "languages": [
+        "burmese"
+      ],
+      "tld": ".mm",
+      "callingCode": 95,
+      "continent": "asia",
+      "currency": "mmk"
+    },
+    {
+      "id": "namibia",
+      "alpha2Code": "NA",
+      "alpha3Code": "NAM",
+      "numericCode": 516,
+      "nativeName": "Namibia",
+      "capital": "Windhoek",
+      "mainLanguage": "english",
+      "languages": [
+        "english"
+      ],
+      "tld": ".na",
+      "callingCode": 264,
+      "continent": "africa",
+      "currency": "nad"
+    },
+    {
+      "id": "nauru",
+      "alpha2Code": "NR",
+      "alpha3Code": "NRU",
+      "numericCode": 520,
+      "nativeName": "Nauru",
+      "capital": "Yaren",
+      "mainLanguage": "nauru",
+      "languages": [
+        "nauru",
+        "english"
+      ],
+      "tld": ".nr",
+      "callingCode": 674,
+      "continent": "oceania",
+      "currency": "aud"
+    },
+    {
+      "id": "nepal",
+      "alpha2Code": "NP",
+      "alpha3Code": "NPL",
+      "numericCode": 524,
+      "nativeName": "नेपाल",
+      "capital": "काठमाडौं",
+      "mainLanguage": "nepali",
+      "languages": [
+        "nepali"
+      ],
+      "tld": ".np",
+      "callingCode": 977,
+      "continent": "asia",
+      "currency": "npr"
+    },
+    {
+      "id": "netherlands",
+      "alpha2Code": "NL",
+      "alpha3Code": "NLD",
+      "numericCode": 528,
+      "nativeName": "Nederland",
+      "capital": "Amsterdam",
+      "mainLanguage": "dutch",
+      "languages": [
+        "dutch"
+      ],
+      "tld": ".nl",
+      "callingCode": 31,
+      "continent": "europe",
+      "currency": "eur"
+    },
+    {
+      "id": "newCaledonia",
+      "alpha2Code": "NC",
+      "alpha3Code": "NCL",
+      "numericCode": 540,
+      "nativeName": "Nouvelle-Calédonie",
+      "capital": "Nouméa",
+      "mainLanguage": "french",
+      "languages": [
+        "french"
+      ],
+      "tld": ".nc",
+      "callingCode": 687,
+      "continent": "oceania",
+      "currency": "xpf"
+    },
+    {
+      "id": "newZealand",
+      "alpha2Code": "NZ",
+      "alpha3Code": "NZL",
+      "numericCode": 554,
+      "nativeName": "New Zealand",
+      "capital": "Wellington",
+      "mainLanguage": "english",
+      "languages": [
+        "english",
+        "maori"
+      ],
+      "tld": ".nz",
+      "callingCode": 64,
+      "continent": "oceania",
+      "currency": "nzd"
+    },
+    {
+      "id": "nicaragua",
+      "alpha2Code": "NI",
+      "alpha3Code": "NIC",
+      "numericCode": 558,
+      "nativeName": "Nicaragua",
+      "capital": "Managua",
+      "mainLanguage": "spanish",
+      "languages": [
+        "spanish"
+      ],
+      "tld": ".ni",
+      "callingCode": 505,
+      "continent": "northAmerica",
+      "currency": "nio"
+    },
+    {
+      "id": "niger",
+      "alpha2Code": "NE",
+      "alpha3Code": "NER",
+      "numericCode": 562,
+      "nativeName": "Niger",
+      "capital": "Niamey",
+      "mainLanguage": "french",
+      "languages": [
+        "french"
+      ],
+      "tld": ".ne",
+      "callingCode": 227,
+      "continent": "africa",
+      "currency": "xof"
+    },
+    {
+      "id": "nigeria",
+      "alpha2Code": "NG",
+      "alpha3Code": "NGA",
+      "numericCode": 566,
+      "nativeName": "Nigeria",
+      "capital": "Abuja",
+      "mainLanguage": "english",
+      "languages": [
+        "english"
+      ],
+      "tld": ".ng",
+      "callingCode": 234,
+      "continent": "africa",
+      "currency": "ngn"
+    },
+    {
+      "id": "niue",
+      "alpha2Code": "NU",
+      "alpha3Code": "NIU",
+      "numericCode": 570,
+      "nativeName": "Niue",
+      "capital": "Alofi",
+      "mainLanguage": "english",
+      "languages": [
+        "english"
+      ],
+      "tld": ".nu",
+      "callingCode": 683,
+      "continent": "oceania",
+      "currency": "nzd"
+    },
+    {
+      "id": "norfolkIsland",
+      "alpha2Code": "NF",
+      "alpha3Code": "NFK",
+      "numericCode": 574,
+      "nativeName": "Norfolk Island",
+      "capital": "Kingston",
+      "mainLanguage": "english",
+      "languages": [
+        "english"
+      ],
+      "tld": ".nf",
+      "callingCode": 672,
+      "continent": "oceania",
+      "currency": "aud"
+    },
+    {
+      "id": "northKorea",
+      "alpha2Code": "KP",
+      "alpha3Code": "PRK",
+      "numericCode": 408,
+      "nativeName": "조선민주주의인민공화국",
+      "capital": "평양",
+      "mainLanguage": "korean",
+      "languages": [
+        "korean"
+      ],
+      "tld": ".kp",
+      "callingCode": 850,
+      "continent": "asia",
+      "currency": "kpw"
+    },
+    {
+      "id": "northMacedonia",
+      "alpha2Code": "MK",
+      "alpha3Code": "MKD",
+      "numericCode": 807,
+      "nativeName": "Северна Македонија",
+      "capital": "Скопје",
+      "mainLanguage": "macedonian",
+      "languages": [
+        "macedonian"
+      ],
+      "tld": ".mk",
+      "callingCode": 389,
+      "continent": "europe",
+      "currency": "mkd"
+    },
+    {
+      "id": "northernMarianaIslands",
+      "alpha2Code": "MP",
+      "alpha3Code": "MNP",
+      "numericCode": 580,
+      "nativeName": "Northern Mariana Islands",
+      "capital": "Saipan",
+      "mainLanguage": "english",
+      "languages": [
+        "english",
+        "chamorro"
+      ],
+      "tld": ".mp",
+      "callingCode": 1,
+      "continent": "oceania",
+      "currency": "usd"
+    },
+    {
+      "id": "norway",
+      "alpha2Code": "NO",
+      "alpha3Code": "NOR",
+      "numericCode": 578,
+      "nativeName": "Norge",
+      "capital": "Oslo",
+      "mainLanguage": "norwegian",
+      "languages": [
+        "norwegian"
+      ],
+      "tld": ".no",
+      "callingCode": 47,
+      "continent": "europe",
+      "currency": "nok"
+    },
+    {
+      "id": "oman",
+      "alpha2Code": "OM",
+      "alpha3Code": "OMN",
+      "numericCode": 512,
+      "nativeName": "عمان",
+      "capital": "مسقط",
+      "mainLanguage": "arabic",
+      "languages": [
+        "arabic"
+      ],
+      "tld": ".om",
+      "callingCode": 968,
+      "continent": "asia",
+      "currency": "omr"
+    },
+    {
+      "id": "pakistan",
+      "alpha2Code": "PK",
+      "alpha3Code": "PAK",
+      "numericCode": 586,
+      "nativeName": "پاکستان",
+      "capital": "اسلام آباد",
+      "mainLanguage": "urdu",
+      "languages": [
+        "urdu",
+        "english"
+      ],
+      "tld": ".pk",
+      "callingCode": 92,
+      "continent": "asia",
+      "currency": "pkr"
+    },
+    {
+      "id": "palau",
+      "alpha2Code": "PW",
+      "alpha3Code": "PLW",
+      "numericCode": 585,
+      "nativeName": "Palau",
+      "capital": "Ngerulmud",
+      "mainLanguage": "english",
+      "languages": [
+        "english"
+      ],
+      "tld": ".pw",
+      "callingCode": 680,
+      "continent": "oceania",
+      "currency": "usd"
+    },
+    {
+      "id": "palestine",
+      "alpha2Code": "PS",
+      "alpha3Code": "PSE",
+      "numericCode": 275,
+      "nativeName": "فلسطين",
+      "capital": "رام الله",
+      "mainLanguage": "arabic",
+      "languages": [
+        "arabic"
+      ],
+      "tld": ".ps",
+      "callingCode": 970,
+      "continent": "asia",
+      "currency": "ils"
+    },
+    {
+      "id": "panama",
+      "alpha2Code": "PA",
+      "alpha3Code": "PAN",
+      "numericCode": 591,
+      "nativeName": "Panamá",
+      "capital": "Ciudad de Panamá",
+      "mainLanguage": "spanish",
+      "languages": [
+        "spanish"
+      ],
+      "tld": ".pa",
+      "callingCode": 507,
+      "continent": "northAmerica",
+      "currency": "usd"
+    },
+    {
+      "id": "papuaNewGuinea",
+      "alpha2Code": "PG",
+      "alpha3Code": "PNG",
+      "numericCode": 598,
+      "nativeName": "Papua New Guinea",
+      "capital": "Port Moresby",
+      "mainLanguage": "english",
+      "languages": [
+        "english"
+      ],
+      "tld": ".pg",
+      "callingCode": 675,
+      "continent": "oceania",
+      "currency": "pgk"
+    },
+    {
+      "id": "paraguay",
+      "alpha2Code": "PY",
+      "alpha3Code": "PRY",
+      "numericCode": 600,
+      "nativeName": "Paraguay",
+      "capital": "Asunción",
+      "mainLanguage": "spanish",
+      "languages": [
+        "spanish",
+        "guarani"
+      ],
+      "tld": ".py",
+      "callingCode": 595,
+      "continent": "southAmerica",
+      "currency": "pyg"
+    },
+    {
+      "id": "peru",
+      "alpha2Code": "PE",
+      "alpha3Code": "PER",
+      "numericCode": 604,
+      "nativeName": "Perú",
+      "capital": "Lima",
+      "mainLanguage": "spanish",
+      "languages": [
+        "spanish"
+      ],
+      "tld": ".pe",
+      "callingCode": 51,
+      "continent": "southAmerica",
+      "currency": "pen"
+    },
+    {
+      "id": "philippines",
+      "alpha2Code": "PH",
+      "alpha3Code": "PHL",
+      "numericCode": 608,
+      "nativeName": "Pilipinas",
+      "capital": "Manila",
+      "mainLanguage": "tagalog",
+      "languages": [
+        "tagalog",
+        "english"
+      ],
+      "tld": ".ph",
+      "callingCode": 63,
+      "continent": "asia",
+      "currency": "php"
+    },
+    {
+      "id": "pitcairn",
+      "alpha2Code": "PN",
+      "alpha3Code": "PCN",
+      "numericCode": 612,
+      "nativeName": "Pitcairn Islands",
+      "capital": "Adamstown",
+      "mainLanguage": "english",
+      "languages": [
+        "english"
+      ],
+      "tld": ".pn",
+      "callingCode": 64,
+      "continent": "oceania",
+      "currency": "nzd"
+    },
+    {
+      "id": "poland",
+      "alpha2Code": "PL",
+      "alpha3Code": "POL",
+      "numericCode": 616,
+      "nativeName": "Polska",
+      "capital": "Warszawa",
+      "mainLanguage": "polish",
+      "languages": [
+        "polish"
+      ],
+      "tld": ".pl",
+      "callingCode": 48,
+      "continent": "europe",
+      "currency": "pln"
+    },
+    {
+      "id": "portugal",
+      "alpha2Code": "PT",
+      "alpha3Code": "PRT",
+      "numericCode": 620,
+      "nativeName": "Portugal",
+      "capital": "Lisboa",
+      "mainLanguage": "portuguese",
+      "languages": [
+        "portuguese"
+      ],
+      "tld": ".pt",
+      "callingCode": 351,
+      "continent": "europe",
+      "currency": "eur"
+    },
+    {
+      "id": "puertoRico",
+      "alpha2Code": "PR",
+      "alpha3Code": "PRI",
+      "numericCode": 630,
+      "nativeName": "Puerto Rico",
+      "capital": "San Juan",
+      "mainLanguage": "spanish",
+      "languages": [
+        "spanish",
+        "english"
+      ],
+      "tld": ".pr",
+      "callingCode": 1,
+      "continent": "northAmerica",
+      "currency": "usd"
+    },
+    {
+      "id": "qatar",
+      "alpha2Code": "QA",
+      "alpha3Code": "QAT",
+      "numericCode": 634,
+      "nativeName": "قطر",
+      "capital": "الدوحة",
+      "mainLanguage": "arabic",
+      "languages": [
+        "arabic"
+      ],
+      "tld": ".qa",
+      "callingCode": 974,
+      "continent": "asia",
+      "currency": "qar"
+    },
+    {
+      "id": "reunion",
+      "alpha2Code": "RE",
+      "alpha3Code": "REU",
+      "numericCode": 638,
+      "nativeName": "Réunion",
+      "capital": "Saint-Denis",
+      "mainLanguage": "french",
+      "languages": [
+        "french"
+      ],
+      "tld": ".re",
+      "callingCode": 262,
+      "continent": "africa",
+      "currency": "eur"
+    },
+    {
+      "id": "romania",
+      "alpha2Code": "RO",
+      "alpha3Code": "ROU",
+      "numericCode": 642,
+      "nativeName": "România",
+      "capital": "București",
+      "mainLanguage": "romanian",
+      "languages": [
+        "romanian"
+      ],
+      "tld": ".ro",
+      "callingCode": 40,
+      "continent": "europe",
+      "currency": "ron"
+    },
+    {
+      "id": "russia",
+      "alpha2Code": "RU",
+      "alpha3Code": "RUS",
+      "numericCode": 643,
+      "nativeName": "Россия",
+      "capital": "Москва",
+      "mainLanguage": "russian",
+      "languages": [
+        "russian"
+      ],
+      "tld": ".ru",
+      "callingCode": 7,
+      "continent": "europe",
+      "currency": "rub"
+    },
+    {
+      "id": "rwanda",
+      "alpha2Code": "RW",
+      "alpha3Code": "RWA",
+      "numericCode": 646,
+      "nativeName": "Rwanda",
+      "capital": "Kigali",
+      "mainLanguage": "kinyarwanda",
+      "languages": [
+        "kinyarwanda",
+        "french",
+        "english"
+      ],
+      "tld": ".rw",
+      "callingCode": 250,
+      "continent": "africa",
+      "currency": "rwf"
+    },
+    {
+      "id": "saintBarthelemy",
+      "alpha2Code": "BL",
+      "alpha3Code": "BLM",
+      "numericCode": 652,
+      "nativeName": "Saint-Barthélemy",
+      "capital": "Gustavia",
+      "mainLanguage": "french",
+      "languages": [
+        "french"
+      ],
+      "tld": ".bl",
+      "callingCode": 590,
+      "continent": "northAmerica",
+      "currency": "eur"
+    },
+    {
+      "id": "saintHelena",
+      "alpha2Code": "SH",
+      "alpha3Code": "SHN",
+      "numericCode": 654,
+      "nativeName": "Saint Helena",
+      "capital": "Jamestown",
+      "mainLanguage": "english",
+      "languages": [
+        "english"
+      ],
+      "tld": ".sh",
+      "callingCode": 290,
+      "continent": "africa",
+      "currency": "svc"
+    },
+    {
+      "id": "saintKittsAndNevis",
+      "alpha2Code": "KN",
+      "alpha3Code": "KNA",
+      "numericCode": 659,
+      "nativeName": "Saint Kitts and Nevis",
+      "capital": "Basseterre",
+      "mainLanguage": "english",
+      "languages": [
+        "english"
+      ],
+      "tld": ".kn",
+      "callingCode": 1,
+      "continent": "northAmerica",
+      "currency": "xcd"
+    },
+    {
+      "id": "saintLucia",
+      "alpha2Code": "LC",
+      "alpha3Code": "LCA",
+      "numericCode": 662,
+      "nativeName": "Saint Lucia",
+      "capital": "Castries",
+      "mainLanguage": "english",
+      "languages": [
+        "english"
+      ],
+      "tld": ".lc",
+      "callingCode": 1,
+      "continent": "northAmerica",
+      "currency": "xcd"
+    },
+    {
+      "id": "saintMartin",
+      "alpha2Code": "MF",
+      "alpha3Code": "MAF",
+      "numericCode": 663,
+      "nativeName": "Saint-Martin",
+      "capital": "Marigot",
+      "mainLanguage": "french",
+      "languages": [
+        "french"
+      ],
+      "tld": ".mf",
+      "callingCode": 590,
+      "continent": "northAmerica",
+      "currency": "eur"
+    },
+    {
+      "id": "saintPierreAndMiquelon",
+      "alpha2Code": "PM",
+      "alpha3Code": "SPM",
+      "numericCode": 666,
+      "nativeName": "Saint-Pierre-et-Miquelon",
+      "capital": "Saint-Pierre",
+      "mainLanguage": "french",
+      "languages": [
+        "french"
+      ],
+      "tld": ".pm",
+      "callingCode": 508,
+      "continent": "northAmerica",
+      "currency": "eur"
+    },
+    {
+      "id": "saintVincentAndTheGrenadines",
+      "alpha2Code": "VC",
+      "alpha3Code": "VCT",
+      "numericCode": 670,
+      "nativeName": "Saint Vincent and the Grenadines",
+      "capital": "Kingstown",
+      "mainLanguage": "english",
+      "languages": [
+        "english"
+      ],
+      "tld": ".vc",
+      "callingCode": 1,
+      "continent": "northAmerica",
+      "currency": "xcd"
+    },
+    {
+      "id": "samoa",
+      "alpha2Code": "WS",
+      "alpha3Code": "WSM",
+      "numericCode": 882,
+      "nativeName": "Samoa",
+      "capital": "Apia",
+      "mainLanguage": "samoan",
+      "languages": [
+        "samoan",
+        "english"
+      ],
+      "tld": ".ws",
+      "callingCode": 685,
+      "continent": "oceania",
+      "currency": "wst"
+    },
+    {
+      "id": "sanMarino",
+      "alpha2Code": "SM",
+      "alpha3Code": "SMR",
+      "numericCode": 674,
+      "nativeName": "San Marino",
+      "capital": "San Marino",
+      "mainLanguage": "italian",
+      "languages": [
+        "italian"
+      ],
+      "tld": ".sm",
+      "callingCode": 378,
+      "continent": "europe",
+      "currency": "eur"
+    },
+    {
+      "id": "saoTomeAndPrincipe",
+      "alpha2Code": "ST",
+      "alpha3Code": "STP",
+      "numericCode": 678,
+      "nativeName": "São Tomé e Príncipe",
+      "capital": "São Tomé",
+      "mainLanguage": "portuguese",
+      "languages": [
+        "portuguese"
+      ],
+      "tld": ".st",
+      "callingCode": 239,
+      "continent": "africa",
+      "currency": "stn"
+    },
+    {
+      "id": "saudiArabia",
+      "alpha2Code": "SA",
+      "alpha3Code": "SAU",
+      "numericCode": 682,
+      "nativeName": "العربية السعودية",
+      "capital": "الرياض",
+      "mainLanguage": "arabic",
+      "languages": [
+        "arabic"
+      ],
+      "tld": ".sa",
+      "callingCode": 966,
+      "continent": "asia",
+      "currency": "sar"
+    },
+    {
+      "id": "senegal",
+      "alpha2Code": "SN",
+      "alpha3Code": "SEN",
+      "numericCode": 686,
+      "nativeName": "Sénégal",
+      "capital": "Dakar",
+      "mainLanguage": "french",
+      "languages": [
+        "french"
+      ],
+      "tld": ".sn",
+      "callingCode": 221,
+      "continent": "africa",
+      "currency": "xof"
+    },
+    {
+      "id": "serbia",
+      "alpha2Code": "RS",
+      "alpha3Code": "SRB",
+      "numericCode": 688,
+      "nativeName": "Србија",
+      "capital": "Београд",
+      "mainLanguage": "serbian",
+      "languages": [
+        "serbian"
+      ],
+      "tld": ".rs",
+      "callingCode": 381,
+      "continent": "europe",
+      "currency": "rsd"
+    },
+    {
+      "id": "seychelles",
+      "alpha2Code": "SC",
+      "alpha3Code": "SYC",
+      "numericCode": 690,
+      "nativeName": "Seychelles",
+      "capital": "Victoria",
+      "mainLanguage": "french",
+      "languages": [
+        "french",
+        "english"
+      ],
+      "tld": ".sc",
+      "callingCode": 248,
+      "continent": "africa",
+      "currency": "scr"
+    },
+    {
+      "id": "sierraLeone",
+      "alpha2Code": "SL",
+      "alpha3Code": "SLE",
+      "numericCode": 694,
+      "nativeName": "Sierra Leone",
+      "capital": "Freetown",
+      "mainLanguage": "english",
+      "languages": [
+        "english"
+      ],
+      "tld": ".sl",
+      "callingCode": 232,
+      "continent": "africa",
+      "currency": "sle"
+    },
+    {
+      "id": "singapore",
+      "alpha2Code": "SG",
+      "alpha3Code": "SGP",
+      "numericCode": 702,
+      "nativeName": "Singapore",
+      "capital": "Singapore",
+      "mainLanguage": "english",
+      "languages": [
+        "english",
+        "malay",
+        "tamil",
+        "chinese"
+      ],
+      "tld": ".sg",
+      "callingCode": 65,
+      "continent": "asia",
+      "currency": "sgd"
+    },
+    {
+      "id": "sintMaarten",
+      "alpha2Code": "SX",
+      "alpha3Code": "SXM",
+      "numericCode": 534,
+      "nativeName": "Sint Maarten",
+      "capital": "Philipsburg",
+      "mainLanguage": "dutch",
+      "languages": [
+        "dutch",
+        "english"
+      ],
+      "tld": ".sx",
+      "callingCode": 1,
+      "continent": "northAmerica",
+      "currency": "ang"
+    },
+    {
+      "id": "slovakia",
+      "alpha2Code": "SK",
+      "alpha3Code": "SVK",
+      "numericCode": 703,
+      "nativeName": "Slovensko",
+      "capital": "Bratislava",
+      "mainLanguage": "slovak",
+      "languages": [
+        "slovak"
+      ],
+      "tld": ".sk",
+      "callingCode": 421,
+      "continent": "europe",
+      "currency": "eur"
+    },
+    {
+      "id": "slovenia",
+      "alpha2Code": "SI",
+      "alpha3Code": "SVN",
+      "numericCode": 705,
+      "nativeName": "Slovenija",
+      "capital": "Ljubljana",
+      "mainLanguage": "slovenian",
+      "languages": [
+        "slovenian"
+      ],
+      "tld": ".si",
+      "callingCode": 386,
+      "continent": "europe",
+      "currency": "eur"
+    },
+    {
+      "id": "solomonIslands",
+      "alpha2Code": "SB",
+      "alpha3Code": "SLB",
+      "numericCode": 90,
+      "nativeName": "Solomon Islands",
+      "capital": "Honiara",
+      "mainLanguage": "english",
+      "languages": [
+        "english"
+      ],
+      "tld": ".sb",
+      "callingCode": 677,
+      "continent": "oceania",
+      "currency": "sbd"
+    },
+    {
+      "id": "somalia",
+      "alpha2Code": "SO",
+      "alpha3Code": "SOM",
+      "numericCode": 706,
+      "nativeName": "Soomaaliya",
+      "capital": "Muqdisho",
+      "mainLanguage": "somali",
+      "languages": [
+        "somali",
+        "arabic"
+      ],
+      "tld": ".so",
+      "callingCode": 252,
+      "continent": "africa",
+      "currency": "sos"
+    },
+    {
+      "id": "southAfrica",
+      "alpha2Code": "ZA",
+      "alpha3Code": "ZAF",
+      "numericCode": 710,
+      "nativeName": "South Africa",
+      "capital": "Pretoria",
+      "mainLanguage": "english",
+      "languages": [
+        "english",
+        "afrikaans",
+        "southNdebele",
+        "southernSotho",
+        "swati",
+        "tsonga",
+        "tswana",
+        "venda",
+        "xhosa",
+        "zulu"
+      ],
+      "tld": ".za",
+      "callingCode": 27,
+      "continent": "africa",
+      "currency": "zar"
+    },
+    {
+      "id": "southGeorgiaAndTheSouthSandwichIslands",
+      "alpha2Code": "GS",
+      "alpha3Code": "SGS",
+      "numericCode": 239,
+      "nativeName": "South Georgia and the South Sandwich Islands",
+      "capital": "King Edward Point",
+      "mainLanguage": "english",
+      "languages": [
+        "english"
+      ],
+      "tld": ".gs",
+      "callingCode": 500,
+      "continent": "antarctica",
+      "currency": "gbp"
+    },
+    {
+      "id": "southKorea",
+      "alpha2Code": "KR",
+      "alpha3Code": "KOR",
+      "numericCode": 410,
+      "nativeName": "대한민국",
+      "capital": "서울",
+      "mainLanguage": "korean",
+      "languages": [
+        "korean"
+      ],
+      "tld": ".kr",
+      "callingCode": 82,
+      "continent": "asia",
+      "currency": "krw"
+    },
+    {
+      "id": "southSudan",
+      "alpha2Code": "SS",
+      "alpha3Code": "SSD",
+      "numericCode": 728,
+      "nativeName": "South Sudan",
+      "capital": "Juba",
+      "mainLanguage": "english",
+      "languages": [
+        "english"
+      ],
+      "tld": ".ss",
+      "callingCode": 211,
+      "continent": "africa",
+      "currency": "ssp"
+    },
+    {
+      "id": "spain",
+      "alpha2Code": "ES",
+      "alpha3Code": "ESP",
+      "numericCode": 724,
+      "nativeName": "España",
+      "capital": "Madrid",
+      "mainLanguage": "spanish",
+      "languages": [
+        "spanish"
+      ],
+      "tld": ".es",
+      "callingCode": 34,
+      "continent": "europe",
+      "currency": "eur"
+    },
+    {
+      "id": "sriLanka",
+      "alpha2Code": "LK",
+      "alpha3Code": "LKA",
+      "numericCode": 144,
+      "nativeName": "ශ්‍රී ලංකාව",
+      "capital": "ශ්‍රී ජයවර්ධනපුර කෝට්ටේ",
+      "mainLanguage": "sinhala",
+      "languages": [
+        "sinhala",
+        "tamil"
+      ],
+      "tld": ".lk",
+      "callingCode": 94,
+      "continent": "asia",
+      "currency": "lkr"
+    },
+    {
+      "id": "sudan",
+      "alpha2Code": "SD",
+      "alpha3Code": "SDN",
+      "numericCode": 729,
+      "nativeName": "السودان",
+      "capital": "الخرطوم",
+      "mainLanguage": "arabic",
+      "languages": [
+        "arabic",
+        "english"
+      ],
+      "tld": ".sd",
+      "callingCode": 249,
+      "continent": "africa",
+      "currency": "sdg"
+    },
+    {
+      "id": "suriname",
+      "alpha2Code": "SR",
+      "alpha3Code": "SUR",
+      "numericCode": 740,
+      "nativeName": "Suriname",
+      "capital": "Paramaribo",
+      "mainLanguage": "dutch",
+      "languages": [
+        "dutch"
+      ],
+      "tld": ".sr",
+      "callingCode": 597,
+      "continent": "southAmerica",
+      "currency": "srd"
+    },
+    {
+      "id": "svalbardAndJanMayen",
+      "alpha2Code": "SJ",
+      "alpha3Code": "SJM",
+      "numericCode": 744,
+      "nativeName": "Svalbard og Jan Mayen",
+      "capital": "Longyearbyen",
+      "mainLanguage": "norwegian",
+      "languages": [
+        "norwegian"
+      ],
+      "tld": ".sj",
+      "callingCode": 47,
+      "continent": "europe",
+      "currency": "nok"
+    },
+    {
+      "id": "sweden",
+      "alpha2Code": "SE",
+      "alpha3Code": "SWE",
+      "numericCode": 752,
+      "nativeName": "Sverige",
+      "capital": "Stockholm",
+      "mainLanguage": "swedish",
+      "languages": [
+        "swedish"
+      ],
+      "tld": ".se",
+      "callingCode": 46,
+      "continent": "europe",
+      "currency": "sek"
+    },
+    {
+      "id": "switzerland",
+      "alpha2Code": "CH",
+      "alpha3Code": "CHE",
+      "numericCode": 756,
+      "nativeName": "Schweiz",
+      "capital": "Bern",
+      "mainLanguage": "german",
+      "languages": [
+        "german",
+        "french",
+        "italian"
+      ],
+      "tld": ".ch",
+      "callingCode": 41,
+      "continent": "europe",
+      "currency": "chf"
+    },
+    {
+      "id": "syria",
+      "alpha2Code": "SY",
+      "alpha3Code": "SYR",
+      "numericCode": 760,
+      "nativeName": "سوريا",
+      "capital": "دمشق",
+      "mainLanguage": "arabic",
+      "languages": [
+        "arabic"
+      ],
+      "tld": ".sy",
+      "callingCode": 963,
+      "continent": "asia",
+      "currency": "syp"
+    },
+    {
+      "id": "taiwan",
+      "alpha2Code": "TW",
+      "alpha3Code": "TWN",
+      "numericCode": 158,
+      "nativeName": "臺灣",
+      "capital": "臺北",
+      "mainLanguage": "chinese",
+      "languages": [
+        "chinese"
+      ],
+      "tld": ".tw",
+      "callingCode": 886,
+      "continent": "asia",
+      "currency": "twd"
+    },
+    {
+      "id": "tajikistan",
+      "alpha2Code": "TJ",
+      "alpha3Code": "TJK",
+      "numericCode": 762,
+      "nativeName": "Тоҷикистон",
+      "capital": "Душанбе",
+      "mainLanguage": "tajik",
+      "languages": [
+        "tajik",
+        "russian"
+      ],
+      "tld": ".tj",
+      "callingCode": 992,
+      "continent": "asia",
+      "currency": "tjs"
+    },
+    {
+      "id": "tanzania",
+      "alpha2Code": "TZ",
+      "alpha3Code": "TZA",
+      "numericCode": 834,
+      "nativeName": "Tanzania",
+      "capital": "Dodoma",
+      "mainLanguage": "swahili",
+      "languages": [
+        "swahili",
+        "english"
+      ],
+      "tld": ".tz",
+      "callingCode": 255,
+      "continent": "africa",
+      "currency": "tzs"
+    },
+    {
+      "id": "thailand",
+      "alpha2Code": "TH",
+      "alpha3Code": "THA",
+      "numericCode": 764,
+      "nativeName": "ประเทศไทย",
+      "capital": "กรุงเทพมหานคร",
+      "mainLanguage": "thai",
+      "languages": [
+        "thai"
+      ],
+      "tld": ".th",
+      "callingCode": 66,
+      "continent": "asia",
+      "currency": "thb"
+    },
+    {
+      "id": "timorLeste",
+      "alpha2Code": "TL",
+      "alpha3Code": "TLS",
+      "numericCode": 626,
+      "nativeName": "Timor-Leste",
+      "capital": "Dili",
+      "mainLanguage": "portuguese",
+      "languages": [
+        "portuguese"
+      ],
+      "tld": ".tl",
+      "callingCode": 670,
+      "continent": "asia",
+      "currency": "usd"
+    },
+    {
+      "id": "togo",
+      "alpha2Code": "TG",
+      "alpha3Code": "TGO",
+      "numericCode": 768,
+      "nativeName": "Togo",
+      "capital": "Lomé",
+      "mainLanguage": "french",
+      "languages": [
+        "french"
+      ],
+      "tld": ".tg",
+      "callingCode": 228,
+      "continent": "africa",
+      "currency": "xof"
+    },
+    {
+      "id": "tokelau",
+      "alpha2Code": "TK",
+      "alpha3Code": "TKL",
+      "numericCode": 772,
+      "nativeName": "Tokelau",
+      "capital": "Fakaofo",
+      "mainLanguage": "english",
+      "languages": [
+        "english"
+      ],
+      "tld": ".tk",
+      "callingCode": 690,
+      "continent": "oceania",
+      "currency": "nzd"
+    },
+    {
+      "id": "tonga",
+      "alpha2Code": "TO",
+      "alpha3Code": "TON",
+      "numericCode": 776,
+      "nativeName": "Tonga",
+      "capital": "Nukuʻalofa",
+      "mainLanguage": "tonga",
+      "languages": [
+        "tonga",
+        "english"
+      ],
+      "tld": ".to",
+      "callingCode": 676,
+      "continent": "oceania",
+      "currency": "top"
+    },
+    {
+      "id": "trinidadAndTobago",
+      "alpha2Code": "TT",
+      "alpha3Code": "TTO",
+      "numericCode": 780,
+      "nativeName": "Trinidad and Tobago",
+      "capital": "Port of Spain",
+      "mainLanguage": "english",
+      "languages": [
+        "english"
+      ],
+      "tld": ".tt",
+      "callingCode": 1,
+      "continent": "northAmerica",
+      "currency": "ttd"
+    },
+    {
+      "id": "tunisia",
+      "alpha2Code": "TN",
+      "alpha3Code": "TUN",
+      "numericCode": 788,
+      "nativeName": "تونس",
+      "capital": "Tunis",
+      "mainLanguage": "arabic",
+      "languages": [
+        "arabic"
+      ],
+      "tld": ".tn",
+      "callingCode": 216,
+      "continent": "africa",
+      "currency": "tnd"
+    },
+    {
+      "id": "turkey",
+      "alpha2Code": "TR",
+      "alpha3Code": "TUR",
+      "numericCode": 792,
+      "nativeName": "Türkiye",
+      "capital": "Ankara",
+      "mainLanguage": "turkish",
+      "languages": [
+        "turkish"
+      ],
+      "tld": ".tr",
+      "callingCode": 90,
+      "continent": "europe",
+      "currency": "turkishLira"
+    },
+    {
+      "id": "turkmenistan",
+      "alpha2Code": "TM",
+      "alpha3Code": "TKM",
+      "numericCode": 795,
+      "nativeName": "Türkmenistan",
+      "capital": "Aşgabat",
+      "mainLanguage": "turkmen",
+      "languages": [
+        "turkmen",
+        "russian"
+      ],
+      "tld": ".tm",
+      "callingCode": 993,
+      "continent": "asia",
+      "currency": "tmt"
+    },
+    {
+      "id": "turksAndCaicosIslands",
+      "alpha2Code": "TC",
+      "alpha3Code": "TCA",
+      "numericCode": 796,
+      "nativeName": "Turks and Caicos Islands",
+      "capital": "Cockburn Town",
+      "mainLanguage": "english",
+      "languages": [
+        "english"
+      ],
+      "tld": ".tc",
+      "callingCode": 1,
+      "continent": "northAmerica",
+      "currency": "usd"
+    },
+    {
+      "id": "tuvalu",
+      "alpha2Code": "TV",
+      "alpha3Code": "TUV",
+      "numericCode": 798,
+      "nativeName": "Tuvalu",
+      "capital": "Funafuti",
+      "mainLanguage": "english",
+      "languages": [
+        "english"
+      ],
+      "tld": ".tv",
+      "callingCode": 688,
+      "continent": "oceania",
+      "currency": "aud"
+    },
+    {
+      "id": "uganda",
+      "alpha2Code": "UG",
+      "alpha3Code": "UGA",
+      "numericCode": 800,
+      "nativeName": "Uganda",
+      "capital": "Kampala",
+      "mainLanguage": "english",
+      "languages": [
+        "english"
+      ],
+      "tld": ".ug",
+      "callingCode": 256,
+      "continent": "africa",
+      "currency": "ugx"
+    },
+    {
+      "id": "ukraine",
+      "alpha2Code": "UA",
+      "alpha3Code": "UKR",
+      "numericCode": 804,
+      "nativeName": "Україна",
+      "capital": "Київ",
+      "mainLanguage": "ukrainian",
+      "languages": [
+        "ukrainian"
+      ],
+      "tld": ".ua",
+      "callingCode": 380,
+      "continent": "europe",
+      "currency": "uah"
+    },
+    {
+      "id": "unitedArabEmirates",
+      "alpha2Code": "AE",
+      "alpha3Code": "ARE",
+      "numericCode": 784,
+      "nativeName": "الإمارات العربية المتحدة",
+      "capital": "أبو ظبي",
+      "mainLanguage": "arabic",
+      "languages": [
+        "arabic"
+      ],
+      "tld": ".ae",
+      "callingCode": 971,
+      "continent": "asia",
+      "currency": "aed"
+    },
+    {
+      "id": "unitedKingdom",
+      "alpha2Code": "GB",
+      "alpha3Code": "GBR",
+      "numericCode": 826,
+      "nativeName": "United Kingdom",
+      "capital": "London",
+      "mainLanguage": "english",
+      "languages": [
+        "english"
+      ],
+      "tld": ".uk",
+      "callingCode": 44,
+      "continent": "europe",
+      "currency": "gbp"
+    },
+    {
+      "id": "unitedStatesMinorOutlyingIslands",
+      "alpha2Code": "UM",
+      "alpha3Code": "UMI",
+      "numericCode": 581,
+      "nativeName": "United States Minor Outlying Islands",
+      "capital": "",
+      "mainLanguage": "english",
+      "languages": [
+        "english"
+      ],
+      "tld": ".us",
+      "callingCode": 1,
+      "continent": "oceania",
+      "currency": "usd"
+    },
+    {
+      "id": "unitedStates",
+      "alpha2Code": "US",
+      "alpha3Code": "USA",
+      "numericCode": 840,
+      "nativeName": "United States",
+      "capital": "Washington, D.C.",
+      "mainLanguage": "english",
+      "languages": [
+        "english"
+      ],
+      "tld": ".us",
+      "callingCode": 1,
+      "continent": "northAmerica",
+      "currency": "usd"
+    },
+    {
+      "id": "uruguay",
+      "alpha2Code": "UY",
+      "alpha3Code": "URY",
+      "numericCode": 858,
+      "nativeName": "Uruguay",
+      "capital": "Montevideo",
+      "mainLanguage": "spanish",
+      "languages": [
+        "spanish"
+      ],
+      "tld": ".uy",
+      "callingCode": 598,
+      "continent": "southAmerica",
+      "currency": "uyu"
+    },
+    {
+      "id": "uzbekistan",
+      "alpha2Code": "UZ",
+      "alpha3Code": "UZB",
+      "numericCode": 860,
+      "nativeName": "Oʻzbekiston",
+      "capital": "Toshkent",
+      "mainLanguage": "uzbek",
+      "languages": [
+        "uzbek",
+        "russian"
+      ],
+      "tld": ".uz",
+      "callingCode": 998,
+      "continent": "asia",
+      "currency": "uzs"
+    },
+    {
+      "id": "vanuatu",
+      "alpha2Code": "VU",
+      "alpha3Code": "VUT",
+      "numericCode": 548,
+      "nativeName": "Vanuatu",
+      "capital": "Port Vila",
+      "mainLanguage": "bislama",
+      "languages": [
+        "bislama",
+        "english",
+        "french"
+      ],
+      "tld": ".vu",
+      "callingCode": 678,
+      "continent": "oceania",
+      "currency": "vuv"
+    },
+    {
+      "id": "vaticanCity",
+      "alpha2Code": "VA",
+      "alpha3Code": "VAT",
+      "numericCode": 336,
+      "nativeName": "Vaticano",
+      "capital": "Vatican City",
+      "mainLanguage": "italian",
+      "languages": [
+        "italian"
+      ],
+      "tld": ".va",
+      "callingCode": 379,
+      "continent": "europe",
+      "currency": "eur"
+    },
+    {
+      "id": "venezuela",
+      "alpha2Code": "VE",
+      "alpha3Code": "VEN",
+      "numericCode": 862,
+      "nativeName": "Venezuela",
+      "capital": "Caracas",
+      "mainLanguage": "spanish",
+      "languages": [
+        "spanish"
+      ],
+      "tld": ".ve",
+      "callingCode": 58,
+      "continent": "southAmerica",
+      "currency": "ves"
+    },
+    {
+      "id": "vietnam",
+      "alpha2Code": "VN",
+      "alpha3Code": "VNM",
+      "numericCode": 704,
+      "nativeName": "Việt Nam",
+      "capital": "Hà Nội",
+      "mainLanguage": "vietnamese",
+      "languages": [
+        "vietnamese"
+      ],
+      "tld": ".vn",
+      "callingCode": 84,
+      "continent": "asia",
+      "currency": "vnd"
+    },
+    {
+      "id": "virginIslandsUS",
+      "alpha2Code": "VI",
+      "alpha3Code": "VIR",
+      "numericCode": 850,
+      "nativeName": "United States Virgin Islands",
+      "capital": "Charlotte Amalie",
+      "mainLanguage": "english",
+      "languages": [
+        "english"
+      ],
+      "tld": ".vi",
+      "callingCode": 1,
+      "continent": "northAmerica",
+      "currency": "usd"
+    },
+    {
+      "id": "wallisAndFutuna",
+      "alpha2Code": "WF",
+      "alpha3Code": "WLF",
+      "numericCode": 876,
+      "nativeName": "Wallis et Futuna",
+      "capital": "Mata-Utu",
+      "mainLanguage": "french",
+      "languages": [
+        "french"
+      ],
+      "tld": ".wf",
+      "callingCode": 681,
+      "continent": "oceania",
+      "currency": "xpf"
+    },
+    {
+      "id": "westernSahara",
+      "alpha2Code": "EH",
+      "alpha3Code": "ESH",
+      "numericCode": 732,
+      "nativeName": "الصحراء الغربية",
+      "capital": "العيون",
+      "mainLanguage": "arabic",
+      "languages": [
+        "arabic"
+      ],
+      "tld": ".eh",
+      "callingCode": 212,
+      "continent": "africa",
+      "currency": "mad"
+    },
+    {
+      "id": "yemen",
+      "alpha2Code": "YE",
+      "alpha3Code": "YEM",
+      "numericCode": 887,
+      "nativeName": "اليمن",
+      "capital": "صنعاء",
+      "mainLanguage": "arabic",
+      "languages": [
+        "arabic"
+      ],
+      "tld": ".ye",
+      "callingCode": 967,
+      "continent": "asia",
+      "currency": "yer"
+    },
+    {
+      "id": "zambia",
+      "alpha2Code": "ZM",
+      "alpha3Code": "ZMB",
+      "numericCode": 894,
+      "nativeName": "Zambia",
+      "capital": "Lusaka",
+      "mainLanguage": "english",
+      "languages": [
+        "english"
+      ],
+      "tld": ".zm",
+      "callingCode": 260,
+      "continent": "africa",
+      "currency": "zmw"
+    },
+    {
+      "id": "zimbabwe",
+      "alpha2Code": "ZW",
+      "alpha3Code": "ZWE",
+      "numericCode": 716,
+      "nativeName": "Zimbabwe",
+      "capital": "Harare",
+      "mainLanguage": "english",
+      "languages": [
+        "english"
+      ],
+      "tld": ".zw",
+      "callingCode": 263,
+      "continent": "africa",
+      "currency": "zwl"
+    }
+  ]
+}

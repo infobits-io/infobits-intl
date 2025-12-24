@@ -1,0 +1,61 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
+package intl
+
+import "strings"
+
+// CurrencyCode represents an ISO 4217 currency code
+type CurrencyCode string
+
+// Currency codes
+const (
+{{- range .}}
+	Currency{{upper .Code}} CurrencyCode = "{{.Code}}"
+{{- end}}
+)
+
+// Currency represents a currency with its metadata
+type Currency struct {
+	ID               string
+	Code             string
+	NativeName       string
+	NativeNamePlural string
+	Symbol           string
+}
+
+// String returns the currency code
+func (c CurrencyCode) String() string {
+	return string(c)
+}
+
+// Currency returns the currency data for this code
+func (c CurrencyCode) Currency() Currency {
+	return currencies[c]
+}
+
+var currencies = map[CurrencyCode]Currency{
+{{- range .}}
+	Currency{{upper .Code}}: {
+		ID:               "{{.ID}}",
+		Code:             "{{.Code}}",
+		NativeName:       "{{escapeGoString .NativeName}}",
+		NativeNamePlural: "{{escapeGoString .NativeNamePlural}}",
+		Symbol:           "{{escapeGoString .Symbol}}",
+	},
+{{- end}}
+}
+
+// CurrencyByCode returns a currency by its code
+func CurrencyByCode(code string) (Currency, bool) {
+	c, ok := currencies[CurrencyCode(strings.ToUpper(code))]
+	return c, ok
+}
+
+// AllCurrencies returns all currencies
+func AllCurrencies() []Currency {
+	result := make([]Currency, 0, len(currencies))
+	for _, c := range currencies {
+		result = append(result, c)
+	}
+	return result
+}

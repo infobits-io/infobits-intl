@@ -1,0 +1,74 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
+import 'package:flutter/widgets.dart';
+
+import 'flags.g.dart';
+import 'i18n/languages.g.dart';
+
+/// A dialect of a language
+class LanguageDialect {
+  const LanguageDialect({
+    required this.id,
+    required this.code,
+    required this.nativeName,
+    this.flagCode,
+  });
+
+  final String id;
+  final String code;
+  final String nativeName;
+  final String? flagCode;
+}
+
+/// A list of languages with their respective information
+enum Language {
+{{- range .Languages}}
+  {{.ID}}(
+    code: "{{.Code}}",
+    nativeName: "{{escapeString .NativeName}}",
+    dialects: [{{range $i, $d := .Dialects}}{{if $i}}, {{end}}LanguageDialect(id: "{{$d.ID}}", code: "{{$d.Code}}", nativeName: "{{escapeString $d.NativeName}}", flagCode: "{{$d.FlagCode}}"){{end}}],
+{{- if .DefaultFlagCode}}
+    defaultFlagCode: "{{.DefaultFlagCode}}",
+{{- end}}
+  ),
+{{- end}}
+  ;
+
+  const Language({
+    required this.code,
+    required this.nativeName,
+    required this.dialects,
+    this.defaultFlagCode,
+  });
+
+  final String code;
+  final String nativeName;
+  final List<LanguageDialect> dialects;
+  final String? defaultFlagCode;
+
+  /// Returns the language's default flag SVG as a string
+  String? get flagSvg => defaultFlagCode != null ? countryFlags[defaultFlagCode!.toUpperCase()] : null;
+
+  /// Returns the display name based on the locale
+  String displayName(BuildContext context) =>
+      displayNameFromLocale(Localizations.localeOf(context));
+
+  /// Returns the display name based on the given locale
+  String displayNameFromLocale(Locale locale) =>
+      LanguagesTranslationsDelegate.getNameFromCodeAndLocale(code, locale) ??
+      nativeName;
+
+  /// Returns a language from its code
+  static Language? fromCode(String code) {
+    final lowerCode = code.toLowerCase();
+    for (var language in Language.values) {
+      if (language.code == lowerCode) {
+        return language;
+      }
+    }
+    return null;
+  }
+
+  @override
+  String toString() => nativeName;
+}

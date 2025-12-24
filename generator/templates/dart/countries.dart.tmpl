@@ -1,0 +1,172 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
+import 'package:flutter/widgets.dart';
+import 'package:flutter_svg/flutter_svg.dart';
+
+import 'currencies.g.dart';
+import 'languages.g.dart';
+import 'continents.g.dart';
+import 'flags.g.dart';
+import 'i18n/countries.g.dart';
+import 'i18n/capitals.g.dart';
+
+/// Shape options for country flags
+enum FlagShape {
+  rectangle,
+  square,
+  circle,
+}
+
+/// A list of countries with their respective information
+enum Country {
+{{- range .Countries}}
+  {{.ID}}(
+    alpha2Code: "{{.Alpha2Code}}",
+    alpha3Code: "{{.Alpha3Code}}",
+    numericCode: {{.NumericCode}},
+    nativeName: "{{escapeString .NativeName}}",
+    capital: "{{escapeString .Capital}}",
+    mainLanguage: Language.{{.MainLanguage}},
+    languages: [{{range $i, $lang := .Languages}}{{if $i}}, {{end}}Language.{{$lang}}{{end}}],
+    tld: "{{.TLD}}",
+    callingCode: {{.CallingCode}},
+    continent: Continent.{{.Continent}},
+    currency: Currency.{{.Currency}},
+  ),
+{{- end}}
+  ;
+
+  const Country({
+    required this.alpha2Code,
+    required this.alpha3Code,
+    required this.numericCode,
+    required this.nativeName,
+    required this.capital,
+    required this.mainLanguage,
+    required this.languages,
+    required this.tld,
+    required this.callingCode,
+    required this.continent,
+    required this.currency,
+  });
+
+  final String alpha2Code;
+  final String alpha3Code;
+  final int numericCode;
+  final String nativeName;
+  final String capital;
+  final Language mainLanguage;
+  final List<Language> languages;
+  final String tld;
+  final int callingCode;
+  final Continent continent;
+  final Currency currency;
+
+  /// Alias for alpha2Code
+  String get code => alpha2Code;
+
+  /// Alias for nativeName (backwards compatibility)
+  String get name => nativeName;
+
+  /// Returns the numeric code as a zero-padded string
+  String get numericCodeString => numericCode.toString().padLeft(3, '0');
+
+  /// Returns the calling code as a string with + prefix
+  String get callingCodeString => '+$callingCode';
+
+  /// Returns the country's flag SVG as a string
+  String get flagSvg => countryFlags[alpha2Code] ?? '';
+
+  /// Returns the country's emoji flag
+  String get emojiFlag {
+    final int base = 0x1F1E6 - 65;
+    final int first = alpha2Code.codeUnitAt(0) + base;
+    final int second = alpha2Code.codeUnitAt(1) + base;
+    return String.fromCharCodes([first, second]);
+  }
+
+  /// Returns the display name based on the locale
+  String displayName(BuildContext context) =>
+      displayNameFromLocale(Localizations.localeOf(context));
+
+  /// Returns the display name based on the given locale
+  String displayNameFromLocale(Locale locale) =>
+      CountriesTranslationsDelegate.getNameFromCodeAndLocale(alpha2Code, locale) ??
+      nativeName;
+
+  /// Returns the capital display name based on the locale
+  String displayCapital(BuildContext context) =>
+      displayCapitalFromLocale(Localizations.localeOf(context));
+
+  /// Returns the capital display name based on the given locale
+  String displayCapitalFromLocale(Locale locale) =>
+      CapitalsTranslationsDelegate.getNameFromCodeAndLocale(alpha2Code, locale) ??
+      capital;
+
+  /// Returns a country from its alpha2 code
+  static Country? fromAlpha2Code(String code) {
+    final upperCode = code.toUpperCase();
+    for (var country in Country.values) {
+      if (country.alpha2Code == upperCode) {
+        return country;
+      }
+    }
+    return null;
+  }
+
+  /// Returns a country from its alpha3 code
+  static Country? fromAlpha3Code(String code) {
+    final upperCode = code.toUpperCase();
+    for (var country in Country.values) {
+      if (country.alpha3Code == upperCode) {
+        return country;
+      }
+    }
+    return null;
+  }
+
+  /// Returns a country from its numeric code
+  static Country? fromNumericCode(int code) {
+    for (var country in Country.values) {
+      if (country.numericCode == code) {
+        return country;
+      }
+    }
+    return null;
+  }
+
+  /// Alias for fromAlpha2Code
+  static Country? fromCode(String code) => fromAlpha2Code(code);
+
+  /// Returns a flag widget with the specified shape and size
+  Widget flag({
+    FlagShape shape = FlagShape.rectangle,
+    double? width,
+    double? height,
+    double? size,
+  }) {
+    final svg = flagSvg;
+    final w = size ?? width;
+    final h = size ?? height;
+    if (svg.isEmpty) {
+      return SizedBox(width: w, height: h);
+    }
+
+    Widget flagWidget = SvgPicture.string(
+      svg,
+      width: w,
+      height: h,
+    );
+
+    if (shape == FlagShape.circle) {
+      return ClipOval(child: flagWidget);
+    } else if (shape == FlagShape.square) {
+      return ClipRect(child: flagWidget);
+    }
+
+    return flagWidget;
+  }
+
+  @override
+  String toString() => nativeName;
+}

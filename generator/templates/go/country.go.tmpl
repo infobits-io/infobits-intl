@@ -1,0 +1,112 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
+package intl
+
+import "strings"
+
+// CountryCode represents an ISO 3166-1 alpha-2 country code
+type CountryCode string
+
+// Country codes
+const (
+{{- range .}}
+	Country{{upper .Alpha2Code}} CountryCode = "{{.Alpha2Code}}"
+{{- end}}
+)
+
+// Country represents a country with all its metadata
+type Country struct {
+	ID           string
+	Alpha2Code   string
+	Alpha3Code   string
+	NumericCode  int
+	NativeName   string
+	Capital      string
+	MainLanguage string
+	Languages    []string
+	TLD          string
+	CallingCode  int
+	Continent    string
+	Currency     string
+}
+
+// String returns the alpha2 code
+func (c CountryCode) String() string {
+	return string(c)
+}
+
+// Country returns the country data for this code
+func (c CountryCode) Country() Country {
+	return countries[c]
+}
+
+// EmojiFlag returns the emoji flag for this country
+func (c CountryCode) EmojiFlag() string {
+	const base = 0x1F1E6 - 65
+	code := string(c)
+	if len(code) != 2 {
+		return ""
+	}
+	first := rune(code[0]) + base
+	second := rune(code[1]) + base
+	return string([]rune{first, second})
+}
+
+var countries = map[CountryCode]Country{
+{{- range .}}
+	Country{{upper .Alpha2Code}}: {
+		ID:           "{{.ID}}",
+		Alpha2Code:   "{{.Alpha2Code}}",
+		Alpha3Code:   "{{.Alpha3Code}}",
+		NumericCode:  {{.NumericCode}},
+		NativeName:   "{{escapeGoString .NativeName}}",
+		Capital:      "{{escapeGoString .Capital}}",
+		MainLanguage: "{{.MainLanguage}}",
+		Languages:    []string{ {{- range $i, $lang := .Languages}}{{if $i}}, {{end}}"{{$lang}}"{{end}} },
+		TLD:          "{{.TLD}}",
+		CallingCode:  {{.CallingCode}},
+		Continent:    "{{.Continent}}",
+		Currency:     "{{.Currency}}",
+	},
+{{- end}}
+}
+
+var countriesByAlpha3 = map[string]Country{}
+
+func init() {
+	for _, c := range countries {
+		countriesByAlpha3[c.Alpha3Code] = c
+	}
+}
+
+// CountryByAlpha2 returns a country by its alpha-2 code
+func CountryByAlpha2(code string) (Country, bool) {
+	c, ok := countries[CountryCode(strings.ToUpper(code))]
+	return c, ok
+}
+
+// CountryByAlpha3 returns a country by its alpha-3 code
+func CountryByAlpha3(code string) (Country, bool) {
+	c, ok := countriesByAlpha3[strings.ToUpper(code)]
+	return c, ok
+}
+
+// AllCountries returns all countries
+func AllCountries() []Country {
+	result := make([]Country, 0, len(countries))
+	for _, c := range countries {
+		result = append(result, c)
+	}
+	return result
+}
+
+// CountriesByContinent returns all countries in a continent
+func CountriesByContinent(continentID string) []Country {
+	var result []Country
+	for _, c := range countries {
+		if c.Continent == continentID {
+			result = append(result, c)
+		}
+	}
+	return result
+}

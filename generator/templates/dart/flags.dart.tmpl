@@ -1,0 +1,8 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
+/// Map of country codes to SVG flag strings
+const Map<String, String> countryFlags = {
+{{- range $code, $svg := .}}
+  "{{$code}}": '''{{$svg}}''',
+{{- end}}
+};

@@ -1,0 +1,16 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
+package intl
+
+// Flags contains SVG flag strings keyed by alpha-2 country code
+var Flags = map[string]string{
+{{- range $code, $svg := .}}
+	"{{$code}}": `{{$svg}}`,
+{{- end}}
+}
+
+// GetFlag returns the SVG flag for a country code
+func GetFlag(code string) (string, bool) {
+	flag, ok := Flags[code]
+	return flag, ok
+}

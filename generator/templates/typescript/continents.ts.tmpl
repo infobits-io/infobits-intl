@@ -1,0 +1,29 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
+import type { Continent } from './types';
+import { countries, CountryCode } from './countries';
+
+export enum ContinentCode {
+{{- range .}}
+  {{upper .Code}} = "{{.Code}}",
+{{- end}}
+}
+
+export const continents: Record<ContinentCode, Continent> = {
+{{- range .}}
+  [ContinentCode.{{upper .Code}}]: {
+    id: "{{.ID}}",
+    code: "{{.Code}}",
+    name: "{{escapeString .Name}}",
+  },
+{{- end}}
+} as const;
+
+// Lookup functions
+export function getContinentByCode(code: string): Continent | undefined {
+  return continents[code.toUpperCase() as ContinentCode];
+}
+
+export function getCountriesInContinent(code: string): typeof countries[CountryCode][] {
+  return Object.values(countries).filter(c => c.continent === code.toLowerCase());
+}

@@ -1,0 +1,75 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
+package intl
+
+import "strings"
+
+// LanguageCode represents an ISO 639 language code
+type LanguageCode string
+
+// Language codes
+const (
+{{- range .}}
+	Language{{upper .Code}} LanguageCode = "{{.Code}}"
+{{- end}}
+)
+
+// LanguageDialect represents a dialect of a language
+type LanguageDialect struct {
+	ID         string
+	Code       string
+	NativeName string
+	FlagCode   string
+}
+
+// Language represents a language with its metadata
+type Language struct {
+	ID              string
+	Code            string
+	NativeName      string
+	Dialects        []LanguageDialect
+	DefaultFlagCode string
+}
+
+// String returns the language code
+func (l LanguageCode) String() string {
+	return string(l)
+}
+
+// Language returns the language data for this code
+func (l LanguageCode) Language() Language {
+	return languages[l]
+}
+
+var languages = map[LanguageCode]Language{
+{{- range .}}
+	Language{{upper .Code}}: {
+		ID:         "{{.ID}}",
+		Code:       "{{.Code}}",
+		NativeName: "{{escapeGoString .NativeName}}",
+		Dialects: []LanguageDialect{
+{{- range .Dialects}}
+			{ID: "{{.ID}}", Code: "{{.Code}}", NativeName: "{{escapeGoString .NativeName}}", FlagCode: "{{.FlagCode}}"},
+{{- end}}
+		},
+{{- if .DefaultFlagCode}}
+		DefaultFlagCode: "{{.DefaultFlagCode}}",
+{{- end}}
+	},
+{{- end}}
+}
+
+// LanguageByCode returns a language by its code
+func LanguageByCode(code string) (Language, bool) {
+	l, ok := languages[LanguageCode(strings.ToLower(code))]
+	return l, ok
+}
+
+// AllLanguages returns all languages
+func AllLanguages() []Language {
+	result := make([]Language, 0, len(languages))
+	for _, l := range languages {
+		result = append(result, l)
+	}
+	return result
+}

@@ -1,0 +1,11 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
+export const flags: Record<string, string> = {
+{{- range $code, $svg := .}}
+  "{{$code}}": `{{$svg}}`,
+{{- end}}
+};
+
+export function getFlag(code: string): string | undefined {
+  return flags[code.toUpperCase()];
+}

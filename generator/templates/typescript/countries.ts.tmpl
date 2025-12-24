@@ -1,0 +1,53 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
+import type { Country } from './types';
+
+export enum CountryCode {
+{{- range .}}
+  {{upper .Alpha2Code}} = "{{.Alpha2Code}}",
+{{- end}}
+}
+
+export const countries: Record<CountryCode, Country> = {
+{{- range .}}
+  [CountryCode.{{upper .Alpha2Code}}]: {
+    id: "{{.ID}}",
+    alpha2Code: "{{.Alpha2Code}}",
+    alpha3Code: "{{.Alpha3Code}}",
+    numericCode: {{.NumericCode}},
+    nativeName: "{{escapeString .NativeName}}",
+    capital: "{{escapeString .Capital}}",
+    mainLanguage: "{{.MainLanguage}}",
+    languages: [{{range $i, $lang := .Languages}}{{if $i}}, {{end}}"{{$lang}}"{{end}}] as const,
+    tld: "{{.TLD}}",
+    callingCode: {{.CallingCode}},
+    continent: "{{.Continent}}",
+    currency: "{{.Currency}}",
+  },
+{{- end}}
+} as const;
+
+// Tree-shakeable exports
+{{- range .}}
+export const {{pascalCase .ID}}: Country = countries[CountryCode.{{upper .Alpha2Code}}];
+{{- end}}
+
+// Lookup functions
+export function getCountryByAlpha2(code: string): Country | undefined {
+  return countries[code.toUpperCase() as CountryCode];
+}
+
+export function getCountryByAlpha3(code: string): Country | undefined {
+  return Object.values(countries).find(c => c.alpha3Code === code.toUpperCase());
+}
+
+export function getCountriesByContinent(continent: string): Country[] {
+  return Object.values(countries).filter(c => c.continent === continent);
+}
+
+export function getEmojiFlag(alpha2Code: string): string {
+  const base = 0x1F1E6 - 65;
+  const first = alpha2Code.charCodeAt(0) + base;
+  const second = alpha2Code.charCodeAt(1) + base;
+  return String.fromCodePoint(first, second);
+}

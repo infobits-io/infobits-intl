@@ -1,0 +1,26 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
+import type { Currency } from './types';
+
+export enum CurrencyCode {
+{{- range .}}
+  {{upper .Code}} = "{{.Code}}",
+{{- end}}
+}
+
+export const currencies: Record<CurrencyCode, Currency> = {
+{{- range .}}
+  [CurrencyCode.{{upper .Code}}]: {
+    id: "{{.ID}}",
+    code: "{{.Code}}",
+    nativeName: "{{escapeString .NativeName}}",
+    nativeNamePlural: "{{escapeString .NativeNamePlural}}",
+    symbol: "{{escapeString .Symbol}}",
+  },
+{{- end}}
+} as const;
+
+// Lookup functions
+export function getCurrencyByCode(code: string): Currency | undefined {
+  return currencies[code.toUpperCase() as CurrencyCode];
+}
