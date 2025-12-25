@@ -1,4 +1,4 @@
-.PHONY: all generate generate-dart generate-typescript generate-go validate extract test clean lint lint-generator lint-go
+.PHONY: all generate generate-dart generate-typescript generate-go validate extract test clean lint lint-generator lint-go deploy deploy-typescript deploy-dart deploy-typescript-dry deploy-dart-dry
 
 # Default target
 all: generate
@@ -55,3 +55,19 @@ lint-generator:
 
 lint-go:
 	cd packages/go && golangci-lint run ./...
+
+# Deploy packages
+deploy: deploy-typescript deploy-dart
+
+deploy-typescript:
+	cd packages/typescript && npm run build && npm publish --access public
+
+deploy-dart:
+	cd packages/dart && dart pub publish --force
+
+# Dry run (test without publishing)
+deploy-typescript-dry:
+	cd packages/typescript && npm run build && npm publish --access public --dry-run
+
+deploy-dart-dry:
+	cd packages/dart && dart pub publish --dry-run

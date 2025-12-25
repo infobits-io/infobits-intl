@@ -4,11 +4,11 @@ Multi-framework internationalization package providing country, language, curren
 
 ## Packages
 
-| Package | Platform | Registry |
-|---------|----------|----------|
-| `infobits_intl` | Dart/Flutter | [pub.dev](https://pub.dev/packages/infobits_intl) |
-| `@infobits/intl` | TypeScript/JavaScript | [npm](https://www.npmjs.com/package/@infobits/intl) |
-| `github.com/infobits-io/infobits-intl-go` | Go | [pkg.go.dev](https://pkg.go.dev/github.com/infobits-io/infobits-intl-go) |
+| Package | Platform | Registry | Docs |
+|---------|----------|----------|------|
+| `infobits_intl` | Dart/Flutter | [pub.dev](https://pub.dev/packages/infobits_intl) | [README](packages/dart/README.md) |
+| `@infobits/intl` | TypeScript/JavaScript | [npm](https://www.npmjs.com/package/@infobits/intl) | [README](packages/typescript/README.md) |
+| `github.com/infobits-io/infobits-intl-go` | Go | [pkg.go.dev](https://pkg.go.dev/github.com/infobits-io/infobits-intl-go) | [README](packages/go/README.md) |
 
 ## Features
 
