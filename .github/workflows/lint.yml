@@ -23,7 +23,7 @@ jobs:
           cache-dependency-path: generator/go.sum
 
       - name: Run golangci-lint
-        uses: golangci/golangci-lint-action@v6
+        uses: golangci/golangci-lint-action@v7
         with:
           version: latest
           working-directory: generator
@@ -44,7 +44,7 @@ jobs:
           cache-dependency-path: packages/go/go.sum
 
       - name: Run golangci-lint
-        uses: golangci/golangci-lint-action@v6
+        uses: golangci/golangci-lint-action@v7
         with:
           version: latest
           working-directory: packages/go
@@ -61,7 +61,7 @@ jobs:
       - name: Set up Flutter
         uses: subosito/flutter-action@v2
         with:
-          flutter-version: "3.24.0"
+          flutter-version: "3.38.5"
           channel: stable
           cache: true
 
