@@ -173,3 +173,54 @@ Manual workflow dispatch with inputs:
 **Required secrets:**
 - `NPM_TOKEN`: npm access token for @infobits/intl
 - `PUB_CREDENTIALS`: JSON from ~/.config/dart/pub-credentials.json
+
+## Contributing Guidelines
+
+### Branch Naming Convention
+
+Use prefixes to categorize branches:
+
+| Prefix | Purpose | Example |
+|--------|---------|---------|
+| `feature/` | New features | `feature/add-region-data` |
+| `fix/` | Bug fixes | `fix/currency-symbol-encoding` |
+| `docs/` | Documentation | `docs/api-examples` |
+| `refactor/` | Code refactoring | `refactor/generator-templates` |
+| `chore/` | Maintenance | `chore/update-dependencies` |
+
+### Conventional Commits
+
+All commits must follow [Conventional Commits](https://www.conventionalcommits.org/):
+
+```
+<type>[optional scope]: <description>
+```
+
+**Types:** `feat`, `fix`, `docs`, `style`, `refactor`, `perf`, `test`, `build`, `ci`, `chore`
+
+**Scopes:** `dart`, `typescript`, `go`, `generator`, `data`, `ci`
+
+**Examples:**
+```bash
+feat(dart): add region subdivision support
+fix(generator): handle special characters in currency symbols
+docs: update installation instructions
+chore(ci): add Node.js 22 to test matrix
+```
+
+### Pull Request Workflow
+
+1. Create branch from `master` using naming convention above
+2. Make changes and commit using conventional commits
+3. Run `make test` and `make lint` before pushing
+4. Open PR with conventional commit format title
+5. Include summary, changes list, testing notes, and related issues in description
+
+### Code Quality Checks
+
+Before submitting:
+```bash
+make lint      # Run all linters
+make test      # Run all tests
+make validate  # Validate data files
+```

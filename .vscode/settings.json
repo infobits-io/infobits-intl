@@ -1,0 +1,12 @@
+{
+  "files.associations": {
+    "*.dart.tmpl": "dart",
+    "*.go.tmpl": "go",
+    "*.ts.tmpl": "typescript"
+  },
+  "github.copilot.chat.commitMessageGeneration.instructions": [
+    {
+      "text": "Use Conventional Commits format: <type>(<scope>): <description>. Types: feat, fix, docs, style, refactor, perf, test, build, ci, chore. Scopes: dart, typescript, go, generator, data, ci. Keep the first line under 72 characters. Use imperative mood (e.g., 'add' not 'added')."
+    }
+  ]
+}

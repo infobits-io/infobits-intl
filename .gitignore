@@ -16,8 +16,8 @@ migrate_working_dir/
 *.iws
 .idea/
 
-# VS Code
-.vscode/
+# VS Code - committed for consistent workspace settings
+# .vscode/
 
 # Flutter/Dart/Pub related
 **/pubspec.lock

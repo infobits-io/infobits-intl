@@ -97,6 +97,84 @@ GitHub Actions workflows are configured for:
 4. Run `make test` to verify generated code
 5. Commit changes
 
+## Contributing
+
+### Branch Naming
+
+Use descriptive branch names with prefixes:
+
+- `feature/` - New features (e.g., `feature/add-region-data`)
+- `fix/` - Bug fixes (e.g., `fix/currency-symbol-encoding`)
+- `docs/` - Documentation updates (e.g., `docs/api-examples`)
+- `refactor/` - Code refactoring (e.g., `refactor/generator-templates`)
+- `chore/` - Maintenance tasks (e.g., `chore/update-dependencies`)
+
+### Conventional Commits
+
+This project follows [Conventional Commits](https://www.conventionalcommits.org/). Format:
+
+```
+<type>[optional scope]: <description>
+
+[optional body]
+
+[optional footer(s)]
+```
+
+**Types:**
+
+| Type | Description |
+|------|-------------|
+| `feat` | New feature |
+| `fix` | Bug fix |
+| `docs` | Documentation only |
+| `style` | Code style (formatting, semicolons, etc.) |
+| `refactor` | Code refactoring (no feature/fix) |
+| `perf` | Performance improvement |
+| `test` | Adding or updating tests |
+| `build` | Build system or dependencies |
+| `ci` | CI/CD configuration |
+| `chore` | Other maintenance tasks |
+
+**Scopes** (optional): `dart`, `typescript`, `go`, `generator`, `data`, `ci`
+
+**Examples:**
+
+```bash
+feat(dart): add region subdivision support
+fix(generator): handle special characters in currency symbols
+docs: update installation instructions
+chore(ci): add Node.js 22 to test matrix
+```
+
+### Pull Requests
+
+1. Create a feature branch from `master`
+2. Make changes following the conventions above
+3. Ensure all tests pass: `make test`
+4. Ensure linting passes: `make lint`
+5. Open a PR with a clear title and description
+6. Link any related issues
+
+**PR Title Format:** Use conventional commit format for the PR title.
+
+**PR Description Template:**
+
+```markdown
+## Summary
+Brief description of changes.
+
+## Changes
+- Change 1
+- Change 2
+
+## Testing
+How the changes were tested.
+
+## Related Issues
+Fixes #123
+```
+
 ## License
 
 MIT
