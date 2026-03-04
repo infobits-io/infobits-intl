@@ -69,6 +69,14 @@ linters:
       - path: (country|language|currency|continent)\.go
         linters:
           - gochecknoinits
+      # Generated data files trigger gosec false positives (G101 hardcoded credentials, G116 bidirectional text)
+      - path: (i18n/|flags\.go|country\.go|language\.go|currency\.go|continent\.go)
+        linters:
+          - gosec
+      # Generated data files contain Unicode zero-width joiners that cause conflicting staticcheck fixes
+      - path: (country|language)\.go
+        linters:
+          - staticcheck
   settings:
     errcheck:
       check-type-assertions: true
