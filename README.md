@@ -17,7 +17,18 @@ Multi-framework internationalization package providing country, language, curren
 - 179 currencies with ISO 4217 codes and symbols
 - 7 continents
 - SVG country flags (inline embedded)
-- Multi-language translations
+- Multi-language translations (Danish, German, English, Spanish, French, Italian, Chinese)
+
+## Documentation
+
+Full API documentation with examples for all three languages is available at [packages.infobits.io](https://packages.infobits.io) and in the [`docs/`](docs/) directory:
+
+- [Getting Started](docs/getting-started.md)
+- [Countries](docs/countries.md)
+- [Languages](docs/languages.md)
+- [Currencies](docs/currencies.md)
+- [Continents](docs/continents.md)
+- [Translations](docs/translations.md)
 
 ## Project Structure
 
