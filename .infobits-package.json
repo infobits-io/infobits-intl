@@ -1,0 +1,62 @@
+{
+	"docs": "docs",
+	"packages": [
+		{
+			"slug": "infobits-intl",
+			"category": "go",
+			"readmePath": "packages/go",
+			"install": "go get packages.infobits.io/go/infobits-intl",
+			"packageManager": {
+				"name": "pkg.go.dev",
+				"url": "https://pkg.go.dev/packages.infobits.io/go/infobits-intl"
+			},
+			"descriptions": {
+				"en": "Go package providing country, language, currency, and continent data with i18n translations and SVG flags",
+				"da": "Go-pakke med data om lande, sprog, valutaer og kontinenter med i18n-oversættelser og SVG-flag",
+				"de": "Go-Paket mit Länder-, Sprach-, Währungs- und Kontinentdaten mit i18n-Übersetzungen und SVG-Flaggen",
+				"es": "Paquete Go con datos de países, idiomas, monedas y continentes con traducciones i18n y banderas SVG",
+				"fr": "Package Go fournissant des données sur les pays, langues, devises et continents avec des traductions i18n et des drapeaux SVG",
+				"it": "Pacchetto Go con dati su paesi, lingue, valute e continenti con traduzioni i18n e bandiere SVG",
+				"nl": "Go-pakket met land-, taal-, valuta- en continentgegevens met i18n-vertalingen en SVG-vlaggen"
+			}
+		},
+		{
+			"slug": "infobits-intl",
+			"category": "dart",
+			"readmePath": "packages/dart",
+			"install": "dart pub add infobits_intl",
+			"packageManager": {
+				"name": "pub.dev",
+				"url": "https://pub.dev/packages/infobits_intl"
+			},
+			"descriptions": {
+				"en": "Dart package providing country, language, currency, and continent data with i18n translations and SVG flags",
+				"da": "Dart-pakke med data om lande, sprog, valutaer og kontinenter med i18n-oversættelser og SVG-flag",
+				"de": "Dart-Paket mit Länder-, Sprach-, Währungs- und Kontinentdaten mit i18n-Übersetzungen und SVG-Flaggen",
+				"es": "Paquete Dart con datos de países, idiomas, monedas y continentes con traducciones i18n y banderas SVG",
+				"fr": "Package Dart fournissant des données sur les pays, langues, devises et continents avec des traductions i18n et des drapeaux SVG",
+				"it": "Pacchetto Dart con dati su paesi, lingue, valute e continenti con traduzioni i18n e bandiere SVG",
+				"nl": "Dart-pakket met land-, taal-, valuta- en continentgegevens met i18n-vertalingen en SVG-vlaggen"
+			}
+		},
+		{
+			"slug": "infobits-intl",
+			"category": "typescript",
+			"readmePath": "packages/typescript",
+			"install": "npm install infobits-intl",
+			"packageManager": {
+				"name": "npm",
+				"url": "https://www.npmjs.com/package/infobits-intl"
+			},
+			"descriptions": {
+				"en": "TypeScript package providing country, language, currency, and continent data with i18n translations and SVG flags",
+				"da": "TypeScript-pakke med data om lande, sprog, valutaer og kontinenter med i18n-oversættelser og SVG-flag",
+				"de": "TypeScript-Paket mit Länder-, Sprach-, Währungs- und Kontinentdaten mit i18n-Übersetzungen und SVG-Flaggen",
+				"es": "Paquete TypeScript con datos de países, idiomas, monedas y continentes con traducciones i18n y banderas SVG",
+				"fr": "Package TypeScript fournissant des données sur les pays, langues, devises et continents avec des traductions i18n et des drapeaux SVG",
+				"it": "Pacchetto TypeScript con dati su paesi, lingue, valute e continenti con traduzioni i18n e bandiere SVG",
+				"nl": "TypeScript-pakket met land-, taal-, valuta- en continentgegevens met i18n-vertalingen en SVG-vlaggen"
+			}
+		}
+	]
+}
