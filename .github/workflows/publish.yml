@@ -121,7 +121,8 @@ jobs:
       - name: Update version
         env:
           VERSION: ${{ steps.version.outputs.version }}
-        run: sed -i "s/^version: .*/version: $VERSION/" pubspec.yaml
+        run: |
+          sed -i "s/^version: .*/version: $VERSION/" pubspec.yaml
 
       - name: Publish to pub.dev (dry run)
         if: ${{ inputs.dry_run == true }}
