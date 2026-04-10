@@ -126,7 +126,7 @@ jobs:
 
       - name: Publish to pub.dev (dry run)
         if: ${{ inputs.dry_run == true }}
-        run: dart pub publish --dry-run
+        run: dart pub publish --force --dry-run
 
       - name: Publish to pub.dev
         if: ${{ inputs.dry_run != true }}
