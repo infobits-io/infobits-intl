@@ -4,13 +4,8 @@ Datos de internacionalización para países, idiomas, monedas y continentes con 
 
 ## Instalación
 
-```yaml
-dependencies:
-  infobits_intl: ^1.0.0
-```
-
 ```bash
-flutter pub get
+flutter pub add infobits_intl
 ```
 
 ## Uso
