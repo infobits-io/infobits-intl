@@ -73,3 +73,18 @@ func AllLanguages() []Language {
 	}
 	return result
 }
+
+// EmojiFlagFromLanguage returns the emoji flag for a language code.
+// Returns the emoji flag string and true if found, empty string and false otherwise.
+func EmojiFlagFromLanguage(languageCode string) (string, bool) {
+	lang, ok := LanguageByCode(languageCode)
+	if !ok || lang.DefaultFlagCode == "" {
+		return "", false
+	}
+	code := strings.ToUpper(lang.DefaultFlagCode)
+	if len(code) != 2 {
+		return "", false
+	}
+	base := rune(0x1F1E6 - 65)
+	return string([]rune{rune(code[0]) + base, rune(code[1]) + base}), true
+}

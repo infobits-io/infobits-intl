@@ -26,3 +26,13 @@ export const languages: Record<LanguageCode, Language> = {
 export function getLanguageByCode(code: string): Language | undefined {
   return languages[code.toLowerCase() as LanguageCode];
 }
+
+export function getEmojiFlagFromLanguage(languageCode: string): string | undefined {
+  const lang = getLanguageByCode(languageCode);
+  if (!lang?.defaultFlagCode) return undefined;
+  const code = lang.defaultFlagCode.toUpperCase();
+  const base = 0x1F1E6 - 65;
+  const first = code.charCodeAt(0) + base;
+  const second = code.charCodeAt(1) + base;
+  return String.fromCodePoint(first, second);
+}

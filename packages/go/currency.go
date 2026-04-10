@@ -4,10 +4,10 @@ package intl
 
 import "strings"
 
-// CurrencyCode represents an ISO 4217 currency code.
+// CurrencyCode represents an ISO 4217 currency code
 type CurrencyCode string
 
-// Currency codes.
+// Currency codes
 const (
 	CurrencyAED CurrencyCode = "AED"
 	CurrencyAFN CurrencyCode = "AFN"
@@ -190,7 +190,7 @@ const (
 	CurrencyZWL CurrencyCode = "ZWL"
 )
 
-// Currency represents a currency with its metadata.
+// Currency represents a currency with its metadata
 type Currency struct {
 	ID               string
 	Code             string
@@ -199,12 +199,12 @@ type Currency struct {
 	Symbol           string
 }
 
-// String returns the currency code.
+// String returns the currency code
 func (c CurrencyCode) String() string {
 	return string(c)
 }
 
-// Currency returns the currency data for this code.
+// Currency returns the currency data for this code
 func (c CurrencyCode) Currency() Currency {
 	return currencies[c]
 }
@@ -1465,19 +1465,17 @@ var currencies = map[CurrencyCode]Currency{
 	},
 }
 
-// CurrencyByCode returns a currency by its code.
+// CurrencyByCode returns a currency by its code
 func CurrencyByCode(code string) (Currency, bool) {
 	c, ok := currencies[CurrencyCode(strings.ToUpper(code))]
-
 	return c, ok
 }
 
-// AllCurrencies returns all currencies.
+// AllCurrencies returns all currencies
 func AllCurrencies() []Currency {
 	result := make([]Currency, 0, len(currencies))
 	for _, c := range currencies {
 		result = append(result, c)
 	}
-
 	return result
 }

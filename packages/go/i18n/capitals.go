@@ -2,7 +2,7 @@
 
 package i18n
 
-// CapitalsTranslations contains translations keyed by locale then code.
+// CapitalsTranslations contains translations keyed by locale then code
 var CapitalsTranslations = map[string]map[string]string{
 	"da": {
 		"AD": "Andorra la Vella",
@@ -15,7 +15,7 @@ var CapitalsTranslations = map[string]map[string]string{
 		"AO": "Luanda",
 		"AQ": "",
 		"AR": "Buenos Aires",
-		"AS": "Pago",
+		"AS": "Pago Pago",
 		"AT": "Wien",
 		"AU": "Canberra",
 		"AW": "Oranjestad",
@@ -266,7 +266,7 @@ var CapitalsTranslations = map[string]map[string]string{
 		"AO": "Luanda",
 		"AQ": "",
 		"AR": "Buenos Aires",
-		"AS": "Pago",
+		"AS": "Pago Pago",
 		"AT": "Wien",
 		"AU": "Canberra",
 		"AW": "Oranjestad",
@@ -517,7 +517,7 @@ var CapitalsTranslations = map[string]map[string]string{
 		"AO": "Luanda",
 		"AQ": "",
 		"AR": "Buenos Aires",
-		"AS": "Pago",
+		"AS": "Pago Pago",
 		"AT": "Vienna",
 		"AU": "Canberra",
 		"AW": "Oranjestad",
@@ -768,7 +768,7 @@ var CapitalsTranslations = map[string]map[string]string{
 		"AO": "Luanda",
 		"AQ": "",
 		"AR": "Buenos Aires",
-		"AS": "Pago",
+		"AS": "Pago Pago",
 		"AT": "Viena",
 		"AU": "Canberra",
 		"AW": "Oranjestad",
@@ -816,7 +816,7 @@ var CapitalsTranslations = map[string]map[string]string{
 		"CZ": "Praga",
 		"DE": "Berlín",
 		"DJ": "Yibuti",
-		"DK": "Copenhagen",
+		"DK": "Copenhague",
 		"DM": "Roseau",
 		"DO": "Santo Domingo",
 		"DZ": "Argel",
@@ -1019,7 +1019,7 @@ var CapitalsTranslations = map[string]map[string]string{
 		"AO": "Luanda",
 		"AQ": "",
 		"AR": "Buenos Aires",
-		"AS": "Pago",
+		"AS": "Pago Pago",
 		"AT": "Vienne",
 		"AU": "Canberra",
 		"AW": "Oranjestad",
@@ -1067,7 +1067,7 @@ var CapitalsTranslations = map[string]map[string]string{
 		"CZ": "Prague",
 		"DE": "Berlin",
 		"DJ": "Djibouti",
-		"DK": "Copenhagen",
+		"DK": "Copenhague",
 		"DM": "Roseau",
 		"DO": "Saint-Domingue",
 		"DZ": "Alger",
@@ -1270,7 +1270,7 @@ var CapitalsTranslations = map[string]map[string]string{
 		"AO": "Luanda",
 		"AQ": "",
 		"AR": "Buenos Aires",
-		"AS": "Pago",
+		"AS": "Pago Pago",
 		"AT": "Vienna",
 		"AU": "Canberra",
 		"AW": "Oranjestad",
@@ -1318,7 +1318,7 @@ var CapitalsTranslations = map[string]map[string]string{
 		"CZ": "Praga",
 		"DE": "Berlino",
 		"DJ": "Gibuti",
-		"DK": "Copenhagen",
+		"DK": "Copenaghen",
 		"DM": "Roseau",
 		"DO": "Santo Domingo",
 		"DZ": "Algeri",
@@ -1763,13 +1763,12 @@ var CapitalsTranslations = map[string]map[string]string{
 	},
 }
 
-// GetCapitalsName returns the translated name for a code in a locale.
+// GetCapitalsName returns the translated name for a code in a locale
 func GetCapitalsName(code, locale string) (string, bool) {
 	if localeMap, ok := CapitalsTranslations[locale]; ok {
 		if name, ok := localeMap[code]; ok {
 			return name, true
 		}
 	}
-
 	return "", false
 }

@@ -2,7 +2,7 @@
 
 package i18n
 
-// CountriesTranslations contains translations keyed by locale then code.
+// CountriesTranslations contains translations keyed by locale then code
 var CountriesTranslations = map[string]map[string]string{
 	"da": {
 		"AD": "Andorra",
@@ -17,7 +17,7 @@ var CountriesTranslations = map[string]map[string]string{
 		"AR": "Argentina",
 		"AS": "Amerikansk Samoa",
 		"AT": "Østrig",
-		"AU": "Australian",
+		"AU": "Australien",
 		"AW": "Aruba",
 		"AX": "Åland",
 		"AZ": "Aserbajdsjan",
@@ -104,7 +104,7 @@ var CountriesTranslations = map[string]map[string]string{
 		"HR": "Kroatien",
 		"HT": "Haiti",
 		"HU": "Ungarn",
-		"ID": "Indonesian",
+		"ID": "Indonesien",
 		"IE": "Irland",
 		"IL": "Israel",
 		"IM": "Isle of Man",
@@ -267,13 +267,13 @@ var CountriesTranslations = map[string]map[string]string{
 		"AR": "Argentinien",
 		"AS": "Amerikanisch-Samoa",
 		"AT": "Österreich",
-		"AU": "Australian",
+		"AU": "Australien",
 		"AW": "Aruba",
 		"AX": "Ålandinseln",
 		"AZ": "Aserbaidschan",
 		"BA": "Bosnien und Herzegowina",
 		"BB": "Barbados",
-		"BD": "Bangladesh",
+		"BD": "Bangladesch",
 		"BE": "Belgien",
 		"BF": "Burkina Faso",
 		"BG": "Bulgarien",
@@ -354,7 +354,7 @@ var CountriesTranslations = map[string]map[string]string{
 		"HR": "Kroatien",
 		"HT": "Haiti",
 		"HU": "Ungarn",
-		"ID": "Indonesian",
+		"ID": "Indonesien",
 		"IE": "Irland",
 		"IL": "Israel",
 		"IM": "Isle of Man",
@@ -1186,7 +1186,7 @@ var CountriesTranslations = map[string]map[string]string{
 		"PM": "Saint-Pierre-et-Miquelon",
 		"PN": "Îles Pitcairn",
 		"PR": "Porto Rico",
-		"PS": "Territories palestinians",
+		"PS": "Territoires palestiniens",
 		"PT": "Portugal",
 		"PW": "Palaos",
 		"PY": "Paraguay",
@@ -1756,13 +1756,12 @@ var CountriesTranslations = map[string]map[string]string{
 	},
 }
 
-// GetCountriesName returns the translated name for a code in a locale.
+// GetCountriesName returns the translated name for a code in a locale
 func GetCountriesName(code, locale string) (string, bool) {
 	if localeMap, ok := CountriesTranslations[locale]; ok {
 		if name, ok := localeMap[code]; ok {
 			return name, true
 		}
 	}
-
 	return "", false
 }

@@ -2,7 +2,7 @@
 
 package i18n
 
-// CurrenciesTranslations contains translations keyed by locale then code.
+// CurrenciesTranslations contains translations keyed by locale then code
 var CurrenciesTranslations = map[string]map[string]string{
 	"da": {
 		"AED": "Forenede Arabiske Emiraters dirham",
@@ -736,7 +736,7 @@ var CurrenciesTranslations = map[string]map[string]string{
 		"ANG": "Florin antillais néerlandais",
 		"AOA": "Kwanza angolais",
 		"ARS": "Peso argentin",
-		"AUD": "Dollar australian",
+		"AUD": "Dollar australien",
 		"AWG": "Florin arubais",
 		"AZN": "Manat azéri",
 		"BAM": "Mark convertible de Bosnie-Herzégovine",
@@ -826,7 +826,7 @@ var CurrenciesTranslations = map[string]map[string]string{
 		"MUR": "Roupie mauricienne",
 		"MVR": "Rufiyaa maldivienne",
 		"MWK": "Kwacha malawite",
-		"MXN": "Peso mexican",
+		"MXN": "Peso mexicain",
 		"MXV": "Unité d'investissement mexicaine",
 		"MYR": "Ringgit malaisien",
 		"MZN": "Metical mozambicain",
@@ -904,7 +904,7 @@ var CurrenciesTranslations = map[string]map[string]string{
 		"XUA": "Unité de compte de la BAD",
 		"XXX": "Aucune monnaie",
 		"YER": "Rial yéménite",
-		"ZAR": "Rand sud-african",
+		"ZAR": "Rand sud-africain",
 		"ZMG": "Kwacha zambien (avant 2013)",
 		"ZMW": "Kwacha zambien",
 		"ZWL": "Dollar zimbabwéen",
@@ -920,7 +920,7 @@ var CurrenciesTranslations = map[string]map[string]string{
 		"AUD": "Dollaro australiano",
 		"AWG": "Fiorino di Aruba",
 		"AZN": "Manat azerbaigiano",
-		"BAM": "Marco convertible della Bosnia-Erzegovina",
+		"BAM": "Marco convertibile della Bosnia-Erzegovina",
 		"BBD": "Dollaro barbadiano",
 		"BDT": "Taka bengalese",
 		"BGN": "Lev bulgaro",
@@ -1057,7 +1057,7 @@ var CurrenciesTranslations = map[string]map[string]string{
 		"UAH": "Grivnia ucraina",
 		"UGX": "Scellino ugandese",
 		"USD": "Dollaro statunitense",
-		"USN": "Dollaro statunitense (giorno succession)",
+		"USN": "Dollaro statunitense (giorno successivo)",
 		"UYI": "Peso uruguaiano (unità indicizzate)",
 		"UYU": "Peso uruguaiano",
 		"UYW": "Unidad Previsional",
@@ -1273,13 +1273,12 @@ var CurrenciesTranslations = map[string]map[string]string{
 	},
 }
 
-// GetCurrenciesName returns the translated name for a code in a locale.
+// GetCurrenciesName returns the translated name for a code in a locale
 func GetCurrenciesName(code, locale string) (string, bool) {
 	if localeMap, ok := CurrenciesTranslations[locale]; ok {
 		if name, ok := localeMap[code]; ok {
 			return name, true
 		}
 	}
-
 	return "", false
 }

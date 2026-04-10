@@ -4,10 +4,10 @@ package intl
 
 import "strings"
 
-// ContinentCode represents a continent code.
+// ContinentCode represents a continent code
 type ContinentCode string
 
-// Continent codes.
+// Continent codes
 const (
 	ContinentAF ContinentCode = "AF"
 	ContinentAQ ContinentCode = "AQ"
@@ -18,19 +18,19 @@ const (
 	ContinentSA ContinentCode = "SA"
 )
 
-// Continent represents a continent.
+// Continent represents a continent
 type Continent struct {
 	ID   string
 	Code string
 	Name string
 }
 
-// String returns the continent code.
+// String returns the continent code
 func (c ContinentCode) String() string {
 	return string(c)
 }
 
-// Continent returns the continent data for this code.
+// Continent returns the continent data for this code
 func (c ContinentCode) Continent() Continent {
 	return continents[c]
 }
@@ -73,19 +73,17 @@ var continents = map[ContinentCode]Continent{
 	},
 }
 
-// ContinentByCode returns a continent by its code.
+// ContinentByCode returns a continent by its code
 func ContinentByCode(code string) (Continent, bool) {
 	c, ok := continents[ContinentCode(strings.ToUpper(code))]
-
 	return c, ok
 }
 
-// AllContinents returns all continents.
+// AllContinents returns all continents
 func AllContinents() []Continent {
 	result := make([]Continent, 0, len(continents))
 	for _, c := range continents {
 		result = append(result, c)
 	}
-
 	return result
 }

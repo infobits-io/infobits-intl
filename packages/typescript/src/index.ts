@@ -7,7 +7,7 @@ export type { Country, Language, Currency, Continent, LanguageDialect } from './
 export { CountryCode, countries, getCountryByAlpha2, getCountryByAlpha3, getCountriesByContinent, getEmojiFlag } from './countries';
 
 // Languages
-export { LanguageCode, languages, getLanguageByCode } from './languages';
+export { LanguageCode, languages, getLanguageByCode, getEmojiFlagFromLanguage } from './languages';
 
 // Currencies
 export { CurrencyCode, currencies, getCurrencyByCode } from './currencies';

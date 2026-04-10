@@ -2,7 +2,7 @@
 
 package i18n
 
-// ContinentsTranslations contains translations keyed by locale then code.
+// ContinentsTranslations contains translations keyed by locale then code
 var ContinentsTranslations = map[string]map[string]string{
 	"da": {
 		"AF": "Afrika",
@@ -69,13 +69,12 @@ var ContinentsTranslations = map[string]map[string]string{
 	},
 }
 
-// GetContinentsName returns the translated name for a code in a locale.
+// GetContinentsName returns the translated name for a code in a locale
 func GetContinentsName(code, locale string) (string, bool) {
 	if localeMap, ok := ContinentsTranslations[locale]; ok {
 		if name, ok := localeMap[code]; ok {
 			return name, true
 		}
 	}
-
 	return "", false
 }

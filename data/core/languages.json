@@ -27,57 +27,68 @@
     {
       "id": "abkhazian",
       "code": "ab",
-      "nativeName": "аҧсуа"
+      "nativeName": "аҧсуа",
+      "defaultFlagCode": "ge"
     },
     {
       "id": "afar",
       "code": "aa",
-      "nativeName": "Afaraf"
+      "nativeName": "Afaraf",
+      "defaultFlagCode": "et"
     },
     {
       "id": "afrikaans",
       "code": "af",
-      "nativeName": "Afrikaans"
+      "nativeName": "Afrikaans",
+      "defaultFlagCode": "za"
     },
     {
       "id": "akan",
       "code": "ak",
-      "nativeName": "Akan"
+      "nativeName": "Akan",
+      "defaultFlagCode": "gh"
     },
     {
       "id": "albanian",
       "code": "sq",
-      "nativeName": "Shqip"
+      "nativeName": "Shqip",
+      "defaultFlagCode": "al"
     },
     {
       "id": "amharic",
       "code": "am",
-      "nativeName": "አማርኛ"
+      "nativeName": "አማርኛ",
+      "defaultFlagCode": "et"
     },
     {
       "id": "arabic",
       "code": "ar",
-      "nativeName": "العربية"
+      "nativeName": "العربية",
+      "defaultFlagCode": "sa"
     },
     {
       "id": "aragonese",
       "code": "an",
-      "nativeName": "aragonés"
+      "nativeName": "aragonés",
+      "defaultFlagCode": "es"
     },
     {
       "id": "armenian",
       "code": "hy",
-      "nativeName": "Հայերեն"
+      "nativeName": "Հայերեն",
+      "defaultFlagCode": "am"
     },
     {
       "id": "assamese",
       "code": "as",
-      "nativeName": "অসমীয়া"
+      "nativeName": "অসমীয়া",
+      "defaultFlagCode": "in"
     },
     {
       "id": "avaric",
       "code": "av",
-      "nativeName": "авар мацӀ"
+      "nativeName": "авар мацӀ",
+      "defaultFlagCode": "ru"
     },
     {
       "id": "avestan",
@@ -87,77 +98,92 @@
     {
       "id": "aymara",
       "code": "ay",
-      "nativeName": "aymar aru"
+      "nativeName": "aymar aru",
+      "defaultFlagCode": "bo"
     },
     {
       "id": "bambara",
       "code": "bm",
-      "nativeName": "bamanankan"
+      "nativeName": "bamanankan",
+      "defaultFlagCode": "ml"
     },
     {
       "id": "bashkir",
       "code": "ba",
-      "nativeName": "башҡорт теле"
+      "nativeName": "башҡорт теле",
+      "defaultFlagCode": "ru"
     },
     {
       "id": "basque",
       "code": "eu",
-      "nativeName": "euskara"
+      "nativeName": "euskara",
+      "defaultFlagCode": "es"
     },
     {
       "id": "belarusian",
       "code": "be",
-      "nativeName": "беларуская мова"
+      "nativeName": "беларуская мова",
+      "defaultFlagCode": "by"
     },
     {
       "id": "bengali",
       "code": "bn",
-      "nativeName": "বাংলা"
+      "nativeName": "বাংলা",
+      "defaultFlagCode": "bd"
     },
     {
       "id": "bihari",
       "code": "bh",
-      "nativeName": "भोजपुरी"
+      "nativeName": "भोजपुरी",
+      "defaultFlagCode": "in"
     },
     {
       "id": "bislama",
       "code": "bi",
-      "nativeName": "Bislama"
+      "nativeName": "Bislama",
+      "defaultFlagCode": "vu"
     },
     {
       "id": "bosnian",
       "code": "bs",
-      "nativeName": "bosanski jezik"
+      "nativeName": "bosanski jezik",
+      "defaultFlagCode": "ba"
     },
     {
       "id": "breton",
       "code": "br",
-      "nativeName": "brezhoneg"
+      "nativeName": "brezhoneg",
+      "defaultFlagCode": "fr"
     },
     {
       "id": "bulgarian",
       "code": "bg",
-      "nativeName": "български език"
+      "nativeName": "български език",
+      "defaultFlagCode": "bg"
     },
     {
       "id": "burmese",
       "code": "my",
-      "nativeName": "ဗမာစာ"
+      "nativeName": "ဗမာစာ",
+      "defaultFlagCode": "mm"
     },
     {
       "id": "catalan",
       "code": "ca",
-      "nativeName": "català"
+      "nativeName": "català",
+      "defaultFlagCode": "es"
     },
     {
       "id": "chamorro",
       "code": "ch",
-      "nativeName": "Chamoru"
+      "nativeName": "Chamoru",
+      "defaultFlagCode": "gu"
     },
     {
       "id": "chechen",
       "code": "ce",
-      "nativeName": "нохчийн мотт"
+      "nativeName": "нохчийн мотт",
+      "defaultFlagCode": "ru"
     },
     {
       "id": "churchSlavic",
@@ -167,57 +193,68 @@
     {
       "id": "chichewa",
       "code": "ny",
-      "nativeName": "chiCheŵa"
+      "nativeName": "chiCheŵa",
+      "defaultFlagCode": "mw"
     },
     {
       "id": "chinese",
       "code": "zh",
-      "nativeName": "中文"
+      "nativeName": "中文",
+      "defaultFlagCode": "cn"
     },
     {
       "id": "chuvash",
       "code": "cv",
-      "nativeName": "чӑваш чӗлхи"
+      "nativeName": "чӑваш чӗлхи",
+      "defaultFlagCode": "ru"
     },
     {
       "id": "cornish",
       "code": "kw",
-      "nativeName": "Kernewek"
+      "nativeName": "Kernewek",
+      "defaultFlagCode": "gb"
     },
     {
       "id": "corsican",
       "code": "co",
-      "nativeName": "corsu"
+      "nativeName": "corsu",
+      "defaultFlagCode": "fr"
     },
     {
       "id": "cree",
       "code": "cr",
-      "nativeName": "ᓀᐦᐃᔭᐍᐏᐣ"
+      "nativeName": "ᓀᐦᐃᔭᐍᐏᐣ",
+      "defaultFlagCode": "ca"
     },
     {
       "id": "croatian",
       "code": "hr",
-      "nativeName": "hrvatski jezik"
+      "nativeName": "hrvatski jezik",
+      "defaultFlagCode": "hr"
     },
     {
       "id": "czech",
       "code": "cs",
-      "nativeName": "čeština"
+      "nativeName": "čeština",
+      "defaultFlagCode": "cz"
     },
     {
       "id": "divehi",
       "code": "dv",
-      "nativeName": "ދިވެހި"
+      "nativeName": "ދިވެހި",
+      "defaultFlagCode": "mv"
     },
     {
       "id": "dutch",
       "code": "nl",
-      "nativeName": "Nederlands"
+      "nativeName": "Nederlands",
+      "defaultFlagCode": "nl"
     },
     {
       "id": "dzongkha",
       "code": "dz",
-      "nativeName": "རྫོང་ཁ"
+      "nativeName": "རྫོང་ཁ",
+      "defaultFlagCode": "bt"
     },
     {
       "id": "esperanto",
@@ -227,122 +264,146 @@
     {
       "id": "estonian",
       "code": "et",
-      "nativeName": "eesti"
+      "nativeName": "eesti",
+      "defaultFlagCode": "ee"
     },
     {
       "id": "ewe",
       "code": "ee",
-      "nativeName": "Eʋegbe"
+      "nativeName": "Eʋegbe",
+      "defaultFlagCode": "gh"
     },
     {
       "id": "faroese",
       "code": "fo",
-      "nativeName": "føroyskt"
+      "nativeName": "føroyskt",
+      "defaultFlagCode": "fo"
     },
     {
       "id": "fijian",
       "code": "fj",
-      "nativeName": "vosa Vakaviti"
+      "nativeName": "vosa Vakaviti",
+      "defaultFlagCode": "fj"
     },
     {
       "id": "finnish",
       "code": "fi",
-      "nativeName": "suomi"
+      "nativeName": "suomi",
+      "defaultFlagCode": "fi"
     },
     {
       "id": "french",
       "code": "fr",
-      "nativeName": "français"
+      "nativeName": "français",
+      "defaultFlagCode": "fr"
     },
     {
       "id": "westernFrisian",
       "code": "fy",
-      "nativeName": "Frysk"
+      "nativeName": "Frysk",
+      "defaultFlagCode": "nl"
     },
     {
       "id": "fulah",
       "code": "ff",
-      "nativeName": "Fulfulde"
+      "nativeName": "Fulfulde",
+      "defaultFlagCode": "gn"
     },
     {
       "id": "gaelic",
       "code": "gd",
-      "nativeName": "Gàidhlig"
+      "nativeName": "Gàidhlig",
+      "defaultFlagCode": "gb"
     },
     {
       "id": "galician",
       "code": "gl",
-      "nativeName": "galego"
+      "nativeName": "galego",
+      "defaultFlagCode": "es"
     },
     {
       "id": "ganda",
       "code": "lg",
-      "nativeName": "Luganda"
+      "nativeName": "Luganda",
+      "defaultFlagCode": "ug"
     },
     {
       "id": "georgian",
       "code": "ka",
-      "nativeName": "ქართული"
+      "nativeName": "ქართული",
+      "defaultFlagCode": "ge"
     },
     {
       "id": "greek",
       "code": "el",
-      "nativeName": "Ελληνικά"
+      "nativeName": "Ελληνικά",
+      "defaultFlagCode": "gr"
     },
     {
       "id": "greenlandic",
       "code": "kl",
-      "nativeName": "kalaallisut"
+      "nativeName": "kalaallisut",
+      "defaultFlagCode": "gl"
     },
     {
       "id": "guarani",
       "code": "gn",
-      "nativeName": "Avañe'ẽ"
+      "nativeName": "Avañe'ẽ",
+      "defaultFlagCode": "py"
     },
     {
       "id": "gujarati",
       "code": "gu",
-      "nativeName": "ગુજરાતી"
+      "nativeName": "ગુજરાતી",
+      "defaultFlagCode": "in"
     },
     {
       "id": "haitian",
       "code": "ht",
-      "nativeName": "Kreyòl ayisyen"
+      "nativeName": "Kreyòl ayisyen",
+      "defaultFlagCode": "ht"
     },
     {
       "id": "hausa",
       "code": "ha",
-      "nativeName": "هَوُسَ"
+      "nativeName": "هَوُسَ",
+      "defaultFlagCode": "ng"
     },
     {
       "id": "hebrew",
       "code": "he",
-      "nativeName": "עברית"
+      "nativeName": "עברית",
+      "defaultFlagCode": "il"
     },
     {
       "id": "herero",
       "code": "hz",
-      "nativeName": "Otjiherero"
+      "nativeName": "Otjiherero",
+      "defaultFlagCode": "na"
     },
     {
       "id": "hindi",
       "code": "hi",
-      "nativeName": "हिन्दी"
+      "nativeName": "हिन्दी",
+      "defaultFlagCode": "in"
     },
     {
       "id": "hiriMotu",
       "code": "ho",
-      "nativeName": "Hiri Motu"
+      "nativeName": "Hiri Motu",
+      "defaultFlagCode": "pg"
     },
     {
       "id": "hungarian",
       "code": "hu",
-      "nativeName": "magyar"
+      "nativeName": "magyar",
+      "defaultFlagCode": "hu"
     },
     {
       "id": "icelandic",
       "code": "is",
-      "nativeName": "Íslenska"
+      "nativeName": "Íslenska",
+      "defaultFlagCode": "is"
     },
     {
       "id": "ido",
@@ -352,12 +413,14 @@
     {
       "id": "igbo",
       "code": "ig",
-      "nativeName": "Asụsụ Igbo"
+      "nativeName": "Asụsụ Igbo",
+      "defaultFlagCode": "ng"
     },
     {
       "id": "indonesian",
       "code": "id",
-      "nativeName": "Bahasa Indonesia"
+      "nativeName": "Bahasa Indonesia",
+      "defaultFlagCode": "id"
     },
     {
       "id": "interlingua",
@@ -372,512 +435,614 @@
     {
       "id": "sichuanYi",
       "code": "ii",
-      "nativeName": "ꆈꌠ꒿ Nuosuhxop"
+      "nativeName": "ꆈꌠ꒿ Nuosuhxop",
+      "defaultFlagCode": "cn"
     },
     {
       "id": "inuktitut",
       "code": "iu",
-      "nativeName": "ᐃᓄᒃᑎᑐᑦ"
+      "nativeName": "ᐃᓄᒃᑎᑐᑦ",
+      "defaultFlagCode": "ca"
     },
     {
       "id": "inupiaq",
       "code": "ik",
-      "nativeName": "Iñupiaq"
+      "nativeName": "Iñupiaq",
+      "defaultFlagCode": "us"
     },
     {
       "id": "irish",
       "code": "ga",
-      "nativeName": "Gaeilge"
+      "nativeName": "Gaeilge",
+      "defaultFlagCode": "ie"
     },
     {
       "id": "italian",
       "code": "it",
-      "nativeName": "italiano"
+      "nativeName": "italiano",
+      "defaultFlagCode": "it"
     },
     {
       "id": "japanese",
       "code": "ja",
-      "nativeName": "日本語"
+      "nativeName": "日本語",
+      "defaultFlagCode": "jp"
     },
     {
       "id": "javanese",
       "code": "jv",
-      "nativeName": "basa Jawa"
+      "nativeName": "basa Jawa",
+      "defaultFlagCode": "id"
     },
     {
       "id": "kannada",
       "code": "kn",
-      "nativeName": "ಕನ್ನಡ"
+      "nativeName": "ಕನ್ನಡ",
+      "defaultFlagCode": "in"
     },
     {
       "id": "kanuri",
       "code": "kr",
-      "nativeName": "Kanuri"
+      "nativeName": "Kanuri",
+      "defaultFlagCode": "ng"
     },
     {
       "id": "kashmiri",
       "code": "ks",
-      "nativeName": "कश्मीरी"
+      "nativeName": "कश्मीरी",
+      "defaultFlagCode": "in"
     },
     {
       "id": "kazakh",
       "code": "kk",
-      "nativeName": "қазақ тілі"
+      "nativeName": "қазақ тілі",
+      "defaultFlagCode": "kz"
     },
     {
       "id": "khmer",
       "code": "km",
-      "nativeName": "ភាសាខ្មែរ"
+      "nativeName": "ភាសាខ្មែរ",
+      "defaultFlagCode": "kh"
     },
     {
       "id": "kikuyu",
       "code": "ki",
-      "nativeName": "Gĩkũyũ"
+      "nativeName": "Gĩkũyũ",
+      "defaultFlagCode": "ke"
     },
     {
       "id": "kinyarwanda",
       "code": "rw",
-      "nativeName": "Ikinyarwanda"
+      "nativeName": "Ikinyarwanda",
+      "defaultFlagCode": "rw"
     },
     {
       "id": "kirghiz",
       "code": "ky",
-      "nativeName": "Кыргызча"
+      "nativeName": "Кыргызча",
+      "defaultFlagCode": "kg"
     },
     {
       "id": "komi",
       "code": "kv",
-      "nativeName": "коми кыв"
+      "nativeName": "коми кыв",
+      "defaultFlagCode": "ru"
     },
     {
       "id": "kongo",
       "code": "kg",
-      "nativeName": "Kikongo"
+      "nativeName": "Kikongo",
+      "defaultFlagCode": "cd"
     },
     {
       "id": "korean",
       "code": "ko",
-      "nativeName": "한국어"
+      "nativeName": "한국어",
+      "defaultFlagCode": "kr"
     },
     {
       "id": "kuanyama",
       "code": "kj",
-      "nativeName": "Kuanyama"
+      "nativeName": "Kuanyama",
+      "defaultFlagCode": "na"
     },
     {
       "id": "kurdish",
       "code": "ku",
-      "nativeName": "Kurdî"
+      "nativeName": "Kurdî",
+      "defaultFlagCode": "iq"
     },
     {
       "id": "lao",
       "code": "lo",
-      "nativeName": "ພາສາລາວ"
+      "nativeName": "ພາສາລາວ",
+      "defaultFlagCode": "la"
     },
     {
       "id": "latin",
       "code": "la",
-      "nativeName": "latine"
+      "nativeName": "latine",
+      "defaultFlagCode": "va"
     },
     {
       "id": "latvian",
       "code": "lv",
-      "nativeName": "latviešu valoda"
+      "nativeName": "latviešu valoda",
+      "defaultFlagCode": "lv"
     },
     {
       "id": "limburgish",
       "code": "li",
-      "nativeName": "Limburgs"
+      "nativeName": "Limburgs",
+      "defaultFlagCode": "nl"
     },
     {
       "id": "lingala",
       "code": "ln",
-      "nativeName": "Lingála"
+      "nativeName": "Lingála",
+      "defaultFlagCode": "cd"
     },
     {
       "id": "lithuanian",
       "code": "lt",
-      "nativeName": "lietuvių kalba"
+      "nativeName": "lietuvių kalba",
+      "defaultFlagCode": "lt"
     },
     {
       "id": "lubaKatanga",
       "code": "lu",
-      "nativeName": "Tshiluba"
+      "nativeName": "Tshiluba",
+      "defaultFlagCode": "cd"
     },
     {
       "id": "luxembourgish",
       "code": "lb",
-      "nativeName": "Lëtzebuergesch"
+      "nativeName": "Lëtzebuergesch",
+      "defaultFlagCode": "lu"
     },
     {
       "id": "macedonian",
       "code": "mk",
-      "nativeName": "македонски јазик"
+      "nativeName": "македонски јазик",
+      "defaultFlagCode": "mk"
     },
     {
       "id": "malagasy",
       "code": "mg",
-      "nativeName": "fiteny malagasy"
+      "nativeName": "fiteny malagasy",
+      "defaultFlagCode": "mg"
     },
     {
       "id": "malay",
       "code": "ms",
-      "nativeName": "Bahasa Melayu"
+      "nativeName": "Bahasa Melayu",
+      "defaultFlagCode": "my"
     },
     {
       "id": "malayalam",
       "code": "ml",
-      "nativeName": "മലയാളം"
+      "nativeName": "മലയാളം",
+      "defaultFlagCode": "in"
     },
     {
       "id": "maltese",
       "code": "mt",
-      "nativeName": "Malti"
+      "nativeName": "Malti",
+      "defaultFlagCode": "mt"
     },
     {
       "id": "manx",
       "code": "gv",
-      "nativeName": "Gaelg"
+      "nativeName": "Gaelg",
+      "defaultFlagCode": "im"
     },
     {
       "id": "maori",
       "code": "mi",
-      "nativeName": "te reo Māori"
+      "nativeName": "te reo Māori",
+      "defaultFlagCode": "nz"
     },
     {
       "id": "marathi",
       "code": "mr",
-      "nativeName": "मराठी"
+      "nativeName": "मराठी",
+      "defaultFlagCode": "in"
     },
     {
       "id": "marshallese",
       "code": "mh",
-      "nativeName": "Kajin M̧ajeļ"
+      "nativeName": "Kajin M̧ajeļ",
+      "defaultFlagCode": "mh"
     },
     {
       "id": "mongolian",
       "code": "mn",
-      "nativeName": "Монгол хэл"
+      "nativeName": "Монгол хэл",
+      "defaultFlagCode": "mn"
     },
     {
       "id": "nauru",
       "code": "na",
-      "nativeName": "Ekakairũ Naoero"
+      "nativeName": "Ekakairũ Naoero",
+      "defaultFlagCode": "nr"
     },
     {
       "id": "navajo",
       "code": "nv",
-      "nativeName": "Diné bizaad"
+      "nativeName": "Diné bizaad",
+      "defaultFlagCode": "us"
     },
     {
       "id": "northNdebele",
       "code": "nd",
-      "nativeName": "isiNdebele"
+      "nativeName": "isiNdebele",
+      "defaultFlagCode": "zw"
     },
     {
       "id": "southNdebele",
       "code": "nr",
-      "nativeName": "isiNdebele"
+      "nativeName": "isiNdebele",
+      "defaultFlagCode": "za"
     },
     {
       "id": "ndonga",
       "code": "ng",
-      "nativeName": "Owambo"
+      "nativeName": "Owambo",
+      "defaultFlagCode": "na"
     },
     {
       "id": "nepali",
       "code": "ne",
-      "nativeName": "नेपाली"
+      "nativeName": "नेपाली",
+      "defaultFlagCode": "np"
     },
     {
       "id": "norwegian",
       "code": "no",
-      "nativeName": "Norsk"
+      "nativeName": "Norsk",
+      "defaultFlagCode": "no"
     },
     {
       "id": "norwegianBokmal",
       "code": "nb",
-      "nativeName": "Norsk bokmål"
+      "nativeName": "Norsk bokmål",
+      "defaultFlagCode": "no"
     },
     {
       "id": "norwegianNynorsk",
       "code": "nn",
-      "nativeName": "Norsk nynorsk"
+      "nativeName": "Norsk nynorsk",
+      "defaultFlagCode": "no"
     },
     {
       "id": "occitan",
       "code": "oc",
-      "nativeName": "occitan"
+      "nativeName": "occitan",
+      "defaultFlagCode": "fr"
     },
     {
       "id": "ojibwa",
       "code": "oj",
-      "nativeName": "ᐊᓂᔑᓈᐯᒧᐎᓐ"
+      "nativeName": "ᐊᓂᔑᓈᐯᒧᐎᓐ",
+      "defaultFlagCode": "ca"
     },
     {
       "id": "oriya",
       "code": "or",
-      "nativeName": "ଓଡ଼ିଆ"
+      "nativeName": "ଓଡ଼ିଆ",
+      "defaultFlagCode": "in"
     },
     {
       "id": "oromo",
       "code": "om",
-      "nativeName": "Afaan Oromoo"
+      "nativeName": "Afaan Oromoo",
+      "defaultFlagCode": "et"
     },
     {
       "id": "ossetian",
       "code": "os",
-      "nativeName": "ирон æвзаг"
+      "nativeName": "ирон æвзаг",
+      "defaultFlagCode": "ge"
     },
     {
       "id": "pali",
       "code": "pi",
-      "nativeName": "पाऴि"
+      "nativeName": "पाऴि",
+      "defaultFlagCode": "in"
     },
     {
       "id": "pashto",
       "code": "ps",
-      "nativeName": "پښتو"
+      "nativeName": "پښتو",
+      "defaultFlagCode": "af"
     },
     {
       "id": "persian",
       "code": "fa",
-      "nativeName": "فارسی"
+      "nativeName": "فارسی",
+      "defaultFlagCode": "ir"
     },
     {
       "id": "polish",
       "code": "pl",
-      "nativeName": "język polski"
+      "nativeName": "język polski",
+      "defaultFlagCode": "pl"
     },
     {
       "id": "portuguese",
       "code": "pt",
-      "nativeName": "português"
+      "nativeName": "português",
+      "defaultFlagCode": "pt"
     },
     {
       "id": "punjabi",
       "code": "pa",
-      "nativeName": "ਪੰਜਾਬੀ"
+      "nativeName": "ਪੰਜਾਬੀ",
+      "defaultFlagCode": "in"
     },
     {
       "id": "quechua",
       "code": "qu",
-      "nativeName": "Runa Simi"
+      "nativeName": "Runa Simi",
+      "defaultFlagCode": "pe"
     },
     {
       "id": "romanian",
       "code": "ro",
-      "nativeName": "limba română"
+      "nativeName": "limba română",
+      "defaultFlagCode": "ro"
     },
     {
       "id": "romansh",
       "code": "rm",
-      "nativeName": "rumantsch grischun"
+      "nativeName": "rumantsch grischun",
+      "defaultFlagCode": "ch"
     },
     {
       "id": "rundi",
       "code": "rn",
-      "nativeName": "Ikirundi"
+      "nativeName": "Ikirundi",
+      "defaultFlagCode": "bi"
     },
     {
       "id": "russian",
       "code": "ru",
-      "nativeName": "русский язык"
+      "nativeName": "русский язык",
+      "defaultFlagCode": "ru"
     },
     {
       "id": "northernSami",
       "code": "se",
-      "nativeName": "Davvisámegiella"
+      "nativeName": "Davvisámegiella",
+      "defaultFlagCode": "no"
     },
     {
       "id": "samoan",
       "code": "sm",
-      "nativeName": "gagana fa'a Samoa"
+      "nativeName": "gagana fa'a Samoa",
+      "defaultFlagCode": "ws"
     },
     {
       "id": "sango",
       "code": "sg",
-      "nativeName": "yângâ tî sängö"
+      "nativeName": "yângâ tî sängö",
+      "defaultFlagCode": "cf"
     },
     {
       "id": "sanskrit",
       "code": "sa",
-      "nativeName": "संस्कृतम्"
+      "nativeName": "संस्कृतम्",
+      "defaultFlagCode": "in"
     },
     {
       "id": "sardinian",
       "code": "sc",
-      "nativeName": "sardu"
+      "nativeName": "sardu",
+      "defaultFlagCode": "it"
     },
     {
       "id": "serbian",
       "code": "sr",
-      "nativeName": "српски језик"
+      "nativeName": "српски језик",
+      "defaultFlagCode": "rs"
     },
     {
       "id": "sindhi",
       "code": "sd",
-      "nativeName": "सिन्धी"
+      "nativeName": "सिन्धी",
+      "defaultFlagCode": "pk"
     },
     {
       "id": "sinhala",
       "code": "si",
-      "nativeName": "සිංහල"
+      "nativeName": "සිංහල",
+      "defaultFlagCode": "lk"
     },
     {
       "id": "slovak",
       "code": "sk",
-      "nativeName": "slovenčina"
+      "nativeName": "slovenčina",
+      "defaultFlagCode": "sk"
     },
     {
       "id": "slovenian",
       "code": "sl",
-      "nativeName": "slovenščina"
+      "nativeName": "slovenščina",
+      "defaultFlagCode": "si"
     },
     {
       "id": "somali",
       "code": "so",
-      "nativeName": "Soomaaliga"
+      "nativeName": "Soomaaliga",
+      "defaultFlagCode": "so"
     },
     {
       "id": "southernSotho",
       "code": "st",
-      "nativeName": "Sesotho"
+      "nativeName": "Sesotho",
+      "defaultFlagCode": "za"
     },
     {
       "id": "shona",
       "code": "sn",
-      "nativeName": "chiShona"
+      "nativeName": "chiShona",
+      "defaultFlagCode": "zw"
     },
     {
       "id": "spanish",
       "code": "es",
-      "nativeName": "español"
+      "nativeName": "español",
+      "defaultFlagCode": "es"
     },
     {
       "id": "sundanese",
       "code": "su",
-      "nativeName": "Basa Sunda"
+      "nativeName": "Basa Sunda",
+      "defaultFlagCode": "id"
     },
     {
       "id": "swahili",
       "code": "sw",
-      "nativeName": "Kiswahili"
+      "nativeName": "Kiswahili",
+      "defaultFlagCode": "tz"
     },
     {
       "id": "swati",
       "code": "ss",
-      "nativeName": "SiSwati"
+      "nativeName": "SiSwati",
+      "defaultFlagCode": "sz"
     },
     {
       "id": "swedish",
       "code": "sv",
-      "nativeName": "svenska"
+      "nativeName": "svenska",
+      "defaultFlagCode": "se"
     },
     {
       "id": "tagalog",
       "code": "tl",
-      "nativeName": "Wikang Tagalog"
+      "nativeName": "Wikang Tagalog",
+      "defaultFlagCode": "ph"
     },
     {
       "id": "tahitian",
       "code": "ty",
-      "nativeName": "Reo Tahiti"
+      "nativeName": "Reo Tahiti",
+      "defaultFlagCode": "pf"
     },
     {
       "id": "tajik",
       "code": "tg",
-      "nativeName": "тоҷикӣ"
+      "nativeName": "тоҷикӣ",
+      "defaultFlagCode": "tj"
     },
     {
       "id": "tamil",
       "code": "ta",
-      "nativeName": "தமிழ்"
+      "nativeName": "தமிழ்",
+      "defaultFlagCode": "in"
     },
     {
       "id": "tatar",
       "code": "tt",
-      "nativeName": "татар теле"
+      "nativeName": "татар теле",
+      "defaultFlagCode": "ru"
     },
     {
       "id": "telugu",
       "code": "te",
-      "nativeName": "తెలుగు"
+      "nativeName": "తెలుగు",
+      "defaultFlagCode": "in"
     },
     {
       "id": "thai",
       "code": "th",
-      "nativeName": "ไทย"
+      "nativeName": "ไทย",
+      "defaultFlagCode": "th"
     },
     {
       "id": "tibetan",
       "code": "bo",
-      "nativeName": "བོད་ཡིག"
+      "nativeName": "བོད་ཡིག",
+      "defaultFlagCode": "cn"
     },
     {
       "id": "tigrinya",
       "code": "ti",
-      "nativeName": "ትግርኛ"
+      "nativeName": "ትግርኛ",
+      "defaultFlagCode": "er"
     },
     {
       "id": "tonga",
       "code": "to",
-      "nativeName": "faka Tonga"
+      "nativeName": "faka Tonga",
+      "defaultFlagCode": "to"
     },
     {
       "id": "tsonga",
       "code": "ts",
-      "nativeName": "Xitsonga"
+      "nativeName": "Xitsonga",
+      "defaultFlagCode": "za"
     },
     {
       "id": "tswana",
       "code": "tn",
-      "nativeName": "Setswana"
+      "nativeName": "Setswana",
+      "defaultFlagCode": "bw"
     },
     {
       "id": "turkish",
       "code": "tr",
-      "nativeName": "Türkçe"
+      "nativeName": "Türkçe",
+      "defaultFlagCode": "tr"
     },
     {
       "id": "turkmen",
       "code": "tk",
-      "nativeName": "Türkmen"
+      "nativeName": "Türkmen",
+      "defaultFlagCode": "tm"
     },
     {
       "id": "twi",
       "code": "tw",
-      "nativeName": "Twi"
+      "nativeName": "Twi",
+      "defaultFlagCode": "gh"
     },
     {
       "id": "uighur",
       "code": "ug",
-      "nativeName": "ئۇيغۇرچە‎"
+      "nativeName": "ئۇيغۇرچە‎",
+      "defaultFlagCode": "cn"
     },
     {
       "id": "ukrainian",
       "code": "uk",
-      "nativeName": "українська мова"
+      "nativeName": "українська мова",
+      "defaultFlagCode": "ua"
     },
     {
       "id": "urdu",
       "code": "ur",
-      "nativeName": "اردو"
+      "nativeName": "اردو",
+      "defaultFlagCode": "pk"
     },
     {
       "id": "uzbek",
       "code": "uz",
-      "nativeName": "Oʻzbek"
+      "nativeName": "Oʻzbek",
+      "defaultFlagCode": "uz"
     },
     {
       "id": "venda",
       "code": "ve",
-      "nativeName": "Tshivenḓa"
+      "nativeName": "Tshivenḓa",
+      "defaultFlagCode": "za"
     },
     {
       "id": "vietnamese",
       "code": "vi",
-      "nativeName": "Tiếng Việt"
+      "nativeName": "Tiếng Việt",
+      "defaultFlagCode": "vn"
     },
     {
       "id": "volapuk",
@@ -887,42 +1052,50 @@
     {
       "id": "walloon",
       "code": "wa",
-      "nativeName": "walon"
+      "nativeName": "walon",
+      "defaultFlagCode": "be"
     },
     {
       "id": "welsh",
       "code": "cy",
-      "nativeName": "Cymraeg"
+      "nativeName": "Cymraeg",
+      "defaultFlagCode": "gb"
     },
     {
       "id": "wolof",
       "code": "wo",
-      "nativeName": "Wollof"
+      "nativeName": "Wollof",
+      "defaultFlagCode": "sn"
     },
     {
       "id": "xhosa",
       "code": "xh",
-      "nativeName": "isiXhosa"
+      "nativeName": "isiXhosa",
+      "defaultFlagCode": "za"
     },
     {
       "id": "yiddish",
       "code": "yi",
-      "nativeName": "ייִדיש"
+      "nativeName": "ייִדיש",
+      "defaultFlagCode": "il"
     },
     {
       "id": "yoruba",
       "code": "yo",
-      "nativeName": "Yorùbá"
+      "nativeName": "Yorùbá",
+      "defaultFlagCode": "ng"
     },
     {
       "id": "zhuang",
       "code": "za",
-      "nativeName": "Saɯ cueŋƅ"
+      "nativeName": "Saɯ cueŋƅ",
+      "defaultFlagCode": "cn"
     },
     {
       "id": "zulu",
       "code": "zu",
-      "nativeName": "isiZulu"
+      "nativeName": "isiZulu",
+      "defaultFlagCode": "za"
     }
   ]
 }

@@ -72,3 +72,15 @@ enum Language {
   @override
   String toString() => nativeName;
 }
+
+/// Returns the emoji flag for a language code, or null if not found.
+String? getEmojiFlagFromLanguage(String languageCode) {
+  final lang = Language.fromCode(languageCode);
+  if (lang == null || lang.defaultFlagCode == null) return null;
+  final code = lang.defaultFlagCode!.toUpperCase();
+  final base = 0x1F1E6 - 65;
+  return String.fromCharCodes([
+    code.codeUnitAt(0) + base,
+    code.codeUnitAt(1) + base,
+  ]);
+}

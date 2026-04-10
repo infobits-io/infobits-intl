@@ -2,7 +2,7 @@
 
 package i18n
 
-// LanguagesTranslations contains translations keyed by locale then code.
+// LanguagesTranslations contains translations keyed by locale then code
 var LanguagesTranslations = map[string]map[string]string{
 	"da": {
 		"aa": "afar",
@@ -230,12 +230,12 @@ var LanguagesTranslations = map[string]map[string]string{
 		"el": "Griechisch",
 		"en": "Englisch",
 		"eo": "Esperanto",
-		"es": "Spanish",
+		"es": "Spanisch",
 		"et": "Estnisch",
 		"eu": "Baskisch",
 		"fa": "Persisch",
 		"ff": "Fulfulde",
-		"fi": "Finnish",
+		"fi": "Finnisch",
 		"fj": "Fidschi",
 		"fo": "Färöisch",
 		"fr": "Französisch",
@@ -278,7 +278,7 @@ var LanguagesTranslations = map[string]map[string]string{
 		"ko": "Koreanisch",
 		"kr": "Kanuri",
 		"ks": "Kaschmiri",
-		"ku": "Kurdish",
+		"ku": "Kurdisch",
 		"kv": "Komi",
 		"kw": "Kornisch",
 		"ky": "Kirgisisch",
@@ -791,7 +791,7 @@ var LanguagesTranslations = map[string]map[string]string{
 		"es": "espagnol",
 		"et": "estonien",
 		"eu": "basque",
-		"fa": "person",
+		"fa": "persan",
 		"ff": "peul",
 		"fi": "finnois",
 		"fj": "fidjien",
@@ -1308,13 +1308,12 @@ var LanguagesTranslations = map[string]map[string]string{
 	},
 }
 
-// GetLanguagesName returns the translated name for a code in a locale.
+// GetLanguagesName returns the translated name for a code in a locale
 func GetLanguagesName(code, locale string) (string, bool) {
 	if localeMap, ok := LanguagesTranslations[locale]; ok {
 		if name, ok := localeMap[code]; ok {
 			return name, true
 		}
 	}
-
 	return "", false
 }
