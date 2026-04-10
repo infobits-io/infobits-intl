@@ -21,7 +21,7 @@ Package d'internationalisation multi-framework fournissant des donnees sur les p
 
 ## Documentation
 
-La documentation complete de l'API avec des exemples pour les trois langages est disponible sur [packages.infobits.io](https://packages.infobits.io) et dans le repertoire [`docs/`](docs/) :
+La documentation complete de l'API avec des exemples pour les trois langages est disponible sur [docs.infobits.io](https://docs.infobits.io) et dans le repertoire [`docs/`](docs/) :
 
 - [Premiers pas](docs/getting-started.fr.md)
 - [Pays](docs/countries.fr.md)

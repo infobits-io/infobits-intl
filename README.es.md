@@ -21,7 +21,7 @@ Paquete de internacionalizacion multientorno que proporciona datos de paises, id
 
 ## Documentacion
 
-La documentacion completa de la API con ejemplos para los tres lenguajes esta disponible en [packages.infobits.io](https://packages.infobits.io) y en el directorio [`docs/`](docs/):
+La documentacion completa de la API con ejemplos para los tres lenguajes esta disponible en [docs.infobits.io](https://docs.infobits.io) y en el directorio [`docs/`](docs/):
 
 - [Primeros pasos](docs/getting-started.es.md)
 - [Paises](docs/countries.es.md)

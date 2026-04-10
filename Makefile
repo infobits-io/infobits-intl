@@ -32,7 +32,7 @@ test-dart:
 	cd packages/dart && flutter test
 
 test-typescript:
-	cd packages/typescript && npm test
+	cd packages/typescript && pnpm test
 
 test-go:
 	cd packages/go && go test ./...
@@ -60,14 +60,14 @@ lint-go:
 deploy: deploy-typescript deploy-dart
 
 deploy-typescript:
-	cd packages/typescript && npm run build && npm publish --access public
+	cd packages/typescript && pnpm run build && pnpm publish --access public
 
 deploy-dart:
 	cd packages/dart && dart pub publish --force
 
 # Dry run (test without publishing)
 deploy-typescript-dry:
-	cd packages/typescript && npm run build && npm publish --access public --dry-run
+	cd packages/typescript && pnpm run build && pnpm publish --access public --dry-run
 
 deploy-dart-dry:
 	cd packages/dart && dart pub publish --dry-run

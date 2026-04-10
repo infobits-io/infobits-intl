@@ -5,10 +5,10 @@
 			"slug": "infobits-intl",
 			"category": "go",
 			"readmePath": "packages/go",
-			"install": "go get packages.infobits.io/go/infobits-intl",
+			"install": "go get go.infobits.io/infobits-intl",
 			"packageManager": {
 				"name": "pkg.go.dev",
-				"url": "https://pkg.go.dev/packages.infobits.io/go/infobits-intl"
+				"url": "https://pkg.go.dev/go.infobits.io/infobits-intl"
 			},
 			"descriptions": {
 				"en": "Go package providing country, language, currency, and continent data with i18n translations and SVG flags",
@@ -43,10 +43,10 @@
 			"slug": "infobits-intl",
 			"category": "typescript",
 			"readmePath": "packages/typescript",
-			"install": "npm install infobits-intl",
+			"install": "npm i @infobits/intl",
 			"packageManager": {
 				"name": "npm",
-				"url": "https://www.npmjs.com/package/infobits-intl"
+				"url": "https://www.npmjs.com/package/@infobits/intl"
 			},
 			"descriptions": {
 				"en": "TypeScript package providing country, language, currency, and continent data with i18n translations and SVG flags",

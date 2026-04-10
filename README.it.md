@@ -21,7 +21,7 @@ Pacchetto di internazionalizzazione multi-framework che fornisce dati su paesi, 
 
 ## Documentazione
 
-La documentazione completa dell'API con esempi per tutti e tre i linguaggi e disponibile su [packages.infobits.io](https://packages.infobits.io) e nella directory [`docs/`](docs/):
+La documentazione completa dell'API con esempi per tutti e tre i linguaggi e disponibile su [docs.infobits.io](https://docs.infobits.io) e nella directory [`docs/`](docs/):
 
 - [Per Iniziare](docs/getting-started.it.md)
 - [Paesi](docs/countries.it.md)

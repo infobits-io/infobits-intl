@@ -21,7 +21,7 @@ Multi-framework internationalisatiepakket met land-, taal-, valuta- en continent
 
 ## Documentatie
 
-Volledige API-documentatie met voorbeelden voor alle drie de programmeertalen is beschikbaar op [packages.infobits.io](https://packages.infobits.io) en in de [`docs/`](docs/) map:
+Volledige API-documentatie met voorbeelden voor alle drie de programmeertalen is beschikbaar op [docs.infobits.io](https://docs.infobits.io) en in de [`docs/`](docs/) map:
 
 - [Aan de slag](docs/getting-started.nl.md)
 - [Landen](docs/countries.nl.md)

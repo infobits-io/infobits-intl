@@ -21,7 +21,7 @@ Multi-Framework-Internationalisierungspaket mit Laender-, Sprach-, Waehrungs- un
 
 ## Dokumentation
 
-Die vollstaendige API-Dokumentation mit Beispielen fuer alle drei Sprachen ist auf [packages.infobits.io](https://packages.infobits.io) und im Verzeichnis [`docs/`](docs/) verfuegbar:
+Die vollstaendige API-Dokumentation mit Beispielen fuer alle drei Sprachen ist auf [docs.infobits.io](https://docs.infobits.io) und im Verzeichnis [`docs/`](docs/) verfuegbar:
 
 - [Erste Schritte](docs/getting-started.de.md)
 - [Laender](docs/countries.de.md)

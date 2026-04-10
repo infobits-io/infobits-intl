@@ -21,7 +21,7 @@ Multi-framework internationalization package providing country, language, curren
 
 ## Documentation
 
-Full API documentation with examples for all three languages is available at [packages.infobits.io](https://packages.infobits.io) and in the [`docs/`](docs/) directory:
+Full API documentation with examples for all three languages is available at [docs.infobits.io](https://docs.infobits.io) and in the [`docs/`](docs/) directory:
 
 - [Getting Started](docs/getting-started.md)
 - [Countries](docs/countries.md)

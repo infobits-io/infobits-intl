@@ -21,7 +21,7 @@ Internationaliseringspakke til flere frameworks, der leverer data om lande, spro
 
 ## Dokumentation
 
-Fuld API-dokumentation med eksempler for alle tre sprog er tilgaengelig pa [packages.infobits.io](https://packages.infobits.io) og i mappen [`docs/`](docs/):
+Fuld API-dokumentation med eksempler for alle tre sprog er tilgaengelig pa [docs.infobits.io](https://docs.infobits.io) og i mappen [`docs/`](docs/):
 
 - [Kom godt i gang](docs/getting-started.da.md)
 - [Lande](docs/countries.da.md)
