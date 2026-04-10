@@ -135,7 +135,6 @@ jobs:
   publish-go:
     name: Publish Go to separate repo
     runs-on: ubuntu-latest
-    if: ${{ github.event.inputs.dry_run != 'true' }}
     steps:
       - uses: actions/checkout@v6
         with:
@@ -153,6 +152,15 @@ jobs:
           else
             echo "version=${INPUT_VERSION#v}" >> "$GITHUB_OUTPUT"
           fi
+
+      - name: Set up Go
+        uses: actions/setup-go@v6
+        with:
+          go-version: "1.26"
+          cache-dependency-path: source/packages/go/go.sum
+
+      - name: Run tests
+        run: cd source/packages/go && go test ./...
 
       - name: Setup SSH
         uses: webfactory/ssh-agent@v0.10.0
@@ -176,20 +184,24 @@ jobs:
           cp -r source/packages/go/* target/
           cp -r source/packages/go/.* target/ 2>/dev/null || true
 
-      - name: Commit and push
+      - name: Prepare commit
         env:
           VERSION: ${{ steps.version.outputs.version }}
         run: |
           cd target
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "infobits-bot"
+          git config user.email "bot@infobits.io"
           git add -A
-          # Check if there are changes to commit
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
             git commit -m "sync: update to v${VERSION}"
           fi
           git tag -f "v${VERSION}"
+
+      - name: Push to target repo
+        if: ${{ inputs.dry_run != true }}
+        run: |
+          cd target
           git push origin master --force
-          git push origin "v${VERSION}" --force
+          git push origin "v${{ steps.version.outputs.version }}" --force
