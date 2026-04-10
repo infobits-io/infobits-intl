@@ -41,6 +41,17 @@ const svg = getFlag('US');
 const svgDirect = flags['US'];
 ```
 
+```php
+use Infobits\Intl\Flags;
+
+// Using the lookup function (case insensitive)
+$svg = Flags::svg('US');
+
+// Get all flags as an associative array
+$allFlags = Flags::all();
+$svg = $allFlags['US'];
+```
+
 ### Rendering SVG Flags
 
 The SVG strings can be used directly in your application:
@@ -76,6 +87,17 @@ if (svg) {
 }
 ```
 
+```php
+use Infobits\Intl\Flags;
+
+// Output in a template
+$svg = Flags::svg('NO');
+echo '<div class="flag">' . $svg . '</div>';
+
+// Save to a file
+file_put_contents('flag.svg', Flags::svg('NO'));
+```
+
 ## Emoji Flags
 
 Emoji flags are generated from country codes using regional indicator symbols.
@@ -101,6 +123,13 @@ import { getEmojiFlag } from 'infobits-intl';
 
 console.log(getEmojiFlag('US'));
 console.log(getEmojiFlag('NO'));
+```
+
+```php
+use Infobits\Intl\Country;
+
+echo Country::US->emojiFlag();
+echo Country::NO->emojiFlag();
 ```
 
 ## Language Flags
@@ -131,6 +160,17 @@ if (lang?.defaultFlagCode) {
 }
 ```
 
+```php
+use Infobits\Intl\Language;
+use Infobits\Intl\Flags;
+
+$lang = Language::tryFrom('fr');
+$flagCode = $lang?->defaultFlagCode();
+if ($flagCode !== null) {
+    $svg = Flags::svg($flagCode);
+}
+```
+
 ## All Available Flags
 
 Iterate over all available flags:
@@ -152,5 +192,13 @@ import { flags } from 'infobits-intl';
 
 for (const [code, svg] of Object.entries(flags)) {
   console.log(`${code}: ${svg.length} bytes`);
+}
+```
+
+```php
+use Infobits\Intl\Flags;
+
+foreach (Flags::all() as $code => $svg) {
+    echo "$code: " . strlen($svg) . " bytes";
 }
 ```

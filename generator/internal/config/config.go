@@ -31,6 +31,7 @@ type TargetsConfig struct {
 	Dart       *TargetConfig `yaml:"dart,omitempty"`
 	TypeScript *TargetConfig `yaml:"typescript,omitempty"`
 	Go         *TargetConfig `yaml:"go,omitempty"`
+	PHP        *TargetConfig `yaml:"php,omitempty"`
 }
 
 // TargetConfig is the configuration for a single target.
@@ -82,6 +83,11 @@ func Default() *Config {
 				Enabled:    true,
 				Output:     "./packages/go",
 				ModuleName: "github.com/infobits-io/infobits-intl-go",
+			},
+			PHP: &TargetConfig{
+				Enabled:     true,
+				Output:      "./packages/php/src",
+				PackageName: `Infobits\Intl`,
 			},
 		},
 	}

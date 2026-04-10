@@ -1,0 +1,33 @@
+<?php
+
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
+declare(strict_types=1);
+
+namespace Infobits\Intl;
+
+enum Continent: string
+{
+{{- range .}}
+    case {{pascalCase .ID}} = '{{.Code}}';
+{{- end}}
+
+    public function code(): string
+    {
+        return $this->value;
+    }
+
+    public function label(): string
+    {
+        return match ($this) {
+{{- range .}}
+            self::{{pascalCase .ID}} => '{{escapePhpString .Name}}',
+{{- end}}
+        };
+    }
+
+    public static function fromCode(string $code): ?self
+    {
+        return self::tryFrom(strtoupper($code));
+    }
+}

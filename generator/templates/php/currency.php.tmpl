@@ -1,0 +1,51 @@
+<?php
+
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
+declare(strict_types=1);
+
+namespace Infobits\Intl;
+
+enum Currency: string
+{
+{{- range .}}
+    case {{pascalCase .ID}} = '{{.Code}}';
+{{- end}}
+
+    public function code(): string
+    {
+        return $this->value;
+    }
+
+    public function nativeName(): string
+    {
+        return match ($this) {
+{{- range .}}
+            self::{{pascalCase .ID}} => '{{escapePhpString .NativeName}}',
+{{- end}}
+        };
+    }
+
+    public function nativeNamePlural(): string
+    {
+        return match ($this) {
+{{- range .}}
+            self::{{pascalCase .ID}} => '{{escapePhpString .NativeNamePlural}}',
+{{- end}}
+        };
+    }
+
+    public function symbol(): string
+    {
+        return match ($this) {
+{{- range .}}
+            self::{{pascalCase .ID}} => '{{escapePhpString .Symbol}}',
+{{- end}}
+        };
+    }
+
+    public static function fromCode(string $code): ?self
+    {
+        return self::tryFrom(strtoupper($code));
+    }
+}

@@ -22,7 +22,7 @@ var (
 var generateCmd = &cobra.Command{
 	Use:   "generate",
 	Short: "Generate code for target frameworks",
-	Long:  `Generates Dart, TypeScript, and Go code from JSON data files.`,
+	Long:  `Generates Dart, TypeScript, Go, and PHP code from JSON data files.`,
 	Run: func(cmd *cobra.Command, args []string) {
 		// Load or create config
 		var cfg *config.Config
@@ -99,6 +99,13 @@ var generateCmd = &cobra.Command{
 					exitWithError("Generating Go", err)
 				}
 			}
+
+			if cfg.Targets.PHP != nil && cfg.Targets.PHP.Enabled {
+				gen := generator.NewPHPGenerator(templateDir)
+				if err := gen.Generate(intlData, flags, translations, cfg.Targets.PHP); err != nil {
+					exitWithError("Generating PHP", err)
+				}
+			}
 		} else {
 			// Generate specific target
 			switch generateTarget {
@@ -126,6 +133,14 @@ var generateCmd = &cobra.Command{
 				if err := gen.Generate(intlData, flags, translations, cfg.Targets.Go); err != nil {
 					exitWithError("Generating Go", err)
 				}
+			case "php":
+				if cfg.Targets.PHP == nil {
+					exitWithError("PHP target not configured", nil)
+				}
+				gen := generator.NewPHPGenerator(templateDir)
+				if err := gen.Generate(intlData, flags, translations, cfg.Targets.PHP); err != nil {
+					exitWithError("Generating PHP", err)
+				}
 			default:
 				exitWithError("Unknown target: "+generateTarget, nil)
 			}
@@ -136,7 +151,7 @@ var generateCmd = &cobra.Command{
 }
 
 func init() {
-	generateCmd.Flags().StringVarP(&generateTarget, "target", "t", "", "Target to generate (dart, typescript, go)")
+	generateCmd.Flags().StringVarP(&generateTarget, "target", "t", "", "Target to generate (dart, typescript, go, php)")
 	generateCmd.Flags().BoolVarP(&generateAll, "all", "a", false, "Generate all targets")
 	generateCmd.Flags().StringVarP(&generateConfigPath, "config", "c", "", "Path to generator.yaml config file")
 	generateCmd.Flags().StringVarP(&generateDataDir, "data", "d", "../data", "Path to data directory")

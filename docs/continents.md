@@ -53,6 +53,17 @@ console.log(continent?.name); // Europe
 console.log(continent?.code); // EU
 ```
 
+```php
+use Infobits\Intl\Continent;
+
+$continent = Continent::tryFrom('EU');
+echo $continent?->label(); // Europe
+echo $continent?->code();  // EU
+
+// Case-insensitive lookup
+$continent = Continent::fromCode('eu');
+```
+
 ## List All Continents
 
 ```go
@@ -74,6 +85,14 @@ import { continents } from 'infobits-intl';
 Object.values(continents).forEach(c => {
   console.log(`${c.name} (${c.code})`);
 });
+```
+
+```php
+use Infobits\Intl\Continent;
+
+foreach (Continent::cases() as $c) {
+    echo "{$c->label()} ({$c->code()})";
+}
 ```
 
 ## Get Countries by Continent
@@ -100,6 +119,17 @@ import { getCountriesByContinent } from 'infobits-intl';
 const countries = getCountriesByContinent('europe');
 console.log(countries.length);
 countries.forEach(c => console.log(c.nativeName));
+```
+
+```php
+use Infobits\Intl\Country;
+use Infobits\Intl\Continent;
+
+$countries = array_filter(Country::cases(), fn(Country $c) => $c->continent() === Continent::EU);
+echo count($countries);
+foreach ($countries as $c) {
+    echo $c->nativeName();
+}
 ```
 
 ## Continent from a Country
@@ -129,6 +159,14 @@ const country = getCountryByAlpha2('BR');
 console.log(country?.continent); // southAmerica
 ```
 
+```php
+use Infobits\Intl\Country;
+
+$country = Country::tryFrom('BR');
+echo $country?->continent()->label(); // South America
+echo $country?->continent()->code();  // SA
+```
+
 ## Type-Safe Continent Codes
 
 ```go
@@ -147,6 +185,13 @@ import { ContinentCode, continents } from 'infobits-intl';
 
 const europe = continents[ContinentCode.EU];
 console.log(europe.name); // Europe
+```
+
+```php
+use Infobits\Intl\Continent;
+
+echo Continent::EU->label(); // Europe
+echo Continent::EU->code();  // EU
 ```
 
 ## Languages in a Continent (Dart)

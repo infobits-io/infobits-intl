@@ -1,7 +1,7 @@
 ---
 title: Getting Started
 sidebar_position: 1
-description: Overview of infobits-intl and installation instructions for Go, Dart, and TypeScript.
+description: Overview of infobits-intl and installation instructions for Go, Dart, TypeScript, and PHP.
 ---
 
 # Getting Started
@@ -29,6 +29,10 @@ dart pub add infobits_intl
 
 ```typescript
 npm install infobits-intl
+```
+
+```php
+composer require infobits/intl
 ```
 
 ## Quick Example
@@ -77,6 +81,17 @@ if (country) {
 }
 ```
 
+```php
+use Infobits\Intl\Country;
+
+$country = Country::tryFrom('US');
+if ($country !== null) {
+    echo $country->nativeName();  // United States
+    echo $country->alpha3Code();  // USA
+    echo $country->capital();     // Washington, D.C.
+}
+```
+
 ## Type-Safe Code Constants
 
 Each package provides typed constants for country, language, currency, and continent codes, enabling autocompletion and compile-time safety.
@@ -99,4 +114,12 @@ import { CountryCode, countries } from 'infobits-intl';
 
 const usa = countries[CountryCode.US];
 console.log(usa.nativeName); // United States
+```
+
+```php
+use Infobits\Intl\Country;
+
+// PHP backed enums provide type safety
+echo Country::US->nativeName(); // United States
+echo Country::US->emojiFlag();  // flag emoji
 ```

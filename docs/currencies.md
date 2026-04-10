@@ -46,6 +46,18 @@ console.log(currency?.nativeNamePlural); // US Dollars
 console.log(currency?.symbol);           // $
 ```
 
+```php
+use Infobits\Intl\Currency;
+
+$currency = Currency::tryFrom('USD');
+echo $currency?->nativeName();       // US Dollar
+echo $currency?->nativeNamePlural(); // US Dollars
+echo $currency?->symbol();           // $
+
+// Case-insensitive lookup
+$currency = Currency::fromCode('usd');
+```
+
 ## List All Currencies
 
 ```go
@@ -63,6 +75,13 @@ import { currencies } from 'infobits-intl';
 
 const allCurrencies = Object.values(currencies);
 console.log(allCurrencies.length);
+```
+
+```php
+use Infobits\Intl\Currency;
+
+$allCurrencies = Currency::cases();
+echo count($allCurrencies); // 179
 ```
 
 ## Currency for a Country
@@ -97,6 +116,14 @@ if (country) {
 }
 ```
 
+```php
+use Infobits\Intl\Country;
+
+$country = Country::tryFrom('JP');
+echo $country?->currency()->nativeName(); // Japanese Yen
+echo $country?->currency()->symbol();     // ??
+```
+
 ## Type-Safe Currency Codes
 
 ```go
@@ -117,4 +144,11 @@ import { CurrencyCode, currencies } from 'infobits-intl';
 const euro = currencies[CurrencyCode.EUR];
 console.log(euro.nativeName); // Euro
 console.log(euro.symbol);     // ???
+```
+
+```php
+use Infobits\Intl\Currency;
+
+echo Currency::EUR->nativeName(); // Euro
+echo Currency::EUR->symbol();     // ???
 ```

@@ -9,17 +9,18 @@ import (
 // FuncMap returns the template functions.
 func FuncMap() template.FuncMap {
 	return template.FuncMap{
-		"pascalCase":     PascalCase,
-		"camelCase":      CamelCase,
-		"snakeCase":      SnakeCase,
-		"upperSnakeCase": UpperSnakeCase,
-		"escapeString":   EscapeString,
-		"escapeGoString": EscapeGoString,
-		"upper":          strings.ToUpper,
-		"lower":          strings.ToLower,
-		"join":           strings.Join,
-		"add":            func(a, b int) int { return a + b },
-		"sub":            func(a, b int) int { return a - b },
+		"pascalCase":      PascalCase,
+		"camelCase":       CamelCase,
+		"snakeCase":       SnakeCase,
+		"upperSnakeCase":  UpperSnakeCase,
+		"escapeString":    EscapeString,
+		"escapeGoString":  EscapeGoString,
+		"escapePhpString": EscapePhpString,
+		"upper":           strings.ToUpper,
+		"lower":           strings.ToLower,
+		"join":            strings.Join,
+		"add":             func(a, b int) int { return a + b },
+		"sub":             func(a, b int) int { return a - b },
 	}
 }
 
@@ -115,6 +116,24 @@ func EscapeGoString(s string) string {
 			result.WriteString(`\t`)
 		case '`':
 			result.WriteString("` + \"`\" + `")
+		default:
+			result.WriteRune(r)
+		}
+	}
+
+	return result.String()
+}
+
+// EscapePhpString escapes a string for use in PHP single-quoted string literals.
+func EscapePhpString(s string) string {
+	var result strings.Builder
+
+	for _, r := range s {
+		switch r {
+		case '\'':
+			result.WriteString(`\'`)
+		case '\\':
+			result.WriteString(`\\`)
 		default:
 			result.WriteRune(r)
 		}

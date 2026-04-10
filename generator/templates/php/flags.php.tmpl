@@ -1,0 +1,30 @@
+<?php
+
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
+declare(strict_types=1);
+
+namespace Infobits\Intl;
+
+final class Flags
+{
+    /** @var array<string, string> */
+    private static array $flags = [
+{{- range $code, $svg := .}}
+        '{{$code}}' => '{{escapePhpString $svg}}',
+{{- end}}
+    ];
+
+    public static function svg(string $alpha2Code): ?string
+    {
+        return self::$flags[strtoupper($alpha2Code)] ?? null;
+    }
+
+    /**
+     * @return array<string, string>
+     */
+    public static function all(): array
+    {
+        return self::$flags;
+    }
+}

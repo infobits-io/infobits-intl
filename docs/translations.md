@@ -55,6 +55,16 @@ const nameFr = getCountriesName('FR', 'es');
 console.log(nameFr); // Francia
 ```
 
+```php
+use Infobits\Intl\I18n\CountriesTranslations;
+
+$name = CountriesTranslations::get('US', 'de');
+echo $name; // Vereinigte Staaten
+
+$nameFr = CountriesTranslations::get('FR', 'es');
+echo $nameFr; // Francia
+```
+
 ## Language Names
 
 ```go
@@ -75,6 +85,13 @@ import { getLanguagesName } from 'infobits-intl';
 
 const name = getLanguagesName('en', 'fr');
 console.log(name); // anglais
+```
+
+```php
+use Infobits\Intl\I18n\LanguagesTranslations;
+
+$name = LanguagesTranslations::get('en', 'fr');
+echo $name; // anglais
 ```
 
 ## Currency Names
@@ -99,6 +116,13 @@ const name = getCurrenciesName('USD', 'it');
 console.log(name); // Dollaro statunitense
 ```
 
+```php
+use Infobits\Intl\I18n\CurrenciesTranslations;
+
+$name = CurrenciesTranslations::get('USD', 'it');
+echo $name; // Dollaro statunitense
+```
+
 ## Continent Names
 
 ```go
@@ -121,6 +145,13 @@ const name = getContinentsName('EU', 'da');
 console.log(name); // Europa
 ```
 
+```php
+use Infobits\Intl\I18n\ContinentsTranslations;
+
+$name = ContinentsTranslations::get('EU', 'da');
+echo $name; // Europa
+```
+
 ## Capital Names
 
 ```go
@@ -141,6 +172,13 @@ import { getCapitalsName } from 'infobits-intl';
 
 const name = getCapitalsName('JP', 'fr');
 console.log(name); // Tokyo
+```
+
+```php
+use Infobits\Intl\I18n\CapitalsTranslations;
+
+$name = CapitalsTranslations::get('JP', 'fr');
+echo $name; // Tokyo
 ```
 
 ## Accessing Translation Maps Directly
@@ -191,4 +229,23 @@ const germanCountries = countriesTranslations['de'];
 for (const [code, name] of Object.entries(germanCountries)) {
   console.log(`${code}: ${name}`);
 }
+```
+
+```php
+use Infobits\Intl\I18n\CountriesTranslations;
+
+// Access all German country translations
+$germanCountries = CountriesTranslations::all('de');
+foreach ($germanCountries as $code => $name) {
+    echo "$code: $name";
+}
+
+// Get available locales
+$locales = CountriesTranslations::locales();
+
+// Other available translation classes:
+// LanguagesTranslations::all('de')
+// CurrenciesTranslations::all('de')
+// ContinentsTranslations::all('de')
+// CapitalsTranslations::all('de')
 ```

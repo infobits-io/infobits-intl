@@ -9,6 +9,7 @@ Multi-framework internationalization package providing country, language, curren
 | `infobits_intl` | Dart/Flutter | [pub.dev](https://pub.dev/packages/infobits_intl) | [README](packages/dart/README.md) |
 | `@infobits/intl` | TypeScript/JavaScript | [npm](https://www.npmjs.com/package/@infobits/intl) | [README](packages/typescript/README.md) |
 | `github.com/infobits-io/infobits-intl-go` | Go | [pkg.go.dev](https://pkg.go.dev/github.com/infobits-io/infobits-intl-go) | [README](packages/go/README.md) |
+| `infobits/intl` | PHP | [Packagist](https://packagist.org/packages/infobits/intl) | [README](packages/php/README.md) |
 
 ## Features
 
@@ -42,7 +43,8 @@ infobits_intl/
 ├── packages/
 │   ├── dart/                # Flutter package
 │   ├── typescript/          # npm package
-│   └── go/                  # Go module
+│   ├── go/                  # Go module
+│   └── php/                 # Composer package
 ├── generator.yaml           # Generator configuration
 └── Makefile                 # Build commands
 ```
@@ -57,6 +59,7 @@ make generate
 make generate-dart
 make generate-typescript
 make generate-go
+make generate-php
 
 # Validate data files
 make validate
@@ -66,11 +69,13 @@ make test              # All packages
 make test-dart
 make test-typescript
 make test-go
+make test-php
 
 # Lint code
-make lint              # Generator + Go package
+make lint              # Generator + Go + PHP packages
 make lint-generator
 make lint-go
+make lint-php
 ```
 
 ## CI/CD
@@ -81,10 +86,11 @@ GitHub Actions workflows are configured for:
   - Go linting (generator and Go package)
   - Dart analysis
   - TypeScript type checking
+  - PHP code style (PHP-CS-Fixer) and static analysis (PHPStan)
 
 - **Test** (`test.yml`): Runs on push/PR to master
   - Generator tests and data validation
-  - Go, Dart, and TypeScript package tests
+  - Go, Dart, TypeScript, and PHP package tests
 
 - **Deploy** (`deploy.yml`): Manual workflow dispatch
   - Publish to npm and/or pub.dev
@@ -147,7 +153,7 @@ This project follows [Conventional Commits](https://www.conventionalcommits.org/
 | `ci` | CI/CD configuration |
 | `chore` | Other maintenance tasks |
 
-**Scopes** (optional): `dart`, `typescript`, `go`, `generator`, `data`, `ci`
+**Scopes** (optional): `dart`, `typescript`, `go`, `php`, `generator`, `data`, `ci`
 
 **Examples:**
 

@@ -52,6 +52,14 @@ console.log(country?.nativeName); // United States
 console.log(country?.capital);    // Washington, D.C.
 ```
 
+```php
+use Infobits\Intl\Country;
+
+$country = Country::tryFrom('US');
+echo $country?->nativeName(); // United States
+echo $country?->capital();    // Washington, D.C.
+```
+
 ### Alpha-3 Code
 
 ```go
@@ -73,11 +81,25 @@ const country = getCountryByAlpha3('USA');
 console.log(country?.alpha2Code); // US
 ```
 
-### Numeric Code (Dart only)
+```php
+use Infobits\Intl\Country;
+
+$country = Country::fromAlpha3('USA');
+echo $country?->alpha2Code(); // US
+```
+
+### Numeric Code (Dart and PHP)
 
 ```dart
 final country = Country.fromNumericCode(840);
 print(country?.nativeName); // United States
+```
+
+```php
+use Infobits\Intl\Country;
+
+$country = Country::fromNumeric(840);
+echo $country?->nativeName(); // United States
 ```
 
 ## List All Countries
@@ -97,6 +119,13 @@ import { countries, CountryCode } from 'infobits-intl';
 
 const allCountries = Object.values(countries);
 console.log(allCountries.length);
+```
+
+```php
+use Infobits\Intl\Country;
+
+$allCountries = Country::cases();
+echo count($allCountries); // 248
 ```
 
 ## Filter by Continent
@@ -120,6 +149,16 @@ import { getCountriesByContinent } from 'infobits-intl';
 
 const european = getCountriesByContinent('europe');
 european.forEach(c => console.log(c.nativeName));
+```
+
+```php
+use Infobits\Intl\Country;
+use Infobits\Intl\Continent;
+
+$european = array_filter(Country::cases(), fn(Country $c) => $c->continent() === Continent::EU);
+foreach ($european as $c) {
+    echo $c->nativeName();
+}
 ```
 
 ## SVG Flags
@@ -163,6 +202,16 @@ const svg = getFlag('US');
 const svgDirect = flags['US'];
 ```
 
+```php
+use Infobits\Intl\Flags;
+
+// Using the lookup function
+$svg = Flags::svg('US');
+
+// Get all flags as an associative array
+$allFlags = Flags::all();
+```
+
 ## Emoji Flags
 
 ```go
@@ -179,6 +228,13 @@ print(country?.emojiFlag);
 import { getEmojiFlag } from 'infobits-intl';
 
 console.log(getEmojiFlag('US'));
+```
+
+```php
+use Infobits\Intl\Country;
+
+$country = Country::tryFrom('US');
+echo $country?->emojiFlag();
 ```
 
 ## Country Metadata
@@ -210,4 +266,15 @@ console.log(country?.tld);         // .jp
 console.log(country?.currency);    // JPY
 console.log(country?.continent);   // asia
 console.log(country?.mainLanguage); // ja
+```
+
+```php
+use Infobits\Intl\Country;
+
+$country = Country::tryFrom('JP');
+echo $country?->callingCode();          // 81
+echo $country?->tld();                  // .jp
+echo $country?->currency()->code();     // JPY
+echo $country?->continent()->code();    // AS
+echo $country?->mainLanguage()->code(); // ja
 ```

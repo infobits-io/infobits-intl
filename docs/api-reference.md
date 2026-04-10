@@ -1,7 +1,7 @@
 ---
 title: API Reference
 sidebar_position: 8
-description: Complete API reference for all exported functions, types, enums, and data maps across Go, Dart, and TypeScript.
+description: Complete API reference for all exported functions, types, enums, and data maps across Go, Dart, TypeScript, and PHP.
 ---
 
 # API Reference
@@ -93,6 +93,14 @@ getCountriesByContinent(continent: string): Country[]
 getCountriesInContinent(code: string): Country[]
 ```
 
+```php
+// PHP
+Country::tryFrom('US')           // ?Country
+Country::fromAlpha3('USA')       // ?Country
+Country::fromNumeric(840)        // ?Country
+Country::cases()                 // Country[]
+```
+
 ### Languages
 
 ```go
@@ -110,6 +118,13 @@ Language.values -> List<Language>
 ```typescript
 // TypeScript
 getLanguageByCode(code: string): Language | undefined
+```
+
+```php
+// PHP
+Language::tryFrom('en')          // ?Language
+Language::fromCode('EN')         // ?Language (case insensitive)
+Language::cases()                // Language[]
 ```
 
 ### Currencies
@@ -131,6 +146,13 @@ Currency.values -> List<Currency>
 getCurrencyByCode(code: string): Currency | undefined
 ```
 
+```php
+// PHP
+Currency::tryFrom('USD')         // ?Currency
+Currency::fromCode('usd')        // ?Currency (case insensitive)
+Currency::cases()                // Currency[]
+```
+
 ### Continents
 
 ```go
@@ -148,6 +170,13 @@ Continent.values -> List<Continent>
 ```typescript
 // TypeScript
 getContinentByCode(code: string): Continent | undefined
+```
+
+```php
+// PHP
+Continent::tryFrom('EU')         // ?Continent
+Continent::fromCode('eu')        // ?Continent (case insensitive)
+Continent::cases()               // Continent[]
 ```
 
 ## Flags
@@ -171,6 +200,12 @@ getFlag(alpha2: string): string | undefined
 flags  // Record<string, string>
 ```
 
+```php
+// PHP
+Flags::svg('US')                 // ?string (case insensitive)
+Flags::all()                     // array<string, string>
+```
+
 ## Emoji Flags
 
 ```go
@@ -186,6 +221,11 @@ country.emojiFlag  // String
 ```typescript
 // TypeScript
 getEmojiFlag(alpha2: string): string
+```
+
+```php
+// PHP
+$country->emojiFlag()            // string
 ```
 
 ## Enums / Constants
@@ -214,6 +254,14 @@ CountryCode.US    // "US"
 LanguageCode.FR   // "FR"
 CurrencyCode.EUR  // "EUR"
 ContinentCode.EU  // "EU"
+```
+
+```php
+// PHP — backed enums
+Country::US       // Country enum case backed by "US"
+Language::FR      // Language enum case backed by "fr"
+Currency::EUR     // Currency enum case backed by "EUR"
+Continent::EU     // Continent enum case backed by "EU"
 ```
 
 ## Translation Functions
@@ -250,6 +298,15 @@ getContinentsName(code: string, locale: string): string | undefined
 getCapitalsName(code: string, locale: string): string | undefined
 ```
 
+```php
+// PHP — static translation classes
+CountriesTranslations::get(string $code, string $locale): ?string
+LanguagesTranslations::get(string $code, string $locale): ?string
+CurrenciesTranslations::get(string $code, string $locale): ?string
+ContinentsTranslations::get(string $code, string $locale): ?string
+CapitalsTranslations::get(string $code, string $locale): ?string
+```
+
 ## Translation Maps
 
 For bulk access, raw translation maps are available:
@@ -279,4 +336,16 @@ languagesTranslations
 currenciesTranslations
 continentsTranslations
 capitalsTranslations
+```
+
+```php
+// PHP — bulk access via static methods
+CountriesTranslations::all(string $locale)   // array<string, string>
+LanguagesTranslations::all(string $locale)
+CurrenciesTranslations::all(string $locale)
+ContinentsTranslations::all(string $locale)
+CapitalsTranslations::all(string $locale)
+
+// Available locales
+CountriesTranslations::locales()             // string[]
 ```

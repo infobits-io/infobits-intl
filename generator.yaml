@@ -22,3 +22,8 @@ targets:
     enabled: true
     output: "../packages/go"
     moduleName: "github.com/infobits-io/infobits-intl-go"
+
+  php:
+    enabled: true
+    output: "../packages/php/src"
+    packageName: "Infobits\\Intl"

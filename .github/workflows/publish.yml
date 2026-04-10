@@ -143,6 +143,86 @@ jobs:
         if: ${{ inputs.dry_run != true }}
         run: dart pub publish --force
 
+  publish-php:
+    name: Publish PHP to separate repo
+    if: ${{ github.event_name == 'push' || inputs.package == 'all' || inputs.package == 'php' }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          path: source
+
+      - name: Determine version
+        id: version
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          REF_NAME: ${{ github.ref_name }}
+          INPUT_VERSION: ${{ inputs.version }}
+        run: |
+          if [ "$EVENT_NAME" = "push" ]; then
+            echo "version=${REF_NAME#v}" >> "$GITHUB_OUTPUT"
+          else
+            echo "version=${INPUT_VERSION#v}" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Set up PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: "8.1"
+          tools: composer
+
+      - name: Install dependencies
+        run: cd source/packages/php && composer install --no-interaction --prefer-dist
+
+      - name: Run tests
+        run: cd source/packages/php && composer test
+
+      - name: Setup SSH
+        uses: webfactory/ssh-agent@v0.10.0
+        with:
+          ssh-private-key: ${{ secrets.INFOBITS_INTL_PHP_DEPLOY_KEY }}
+
+      - name: Clone target repo
+        run: |
+          git clone git@github.com:infobits-io/infobits-intl-php.git target || {
+            mkdir target
+            cd target
+            git init -b master
+            git remote add origin git@github.com:infobits-io/infobits-intl-php.git
+          }
+          cd target
+          git checkout -B master
+
+      - name: Sync PHP package
+        run: |
+          # Clear target (keep .git)
+          find target -mindepth 1 -maxdepth 1 -not -name '.git' -exec rm -rf {} +
+          # Copy PHP package contents
+          cp -r source/packages/php/* target/
+          cp -r source/packages/php/.* target/ 2>/dev/null || true
+
+      - name: Prepare commit
+        env:
+          VERSION: ${{ steps.version.outputs.version }}
+        run: |
+          cd target
+          git config user.name "infobits-bot"
+          git config user.email "bot@infobits.io"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "sync: update to v${VERSION}"
+          fi
+          git tag -f "v${VERSION}"
+
+      - name: Push to target repo
+        if: ${{ inputs.dry_run != true }}
+        run: |
+          cd target
+          git push origin master --force
+          git push origin "v${{ steps.version.outputs.version }}" --force
+
   publish-go:
     name: Publish Go to separate repo
     if: ${{ github.event_name == 'push' || inputs.package == 'all' || inputs.package == 'go' }}

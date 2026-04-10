@@ -98,6 +98,30 @@ jobs:
       - name: Type check
         run: pnpm exec tsc --noEmit
 
+  lint-php:
+    name: Lint PHP Package
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: packages/php
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Set up PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: "8.1"
+          tools: composer
+
+      - name: Install dependencies
+        run: composer install --no-interaction --prefer-dist
+
+      - name: Check code style
+        run: composer lint
+
+      - name: Run static analysis
+        run: composer analyse
+
   test-generator:
     name: Test Generator (Go)
     runs-on: ubuntu-latest
@@ -158,6 +182,27 @@ jobs:
 
       - name: Run tests
         run: flutter test
+
+  test-php:
+    name: Test PHP Package
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: packages/php
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Set up PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: "8.1"
+          tools: composer
+
+      - name: Install dependencies
+        run: composer install --no-interaction --prefer-dist
+
+      - name: Run tests
+        run: composer test
 
   test-typescript:
     name: Test TypeScript Package

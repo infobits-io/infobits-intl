@@ -51,6 +51,17 @@ console.log(lang?.nativeName); // English
 console.log(lang?.code);       // en
 ```
 
+```php
+use Infobits\Intl\Language;
+
+$lang = Language::tryFrom('en');
+echo $lang?->nativeName(); // English
+echo $lang?->code();       // en
+
+// Case-insensitive lookup
+$lang = Language::fromCode('EN');
+```
+
 ## List All Languages
 
 ```go
@@ -68,6 +79,13 @@ import { languages } from 'infobits-intl';
 
 const allLanguages = Object.values(languages);
 console.log(allLanguages.length);
+```
+
+```php
+use Infobits\Intl\Language;
+
+$allLanguages = Language::cases();
+echo count($allLanguages); // 185
 ```
 
 ## Dialects
@@ -101,6 +119,14 @@ lang?.dialects.forEach(d => {
 });
 ```
 
+```php
+use Infobits\Intl\Language;
+
+// PHP languages have a defaultFlagCode for a representative flag
+$lang = Language::tryFrom('en');
+echo $lang?->defaultFlagCode(); // gb
+```
+
 ## Language Flags
 
 Languages can have a representative flag based on their default flag code.
@@ -129,6 +155,17 @@ if (lang?.defaultFlagCode) {
 }
 ```
 
+```php
+use Infobits\Intl\Language;
+use Infobits\Intl\Flags;
+
+$lang = Language::tryFrom('fr');
+$flagCode = $lang?->defaultFlagCode();
+if ($flagCode !== null) {
+    $svg = Flags::svg($flagCode);
+}
+```
+
 ## Type-Safe Language Codes
 
 ```go
@@ -147,4 +184,12 @@ import { LanguageCode, languages } from 'infobits-intl';
 
 const french = languages[LanguageCode.FR];
 console.log(french.nativeName); // Fran??ais
+```
+
+```php
+use Infobits\Intl\Language;
+
+// PHP backed enums are type-safe constants
+echo Language::FR->nativeName(); // Fran??ais
+echo Language::FR->code();       // fr
 ```
