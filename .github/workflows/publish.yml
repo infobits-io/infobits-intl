@@ -75,8 +75,6 @@ jobs:
       - name: Publish to npm
         if: ${{ inputs.dry_run != true }}
         run: pnpm publish --access public --no-git-checks --provenance
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
   publish-dart:
     name: Publish Dart to pub.dev
@@ -172,9 +170,11 @@ jobs:
           git clone git@github.com:infobits-io/infobits-intl-go.git target || {
             mkdir target
             cd target
-            git init
+            git init -b master
             git remote add origin git@github.com:infobits-io/infobits-intl-go.git
           }
+          cd target
+          git checkout -B master
 
       - name: Sync Go package
         run: |
