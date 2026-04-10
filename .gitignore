@@ -45,6 +45,7 @@ dist/
 vendor/
 
 # Generator binary
+generator/generator
 generator/intlgen
 
 # Environment files
