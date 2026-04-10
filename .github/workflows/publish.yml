@@ -5,6 +5,15 @@ on:
     types: [created]
   workflow_dispatch:
     inputs:
+      package:
+        description: "Package to publish"
+        required: true
+        type: choice
+        options:
+          - all
+          - typescript
+          - dart
+          - go
       version:
         description: "Version to publish (e.g. v1.0.1)"
         required: true
@@ -18,6 +27,7 @@ on:
 jobs:
   publish-typescript:
     name: Publish TypeScript to npm
+    if: ${{ github.event_name == 'release' || inputs.package == 'all' || inputs.package == 'typescript' }}
     runs-on: ubuntu-latest
     permissions:
       contents: read
@@ -77,6 +87,7 @@ jobs:
 
   publish-dart:
     name: Publish Dart to pub.dev
+    if: ${{ github.event_name == 'release' || inputs.package == 'all' || inputs.package == 'dart' }}
     runs-on: ubuntu-latest
     permissions:
       id-token: write
@@ -98,6 +109,8 @@ jobs:
           else
             echo "version=${INPUT_VERSION#v}" >> "$GITHUB_OUTPUT"
           fi
+
+      - uses: dart-lang/setup-dart@v1
 
       - name: Set up Flutter
         uses: subosito/flutter-action@v2
@@ -131,6 +144,7 @@ jobs:
 
   publish-go:
     name: Publish Go to separate repo
+    if: ${{ github.event_name == 'release' || inputs.package == 'all' || inputs.package == 'go' }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
