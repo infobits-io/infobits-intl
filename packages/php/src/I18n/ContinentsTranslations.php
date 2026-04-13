@@ -64,6 +64,15 @@ final class ContinentsTranslations
             'OS' => 'Oceania',
             'SA' => 'Sud America',
         ],
+        'nl' => [
+            'AF' => 'Afrika',
+            'AQ' => 'Antarctica',
+            'AS' => 'Azië',
+            'EU' => 'Europa',
+            'NA' => 'Noord-Amerika',
+            'OS' => 'Oceanië',
+            'SA' => 'Zuid-Amerika',
+        ],
         'zh' => [
             'AF' => '非洲',
             'AQ' => '南极洲',

@@ -1,0 +1,718 @@
+{
+  "USD": {
+    "name": "Amerikaanse dollar",
+    "pluralName": "Amerikaanse dollars"
+  },
+  "EUR": {
+    "name": "Euro",
+    "pluralName": "euro's"
+  },
+  "GBP": {
+    "name": "Brits pond",
+    "pluralName": "Britse ponden"
+  },
+  "JPY": {
+    "name": "Japanse yen",
+    "pluralName": "Japanse yen"
+  },
+  "AUD": {
+    "name": "Australische dollar",
+    "pluralName": "Australische dollars"
+  },
+  "CAD": {
+    "name": "Canadese dollar",
+    "pluralName": "Canadese dollars"
+  },
+  "CHF": {
+    "name": "Zwitserse frank",
+    "pluralName": "Zwitserse franken"
+  },
+  "CNY": {
+    "name": "Chinese yuan",
+    "pluralName": "Chinese yuan"
+  },
+  "SEK": {
+    "name": "Zweedse kroon",
+    "pluralName": "Zweedse kronen"
+  },
+  "NZD": {
+    "name": "Nieuw-Zeelandse dollar",
+    "pluralName": "Nieuw-Zeelandse dollars"
+  },
+  "KRW": {
+    "name": "Zuid-Koreaanse won",
+    "pluralName": "Zuid-Koreaanse won"
+  },
+  "SGD": {
+    "name": "Singaporese dollar",
+    "pluralName": "Singaporese dollars"
+  },
+  "NOK": {
+    "name": "Noorse kroon",
+    "pluralName": "Noorse kronen"
+  },
+  "MXN": {
+    "name": "Mexicaanse peso",
+    "pluralName": "Mexicaanse peso's"
+  },
+  "INR": {
+    "name": "Indiase roepie",
+    "pluralName": "Indiase roepies"
+  },
+  "RUB": {
+    "name": "Russische roebel",
+    "pluralName": "Russische roebels"
+  },
+  "ZAR": {
+    "name": "Zuid-Afrikaanse rand",
+    "pluralName": "Zuid-Afrikaanse rand"
+  },
+  "TRY": {
+    "name": "Turkse lira",
+    "pluralName": "Turkse lira"
+  },
+  "BRL": {
+    "name": "Braziliaanse real",
+    "pluralName": "Braziliaanse real"
+  },
+  "TWD": {
+    "name": "Nieuwe Taiwanese dollar",
+    "pluralName": "Nieuwe Taiwanese dollars"
+  },
+  "DKK": {
+    "name": "Deense kroon",
+    "pluralName": "Deense kronen"
+  },
+  "PLN": {
+    "name": "Poolse zloty",
+    "pluralName": "Poolse zloty"
+  },
+  "THB": {
+    "name": "Thaise baht",
+    "pluralName": "Thaise baht"
+  },
+  "IDR": {
+    "name": "Indonesische roepia",
+    "pluralName": "Indonesische roepia"
+  },
+  "HUF": {
+    "name": "Hongaarse forint",
+    "pluralName": "Hongaarse forint"
+  },
+  "CZK": {
+    "name": "Tsjechische kroon",
+    "pluralName": "Tsjechische kronen"
+  },
+  "ILS": {
+    "name": "Israëlische nieuwe sjekel",
+    "pluralName": "Israëlische nieuwe sjekels"
+  },
+  "CLP": {
+    "name": "Chileense peso",
+    "pluralName": "Chileense peso's"
+  },
+  "PHP": {
+    "name": "Filipijnse peso",
+    "pluralName": "Filipijnse peso's"
+  },
+  "AED": {
+    "name": "VAE-dirham",
+    "pluralName": "VAE-dirhams"
+  },
+  "COP": {
+    "name": "Colombiaanse peso",
+    "pluralName": "Colombiaanse peso's"
+  },
+  "SAR": {
+    "name": "Saoedische riyal",
+    "pluralName": "Saoedische riyals"
+  },
+  "MYR": {
+    "name": "Maleisische ringgit",
+    "pluralName": "Maleisische ringgits"
+  },
+  "RON": {
+    "name": "Roemeense leu",
+    "pluralName": "Roemeense lei"
+  },
+  "UAH": {
+    "name": "Oekraïense hryvnia",
+    "pluralName": "Oekraïense hryvnia"
+  },
+  "NGN": {
+    "name": "Nigeriaanse naira",
+    "pluralName": "Nigeriaanse naira"
+  },
+  "EGP": {
+    "name": "Egyptisch pond",
+    "pluralName": "Egyptische ponden"
+  },
+  "HKD": {
+    "name": "Hongkongse dollar",
+    "pluralName": "Hongkongse dollars"
+  },
+  "VND": {
+    "name": "Vietnamese dong",
+    "pluralName": "Vietnamese dong"
+  },
+  "ARS": {
+    "name": "Argentijnse peso",
+    "pluralName": "Argentijnse peso's"
+  },
+  "KES": {
+    "name": "Keniaanse shilling",
+    "pluralName": "Keniaanse shilling"
+  },
+  "PKR": {
+    "name": "Pakistaanse roepie",
+    "pluralName": "Pakistaanse roepies"
+  },
+  "PEN": {
+    "name": "Peruaanse sol",
+    "pluralName": "Peruaanse sol"
+  },
+  "QAR": {
+    "name": "Qatarese riyal",
+    "pluralName": "Qatarese riyals"
+  },
+  "ISK": {
+    "name": "IJslandse kroon",
+    "pluralName": "IJslandse kronen"
+  },
+  "AFN": {
+    "name": "Afghaanse afghani",
+    "pluralName": "Afghaanse afghani"
+  },
+  "ALL": {
+    "name": "Albanese lek",
+    "pluralName": "Albanese lek"
+  },
+  "AMD": {
+    "name": "Armeense dram",
+    "pluralName": "Armeense dram"
+  },
+  "AOA": {
+    "name": "Angolese kwanza",
+    "pluralName": "Angolese kwanza"
+  },
+  "AZN": {
+    "name": "Azerbeidzjaanse manat",
+    "pluralName": "Azerbeidzjaanse manat"
+  },
+  "BAM": {
+    "name": "Bosnische convertibele mark",
+    "pluralName": "Bosnische convertibele mark"
+  },
+  "BBD": {
+    "name": "Barbadaanse dollar",
+    "pluralName": "Barbadaanse dollars"
+  },
+  "BDT": {
+    "name": "Bengalese taka",
+    "pluralName": "Bengalese taka"
+  },
+  "BGN": {
+    "name": "Bulgaarse lev",
+    "pluralName": "Bulgaarse leva"
+  },
+  "BHD": {
+    "name": "Bahreinse dinar",
+    "pluralName": "Bahreinse dinars"
+  },
+  "BIF": {
+    "name": "Burundese frank",
+    "pluralName": "Burundese franken"
+  },
+  "BMD": {
+    "name": "Bermudaanse dollar",
+    "pluralName": "Bermudaanse dollars"
+  },
+  "BND": {
+    "name": "Bruneise dollar",
+    "pluralName": "Bruneise dollars"
+  },
+  "BOB": {
+    "name": "Boliviaanse boliviano",
+    "pluralName": "Boliviaanse boliviano's"
+  },
+  "BSD": {
+    "name": "Bahamaanse dollar",
+    "pluralName": "Bahamaanse dollars"
+  },
+  "BTN": {
+    "name": "Bhutaanse ngultrum",
+    "pluralName": "Bhutaanse ngultrum"
+  },
+  "BWP": {
+    "name": "Botswaanse pula",
+    "pluralName": "Botswaanse pula"
+  },
+  "BYN": {
+    "name": "Wit-Russische roebel",
+    "pluralName": "Wit-Russische roebels"
+  },
+  "BZD": {
+    "name": "Belizaanse dollar",
+    "pluralName": "Belizaanse dollars"
+  },
+  "CDF": {
+    "name": "Congolese frank",
+    "pluralName": "Congolese franken"
+  },
+  "CLF": {
+    "name": "Chileense rekeneenheid (UF)",
+    "pluralName": "Chileense rekeneenheden (UF)"
+  },
+  "CUP": {
+    "name": "Cubaanse peso",
+    "pluralName": "Cubaanse peso's"
+  },
+  "CVE": {
+    "name": "Kaapverdische escudo",
+    "pluralName": "Kaapverdische escudo's"
+  },
+  "DJF": {
+    "name": "Djiboutiaanse frank",
+    "pluralName": "Djiboutiaanse franken"
+  },
+  "DOP": {
+    "name": "Dominicaanse peso",
+    "pluralName": "Dominicaanse peso's"
+  },
+  "DZD": {
+    "name": "Algerijnse dinar",
+    "pluralName": "Algerijnse dinars"
+  },
+  "ERN": {
+    "name": "Eritrese nakfa",
+    "pluralName": "Eritrese nakfa"
+  },
+  "ETB": {
+    "name": "Ethiopische birr",
+    "pluralName": "Ethiopische birr"
+  },
+  "FJD": {
+    "name": "Fijische dollar",
+    "pluralName": "Fijische dollars"
+  },
+  "FKP": {
+    "name": "Falklandpond",
+    "pluralName": "Falklandponden"
+  },
+  "GEL": {
+    "name": "Georgische lari",
+    "pluralName": "Georgische lari"
+  },
+  "GHS": {
+    "name": "Ghanese cedi",
+    "pluralName": "Ghanese cedi"
+  },
+  "GIP": {
+    "name": "Gibraltarees pond",
+    "pluralName": "Gibraltarese ponden"
+  },
+  "GMD": {
+    "name": "Gambiaanse dalasi",
+    "pluralName": "Gambiaanse dalasi"
+  },
+  "GNF": {
+    "name": "Guinese frank",
+    "pluralName": "Guinese franken"
+  },
+  "GTQ": {
+    "name": "Guatemalteekse quetzal",
+    "pluralName": "Guatemalteekse quetzals"
+  },
+  "GYD": {
+    "name": "Guyaanse dollar",
+    "pluralName": "Guyaanse dollars"
+  },
+  "HNL": {
+    "name": "Hondurese lempira",
+    "pluralName": "Hondurese lempiras"
+  },
+  "HTG": {
+    "name": "Haïtiaanse gourde",
+    "pluralName": "Haïtiaanse gourdes"
+  },
+  "IQD": {
+    "name": "Iraakse dinar",
+    "pluralName": "Iraakse dinars"
+  },
+  "IRR": {
+    "name": "Iraanse rial",
+    "pluralName": "Iraanse rials"
+  },
+  "JMD": {
+    "name": "Jamaicaanse dollar",
+    "pluralName": "Jamaicaanse dollars"
+  },
+  "JOD": {
+    "name": "Jordaanse dinar",
+    "pluralName": "Jordaanse dinars"
+  },
+  "KGS": {
+    "name": "Kirgizische som",
+    "pluralName": "Kirgizische som"
+  },
+  "KHR": {
+    "name": "Cambodjaanse riel",
+    "pluralName": "Cambodjaanse riel"
+  },
+  "KWD": {
+    "name": "Koeweitse dinar",
+    "pluralName": "Koeweitse dinars"
+  },
+  "KYD": {
+    "name": "Kaaimaneilandse dollar",
+    "pluralName": "Kaaimaneilandse dollars"
+  },
+  "KZT": {
+    "name": "Kazachse tenge",
+    "pluralName": "Kazachse tenge"
+  },
+  "LAK": {
+    "name": "Laotiaanse kip",
+    "pluralName": "Laotiaanse kip"
+  },
+  "LBP": {
+    "name": "Libanees pond",
+    "pluralName": "Libanese ponden"
+  },
+  "LKR": {
+    "name": "Sri Lankaanse roepie",
+    "pluralName": "Sri Lankaanse roepies"
+  },
+  "LRD": {
+    "name": "Liberiaanse dollar",
+    "pluralName": "Liberiaanse dollars"
+  },
+  "LSL": {
+    "name": "Lesothaanse loti",
+    "pluralName": "Lesothaanse loti"
+  },
+  "LYD": {
+    "name": "Libische dinar",
+    "pluralName": "Libische dinars"
+  },
+  "MAD": {
+    "name": "Marokkaanse dirham",
+    "pluralName": "Marokkaanse dirhams"
+  },
+  "MDL": {
+    "name": "Moldavische leu",
+    "pluralName": "Moldavische lei"
+  },
+  "MGA": {
+    "name": "Malagassische ariary",
+    "pluralName": "Malagassische ariary"
+  },
+  "MKD": {
+    "name": "Macedonische denar",
+    "pluralName": "Macedonische denari"
+  },
+  "MMK": {
+    "name": "Myanmarese kyat",
+    "pluralName": "Myanmarese kyat"
+  },
+  "MNT": {
+    "name": "Mongoolse tugrik",
+    "pluralName": "Mongoolse tugrik"
+  },
+  "MOP": {
+    "name": "Macause pataca",
+    "pluralName": "Macause pataca's"
+  },
+  "MUR": {
+    "name": "Mauritiaanse roepie",
+    "pluralName": "Mauritiaanse roepies"
+  },
+  "MVR": {
+    "name": "Maldivische rufiyaa",
+    "pluralName": "Maldivische rufiyaa"
+  },
+  "MWK": {
+    "name": "Malawische kwacha",
+    "pluralName": "Malawische kwacha"
+  },
+  "MXV": {
+    "name": "Mexicaanse Unidad de Inversion (UDI)",
+    "pluralName": "Mexicaanse Unidades de Inversion (UDI)"
+  },
+  "MZN": {
+    "name": "Mozambikaanse metical",
+    "pluralName": "Mozambikaanse meticals"
+  },
+  "NAD": {
+    "name": "Namibische dollar",
+    "pluralName": "Namibische dollars"
+  },
+  "NIO": {
+    "name": "Nicaraguaanse córdoba",
+    "pluralName": "Nicaraguaanse córdobas"
+  },
+  "NPR": {
+    "name": "Nepalese roepie",
+    "pluralName": "Nepalese roepies"
+  },
+  "OMR": {
+    "name": "Omaanse rial",
+    "pluralName": "Omaanse rials"
+  },
+  "PAB": {
+    "name": "Panamese balboa",
+    "pluralName": "Panamese balboa"
+  },
+  "PGK": {
+    "name": "Papoea-Nieuw-Guinese kina",
+    "pluralName": "Papoea-Nieuw-Guinese kina"
+  },
+  "PYG": {
+    "name": "Paraguayaanse guaraní",
+    "pluralName": "Paraguayaanse guaraní"
+  },
+  "RSD": {
+    "name": "Servische dinar",
+    "pluralName": "Servische dinars"
+  },
+  "RWF": {
+    "name": "Rwandese frank",
+    "pluralName": "Rwandese franken"
+  },
+  "SBD": {
+    "name": "Salomonse dollar",
+    "pluralName": "Salomonse dollars"
+  },
+  "SCR": {
+    "name": "Seychelse roepie",
+    "pluralName": "Seychelse roepies"
+  },
+  "SDG": {
+    "name": "Soedanees pond",
+    "pluralName": "Soedanese ponden"
+  },
+  "SHP": {
+    "name": "Sint-Heleens pond",
+    "pluralName": "Sint-Heleense ponden"
+  },
+  "SOS": {
+    "name": "Somalische shilling",
+    "pluralName": "Somalische shillings"
+  },
+  "SRD": {
+    "name": "Surinaamse dollar",
+    "pluralName": "Surinaamse dollars"
+  },
+  "SSP": {
+    "name": "Zuid-Soedanees pond",
+    "pluralName": "Zuid-Soedanese ponden"
+  },
+  "STN": {
+    "name": "Santomese dobra",
+    "pluralName": "Santomese dobra's"
+  },
+  "SVC": {
+    "name": "Salvadoraanse colón",
+    "pluralName": "Salvadoraanse colones"
+  },
+  "SZL": {
+    "name": "Swazische lilangeni",
+    "pluralName": "Swazische emalangeni"
+  },
+  "TJS": {
+    "name": "Tadzjiekse somoni",
+    "pluralName": "Tadzjiekse somoni's"
+  },
+  "TMT": {
+    "name": "Turkmeense manat",
+    "pluralName": "Turkmeense manat"
+  },
+  "TND": {
+    "name": "Tunesische dinar",
+    "pluralName": "Tunesische dinars"
+  },
+  "TOP": {
+    "name": "Tongaanse pa'anga",
+    "pluralName": "Tongaanse pa'anga"
+  },
+  "TTD": {
+    "name": "Trinidad en Tobago-dollar",
+    "pluralName": "Trinidad en Tobago-dollars"
+  },
+  "TZS": {
+    "name": "Tanzaniaanse shilling",
+    "pluralName": "Tanzaniaanse shillings"
+  },
+  "UGX": {
+    "name": "Oegandese shilling",
+    "pluralName": "Oegandese shillings"
+  },
+  "UYU": {
+    "name": "Uruguayaanse peso",
+    "pluralName": "Uruguayaanse peso's"
+  },
+  "UZS": {
+    "name": "Oezbeekse som",
+    "pluralName": "Oezbeekse som"
+  },
+  "VUV": {
+    "name": "Vanuatuaanse vatu",
+    "pluralName": "Vanuatuaanse vatu"
+  },
+  "WST": {
+    "name": "Samoaanse tala",
+    "pluralName": "Samoaanse tala"
+  },
+  "XAF": {
+    "name": "CFA-frank BEAC",
+    "pluralName": "CFA-franken BEAC"
+  },
+  "XCD": {
+    "name": "Oost-Caribische dollar",
+    "pluralName": "Oost-Caribische dollars"
+  },
+  "XOF": {
+    "name": "CFA-frank BCEAO",
+    "pluralName": "CFA-franken BCEAO"
+  },
+  "XPF": {
+    "name": "CFP-frank",
+    "pluralName": "CFP-franken"
+  },
+  "YER": {
+    "name": "Jemenitische rial",
+    "pluralName": "Jemenitische rials"
+  },
+  "ZMW": {
+    "name": "Zambiaanse kwacha",
+    "pluralName": "Zambiaanse kwacha's"
+  },
+  "ZWL": {
+    "name": "Zimbabwaanse dollar",
+    "pluralName": "Zimbabwaanse dollars"
+  },
+  "ANG": {
+    "name": "Nederlands-Antilliaanse gulden",
+    "pluralName": "Nederlands-Antilliaanse gulden"
+  },
+  "AWG": {
+    "name": "Arubaanse florin",
+    "pluralName": "Arubaanse florins"
+  },
+  "BOV": {
+    "name": "Boliviaanse Mvdol",
+    "pluralName": "Boliviaanse Mvdols"
+  },
+  "CHE": {
+    "name": "WIR-euro",
+    "pluralName": "WIR-euro's"
+  },
+  "CHW": {
+    "name": "WIR-frank",
+    "pluralName": "WIR-franken"
+  },
+  "COU": {
+    "name": "Unidad de Valor Real",
+    "pluralName": "Unidades de Valor Real"
+  },
+  "CRC": {
+    "name": "Costa Ricaanse colón",
+    "pluralName": "Costa Ricaanse colones"
+  },
+  "KMF": {
+    "name": "Comorese frank",
+    "pluralName": "Comorese franken"
+  },
+  "KPW": {
+    "name": "Noord-Koreaanse won",
+    "pluralName": "Noord-Koreaanse won"
+  },
+  "MRU": {
+    "name": "Mauritaanse ouguiya",
+    "pluralName": "Mauritaanse ouguiya"
+  },
+  "SLE": {
+    "name": "Sierra Leoonse leone",
+    "pluralName": "Sierra Leoonse leones"
+  },
+  "SYP": {
+    "name": "Syrisch pond",
+    "pluralName": "Syrische ponden"
+  },
+  "USN": {
+    "name": "Amerikaanse dollar (volgende dag)",
+    "pluralName": "Amerikaanse dollars (volgende dag)"
+  },
+  "UYI": {
+    "name": "Uruguayaanse peso (geïndexeerde eenheden)",
+    "pluralName": "Uruguayaanse peso's (geïndexeerde eenheden)"
+  },
+  "UYW": {
+    "name": "Unidad Previsional",
+    "pluralName": "Unidades Previsionales"
+  },
+  "VED": {
+    "name": "Venezolaanse Bolívar Digital",
+    "pluralName": "Venezolaanse Bolívares Digitales"
+  },
+  "VES": {
+    "name": "Venezolaanse Bolívar Soberano",
+    "pluralName": "Venezolaanse Bolívares Soberanos"
+  },
+  "XAG": {
+    "name": "Zilver (één troy ounce)",
+    "pluralName": "Zilver (troy ounces)"
+  },
+  "XAU": {
+    "name": "Goud (één troy ounce)",
+    "pluralName": "Goud (troy ounces)"
+  },
+  "XBA": {
+    "name": "Europese compositie-eenheid",
+    "pluralName": "Europese compositie-eenheden"
+  },
+  "XBB": {
+    "name": "Europese monetaire eenheid",
+    "pluralName": "Europese monetaire eenheden"
+  },
+  "XBC": {
+    "name": "Europese rekeneenheid 9",
+    "pluralName": "Europese rekeneenheden 9"
+  },
+  "XBD": {
+    "name": "Europese rekeneenheid 17",
+    "pluralName": "Europese rekeneenheden 17"
+  },
+  "XDR": {
+    "name": "Bijzondere Trekkingsrechten",
+    "pluralName": "Bijzondere Trekkingsrechten"
+  },
+  "XPD": {
+    "name": "Palladium (één troy ounce)",
+    "pluralName": "Palladium (troy ounces)"
+  },
+  "XPT": {
+    "name": "Platina (één troy ounce)",
+    "pluralName": "Platina (troy ounces)"
+  },
+  "XSU": {
+    "name": "SUCRE",
+    "pluralName": "SUCREs"
+  },
+  "XTS": {
+    "name": "Testvalutacode",
+    "pluralName": "Testvalutacodes"
+  },
+  "XUA": {
+    "name": "ADB-rekeneenheid",
+    "pluralName": "ADB-rekeneenheden"
+  },
+  "XXX": {
+    "name": "Geen valuta",
+    "pluralName": "Geen valuta"
+  },
+  "ZMG": {
+    "name": "Zambiaanse kwacha (voor 2013)",
+    "pluralName": "Zambiaanse kwacha's (voor 2013)"
+  }
+}
